@@ -89,8 +89,8 @@ loging:
 <details>
 	<summary>Utilisations</summary>
     <ul>
-<li>src/main/java/fr/progilone/pgcn/config/LoggingAspectConfiguration.java</li>
-<li>src/main/java/fr/progilone/pgcn/service/administration/logs/AdminLogsService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/config/LoggingAspectConfiguration.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/administration/logs/AdminLogsService.java</li>
     </ul>
 </details>
 
@@ -180,19 +180,12 @@ services:
         <li>src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/internetarchive/InternetArchiveService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
     </ul>
 </details>
@@ -206,7 +199,6 @@ elasticsearch:
 <details>
 	<summary>Utilisations</summary>
     <ul>
-        <li>src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/es/EsConditionReportService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/es/EsTrainService.java</li>
@@ -264,7 +256,6 @@ admin:
         <li>src/main/java/fr/progilone/pgcn/service/user/ui/UIUserService.java</li>
         <li>src/main/java/fr/progilone/pgcn/web/rest_int/InternalAccountResource.java</li>
         <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
     <ul>
 </details>
 
@@ -285,11 +276,6 @@ images:
 	<summary>Utilisations</summary>
     <ul>
         <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
     </ul>
 </details>
 
@@ -308,8 +294,6 @@ export:
     <ul>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/dc/DocUnitToJenaService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
     </ul>
 </details>
 
@@ -323,7 +307,6 @@ crypto:
 <details>
 	<summary>Utilisations</summary>
     <ul>
-        <li>src/main/java/fr/progilone/pgcn/service/util/CryptoService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/util/CryptoService.java</li>
     </ul>
 </details>
@@ -369,9 +352,6 @@ info:
 	<summary>Utilisations</summary>
     <ul>
         <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
-        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
-        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
-        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
     </ul>
 </details>
 
@@ -386,7 +366,6 @@ spring:
 <details>
     <summary> Utilisations </summary>
     <ul>
-        <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/document/DigitalDocumentService.java</li>
     </ul>
