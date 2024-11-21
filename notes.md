@@ -1,4 +1,4 @@
-# Bibliographic Terms
+# Notes a organiser dans la doc.
 
 
 # Some terms and what libraries do 
@@ -15,7 +15,8 @@
 - Spring IoC: Inversion of Control
 - Bean: Object managed by Spring IoC created using configuration metadata specified in the container. The metadata details creation, lifecycle and dependencies of the bean.
 
-## Tips pour biblibre.
+
+# Tips pour setup biblibre.
 
 SSH Into the server:
 ```
@@ -27,6 +28,5 @@ ssh -nNTC -D 6000 -l root bs-numahop.biblibre.com
 ```
 
 ## Renomage a faire.
-
 lot -> bundle
 
