@@ -1,3 +1,6 @@
+---
+incude_toc: true
+---
 # Documentation Technique de Numahop
 
 ## Build NumaHOP
@@ -436,7 +439,7 @@ SIP (_Submission Information Package_) Decris un fichier avant archivation avec 
 
 AIP (_Archival Information Package_) Decris un fichier apres archivation et les metadonnes accessibles. 
 
-METS (_Metadata Encoding & Transmission Standard_) [SPec](https://www.loc.gov/standards/mets/)
+METS (_Metadata Encoding & Transmission Standard_) [Spec](https://www.loc.gov/standards/mets/)
 
 MARC Format pour les donnees bibliographiques. [Spec](https://www.loc.gov/marc/bibliographic/)
 
