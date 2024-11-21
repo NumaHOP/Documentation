@@ -84,9 +84,15 @@ Toute les utilisation des options peuvent facilement se retrouver dans le code j
 loging:
     file:
         name: <path>
+    warnDuration:
 ```
-../numahop/src/main/java/fr/progilone/pgcn/config/LoggingAspectConfiguration.java:    @Value("${logging.warnDuration}")
-../numahop/src/main/java/fr/progilone/pgcn/service/administration/logs/AdminLogsService.java:    @Value("${logging.file.name}")
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+<li>src/main/java/fr/progilone/pgcn/config/LoggingAspectConfiguration.java</li>
+<li>src/main/java/fr/progilone/pgcn/service/administration/logs/AdminLogsService.java</li>
+    </ul>
+</details>
 
 ### Ssh Forwarding
 
@@ -108,8 +114,12 @@ sshForwarding:
         localPort:
         remotePort:
 ```
-Utilisations:
-- src/main/java/fr/progilone/pgcn/config/SshPortForwardingConfigurer.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/config/SshPortForwardingConfigurer.java</li>
+    </ul>
+</details>
 
 ## Instance
 Dans section instance on peut configurer les differentes libraries presentes sur cette instance de NumaHOP.
@@ -118,19 +128,23 @@ instance:
     libraries: lib1, lib2, lib3
 ```
 
-Utilisations:
-- src/main/java/fr/progilone/pgcn/config/BinaryStorageConfiguration.java
-- src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java
-- src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java
-- src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java
-- src/main/java/fr/progilone/pgcn/service/storage/AltoService.java
-- src/main/java/fr/progilone/pgcn/service/storage/FileStorageManager.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/config/BinaryStorageConfiguration.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileStorageManager.java</li>
+    </ul>
+</details>
 
 ## Services
 ```yaml
@@ -157,27 +171,31 @@ services:
         text:
 ```
 
-Utilisations:
-- src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java
-- src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java
-- src/main/java/fr/progilone/pgcn/service/check/FacileCinesService.java
-- src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/internetarchive/InternetArchiveService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionService.java
-- src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java
-- src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java
-- src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java
-- src/main/java/fr/progilone/pgcn/service/storage/AltoService.java
-- src/main/java/fr/progilone/pgcn/service/storage/AltoService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/check/FacileCinesService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/internetarchive/InternetArchiveService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
+    </ul>
+</details>
 
 ## ElasticSearch
 ```yaml
@@ -185,18 +203,28 @@ elasticsearch:
     bulk_size:
 ```
 
-src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java
-src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java
-src/main/java/fr/progilone/pgcn/service/es/EsConditionReportService.java
-src/main/java/fr/progilone/pgcn/service/es/EsTrainService.java
-src/main/java/fr/progilone/pgcn/service/es/EsLotService.java
-src/main/java/fr/progilone/pgcn/service/es/EsDocUnitService.java
-src/main/java/fr/progilone/pgcn/service/es/EsProjectService.java
-src/main/java/fr/progilone/pgcn/service/exchange/AbstractImportService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsDeliveryService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsConditionReportService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsTrainService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsLotService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsDocUnitService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/es/EsProjectService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/AbstractImportService.java</li>
+    </ul>
+</details>
 
 ## Report
 
-src/main/java/fr/progilone/pgcn/service/JasperReportsService.java:    @Value("${report.imagePath}")
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/JasperReportsService.java</li>
+    </ul>
+</details>
 
 ## Upload Path
 ```yaml
@@ -210,14 +238,18 @@ uploadPath:
     ead:
 ```
 
-Utilisations:
-- src/main/java/fr/progilone/pgcn/service/JasperReportsService.java
-- src/main/java/fr/progilone/pgcn/service/user/UserService.java
-- src/main/java/fr/progilone/pgcn/service/library/LibraryService.java
-- src/main/java/fr/progilone/pgcn/service/document/conditionreport/ConditionReportAttachmentService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/ead/ExportEadService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/ImportReportService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/template/TemplateService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/JasperReportsService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/user/UserService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/library/LibraryService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/document/conditionreport/ConditionReportAttachmentService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/ead/ExportEadService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/ImportReportService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/template/TemplateService.java</li>
+    </ul>
+</details>
 
 ## Admin
 ```yaml
@@ -226,11 +258,15 @@ admin:
     password:
 ```
 
-Utilisations:
-- src/main/java/fr/progilone/pgcn/service/user/ui/UIUserService.java
-- src/main/java/fr/progilone/pgcn/web/rest_int/InternalAccountResource.java
-- src/main/java/fr/progilone/pgcn/security/UserDetailsService.java
-- src/main/java/fr/progilone/pgcn/security/UserDetailsService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/user/ui/UIUserService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/web/rest_int/InternalAccountResource.java</li>
+        <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
+    <ul>
+</details>
 
 ## Images
 ```yaml
@@ -245,13 +281,17 @@ images:
             printWidth:
 ```
 
-Utilisation:
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
-- src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/DefaultFileFormats.java</li>
+    </ul>
+</details>
 
 ## Export
 ```yaml
@@ -263,11 +303,15 @@ export:
         strictHostKeyChecking:
 ```
 
-Utilisation:
-- src/main/java/fr/progilone/pgcn/service/exchange/dc/DocUnitToJenaService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java
-- src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/dc/DocUnitToJenaService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/ssh/SftpService.java</li>
+    </ul>
+</details>
 
 ## Crypto
 ```yaml
@@ -276,9 +320,13 @@ crypto:
     salt:
 ```
 
-Utilisation:
-- src/main/java/fr/progilone/pgcn/service/util/CryptoService.java
-- src/main/java/fr/progilone/pgcn/service/util/CryptoService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/util/CryptoService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/util/CryptoService.java</li>
+    </ul>
+</details>
 
 ## ExifTool
 ```yaml
@@ -286,9 +334,13 @@ exifTool:
     quot_char:
 ```
 
-Utilisation:
-- src/main/java/fr/progilone/pgcn/service/storage/ExifToolService.java
-- src/main/java/fr/progilone/pgcn/service/storage/ImageMagickService.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/ExifToolService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/ImageMagickService.java</li>
+    </ul>
+</details>
 
 ## Server
 ```yaml
@@ -296,8 +348,12 @@ server:
     port:
 ```
 
-Utilisation:
-- src/main/java/fr/progilone/pgcn/web/rest/administration/HealthController.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/web/rest/administration/HealthController.java</li>
+    </ul>
+</details>
 
 ## Info
 ```yaml
@@ -309,11 +365,15 @@ info:
     version:
 ```
 
-Utilisations:
-- src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java
-- src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java
-- src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java
-- src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
+        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
+        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
+        <li>src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java</li>
+    </ul>
+</details>
 
 ### Spring.
 ```yaml
