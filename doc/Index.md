@@ -324,10 +324,12 @@ spring:
 ```
 
 <details>
-<sumary> Utilisations: </sumary>
-- src/main/java/fr/progilone/pgcn/service/MailService.java
-- src/main/java/fr/progilone/pgcn/service/MailService.java
-- src/main/java/fr/progilone/pgcn/service/document/DigitalDocumentService.java
+    <sumary> Utilisations </sumary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/document/DigitalDocumentService.java</li>
+    </ul>
 </details>
 
 ### Cron jobs.
