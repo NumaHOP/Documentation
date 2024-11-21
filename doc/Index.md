@@ -430,25 +430,24 @@ Le code du front-end se trouve a `src/main/webapp`.
 
 # L'archivage et les metadonnes.
 
-_AIP_: Archival Information Package.\
-Decris un fichier apres archivation et les metadonnes accessibles. 
+## Formats de metadonnees
 
-_SIP_: Submission Information Package.\
-Decris un fichier avant archivation avec les metadonnes. 
+SIP (_Submission Information Package_) Decris un fichier avant archivation avec les metadonnes. 
 
-_METS_: Metadata Encoding & Transmission Standard. [SPec](https://www.loc.gov/standards/mets/)
+AIP (_Archival Information Package_) Decris un fichier apres archivation et les metadonnes accessibles. 
 
-_MARC_: Format for bibliographic Data. [Spec](https://www.loc.gov/marc/bibliographic/)
+METS (_Metadata Encoding & Transmission Standard_) [SPec](https://www.loc.gov/standards/mets/)
 
-_DC_: Dublin core.\
-(set of fifteen "core" elements (properties) for describing resources). [Guide Utilisateur](https://www.dublincore.org/resources/userguide/)
+MARC Format pour les donnees bibliographiques. [Spec](https://www.loc.gov/marc/bibliographic/)
 
-_ALTO_: Analyzed Layout and Text Object.
+DC (_Dublin core_) Ensemble de quinze element pour decrire des resources. [Guide Utilisateur](https://www.dublincore.org/resources/userguide/)
 
-_EAD_: Encoded Archival Description.
+ALTO (_Analyzed Layout and Text Object_)
 
+EAD (_Encoded Archival Description_)
 
-Tous ces formats sont des documents xml avec des schema en XSD.
-_XSD_: XML Schema Definition. ([SPEC](https://www.w3.org/TR/xmlschema11-1/))
+Tous ces formats sont des documents xml avec des schema en XSD (_XML Schema Definition_). [SPEC](https://www.w3.org/TR/xmlschema11-1/)
 
-_OAI-PMH_: Open Archive Protocol for Metadata [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
+## Protocols.
+
+OAI-PMH (_Open Archive Protocol for Metadata_) [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
