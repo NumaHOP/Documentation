@@ -1,3 +1,9 @@
+Documentation utile deps:
+- spring framework: https://docs.spring.io/spring-framework/docs/current/javadoc-api/
+- sping security: https://docs.spring.io/spring-security/site/docs/current/api/
+- jakarta persistance: https://jakarta.ee/specifications/persistence/3.1/apidocs/jakarta.persistence/module-summary
+- jakarta annotation: https://javadoc.io/doc/jakarta.annotation/jakarta.annotation-api/3.0.0-M1/jakarta.annotation/module-summary.html
+
 |tag|content|
 |-|-|
 |amazonaws|1.12.402|

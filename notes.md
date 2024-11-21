@@ -11,8 +11,9 @@
 - Spring framework: the base libraries.
 - Spring Boot: all dependencies bundled + boiler plate code.
 
+- Spring Aop: Aspect oriented programming: Complements IoC and OOP (@Aspect)
 - Spring IoC: Inversion of Control
-- Bean: Object managed by Spring IoC created using configuration metadata specified in the container- The metadata details creation, lifecycle and dependencies of the bean.
+- Bean: Object managed by Spring IoC created using configuration metadata specified in the container. The metadata details creation, lifecycle and dependencies of the bean.
 
 ## Tips pour biblibre.
 
@@ -25,10 +26,7 @@ Forward port through socket:
 ssh -nNTC -D 6000 -l root bs-numahop.biblibre.com
 ```
 
-```
-ssh -R 19999:localhost:199999 -l root bs-numahop.biblibre.com  
-```
-- Spring Aop: Aspect oriented programming: Complements IoC and OOP (@Aspect)
+## Renomage a faire.
 
-
+lot -> bundle
 
