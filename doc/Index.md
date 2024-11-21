@@ -357,7 +357,7 @@ TODO: Documenter les service configurable dynamiquement.
 
 # Organization du code.
 ## Back-End. 
-_[Liste des dependances java.](./gen/deps)_
+_[Liste des dependances java.](../gen/deps.md)_
 
 La racine du code backend est `src/main/java/fr/progilone/pgcn`.
 

@@ -2,4 +2,4 @@
 
 Ébauche de documentation technique pour NumaHop.
 
-[Index](./Index.md)
+[Index](./doc/Index.md)
