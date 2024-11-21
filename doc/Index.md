@@ -323,10 +323,12 @@ spring:
         activated:
 ```
 
-Utilisations:
+<details>
+<sumary> Utilisations: </sumary>
 - src/main/java/fr/progilone/pgcn/service/MailService.java
 - src/main/java/fr/progilone/pgcn/service/MailService.java
 - src/main/java/fr/progilone/pgcn/service/document/DigitalDocumentService.java
+</details>
 
 ### Cron jobs.
 Certain services sont annotees avec `@Scheduled` dans le code. Ce sont des cron jobs qui peuvent etre configures dans le fichier yml:
