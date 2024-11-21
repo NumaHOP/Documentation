@@ -430,23 +430,25 @@ Le code du front-end se trouve a `src/main/webapp`.
 
 # L'archivage et les metadonnes.
 
-_AIP: Archival Information Package._
+_AIP_: Archival Information Package.\
 Decris un fichier apres archivation et les metadonnes accessibles. 
 
-_SIP: Submission Information Package._
+_SIP_: Submission Information Package.\
 Decris un fichier avant archivation avec les metadonnes. 
 
-_[METS: Metadata Encoding & Transmission Standard](https://www.loc.gov/standards/mets/)_
-_MARC: Format for bibliographic Data._ [Spec](https://www.loc.gov/marc/bibliographic/)
-_DC: Dublin core (set of fifteen "core" elements (properties) for describing resources)._ [Guide Utilisateur](https://www.dublincore.org/resources/userguide/)
-ALTO: Analyzed Layout and Text Object.
-EAD: Encoded Archival Description.
+_METS_: Metadata Encoding & Transmission Standard. [SPec](https://www.loc.gov/standards/mets/)
+
+_MARC_: Format for bibliographic Data. [Spec](https://www.loc.gov/marc/bibliographic/)
+
+_DC_: Dublin core.\
+(set of fifteen "core" elements (properties) for describing resources). [Guide Utilisateur](https://www.dublincore.org/resources/userguide/)
+
+_ALTO_: Analyzed Layout and Text Object.
+
+_EAD_: Encoded Archival Description.
 
 
-Tous ces formats sont des documents xml avec des schema soit en XSD soit en DTD. NumaHOP utilise principalement le XSD.
+Tous ces formats sont des documents xml avec des schema en XSD.
+_XSD_: XML Schema Definition. ([SPEC](https://www.w3.org/TR/xmlschema11-1/))
 
-XML Schema:
-- DTD: Document Type Definition.
-- XSD: XML Schema Definition. ([SPEC](https://www.w3.org/TR/xmlschema11-1/))
-
-_OAI-PMH: Open Archive Protocol for Metadata_ [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
+_OAI-PMH_: Open Archive Protocol for Metadata [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
