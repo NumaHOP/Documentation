@@ -324,7 +324,7 @@ spring:
 ```
 
 <details>
-    <sumary> Utilisations </sumary>
+    <summary> Utilisations </summary>
     <ul>
         <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/MailService.java</li>
