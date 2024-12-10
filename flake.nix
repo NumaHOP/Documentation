@@ -13,6 +13,9 @@
       buildInputs = with pkgs; [
         mdbook
         mdbook-mermaid
+        mdbook-footnote
+        watchexec
+        openapi-generator-cli
       ];
     };
   });

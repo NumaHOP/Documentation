@@ -23,6 +23,7 @@ body {
 code {
     font-family: var(--mono-font) !important;
     font-size: var(--code-font-size);
+    text-wrap: wrap;
     direction: ltr !important;
 }
 
