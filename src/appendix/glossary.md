@@ -10,7 +10,7 @@ All definition for terms and acronyms used in this documentation.
 
 **EAD** : _Encoded Archival Description_.
 
-**DC** : _DublinCore_. Small Set of core metadata for bibliographic untis.
+**DC** : _DublinCore_. Small Set of core metadata for bibliographic untis. [User Guide](https://www.dublincore.org/resources/userguide/) 
 
 **SIP** : _Submission Information Package_. A file describing a package to be archived.
 
@@ -20,26 +20,20 @@ All definition for terms and acronyms used in this documentation.
 
 **MARC**: Format for bibliographic data. [Spec](https://www.loc.gov/marc/bibliographic/)
 
-**OAI-PMH** : _Open Archives Initiative Protocol for Metadata Harvesting_
-
-# L'archivage et les metadonnes.
-
-## Formats de metadonnees
-
-SIP (_Submission Information Package_) Decris un fichier avant archivation avec les metadonnes. 
-
-AIP (_Archival Information Package_) Decris un fichier apres archivation et les metadonnes accessibles. 
-
-
-
-DC (_Dublin core_) Ensemble de quinze element pour decrire des resources. [Guide Utilisateur](https://www.dublincore.org/resources/userguide/)
-
-ALTO (_Analyzed Layout and Text Object_)
-
-EAD (_Encoded Archival Description_)
-
-Tous ces formats sont des documents xml avec des schema en XSD (_XML Schema Definition_). [SPEC](https://www.w3.org/TR/xmlschema11-1/)
+**ALTO** :  _Analyzed Layout and Text Object_.
 
 ## Protocols.
 
-OAI-PMH (_Open Archive Protocol for Metadata_) [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
+**OAI-PMH** : _Open Archives Initiative Protocol for Metadata Harvesting_ [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
+
+## NumaHOP Vocabulary.
+
+**Train**:
+
+**Doc Unit**:
+
+**Lot**:
+
+**Workflow**:
+
+
