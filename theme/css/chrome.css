@@ -10,6 +10,14 @@ a > .hljs {
     color: var(--links);
 }
 
+#searchresults a:hover,
+.content a:link:hover,
+a:visited:hover,
+a > .hljs:hover {
+  color: var(--theme-hover);
+}
+
+
 /*
     body-container is necessary because mobile browsers don't seem to like
     overflow-x on the body tag when there is a <meta name="viewport"> tag.
@@ -124,9 +132,9 @@ a > .hljs {
 
 .menu-bar i:hover,
 .menu-bar .icon-button:hover,
-.nav-chapters:hover,
+.nav-chapters:hover i,
 .mobile-nav-chapters i:hover {
-    color: var(--icons-hover);
+    color: var(--icons);
 }
 
 /* Nav Icons */

@@ -114,13 +114,14 @@ h6:target::before {
 .content .header:visited {
     color: var(--fg);
 }
-.content .header:link,
+.content .header:link:hover,
 .content .header:visited:hover {
     text-decoration: none;
+    color: var(--theme-hover);
 }
 
 table {
-    margin: 0 auto;
+    margin-left: 20px;
     border-collapse: collapse;
 }
 table td {
@@ -135,6 +136,7 @@ table thead td {
     border: none;
 }
 table thead th {
+    border: 1px var(--table-border-color) solid;
     padding: 3px 20px;
 }
 table thead tr {
