@@ -2,6 +2,8 @@
 
 All definition for terms and acronyms used in this documentation.
 
+**PGCN**: _Plateforme de Gestion de Contenu Numérisé_. Original name of NumaHOP.
+
 **OCR** : _Optical Character Recognition_. Process by which text is recognized on images.
 
 ## Metadata standards and file formats.
@@ -26,14 +28,35 @@ All definition for terms and acronyms used in this documentation.
 
 **OAI-PMH** : _Open Archives Initiative Protocol for Metadata Harvesting_ [Spec](https://www.openarchives.org/OAI/openarchivesprotocol.html)
 
+**Z39.50** : A protocol to searching and retrieving data in databases between servers over TCP/IP.
+
 ## NumaHOP Vocabulary.
 
-**Train**:
+**Digitalization service provider**: The company(for external digitalization) or service (internal digitalization) doing the digitalization process.
 
-**Doc Unit**:
+**Document Unit**: Also referred as Doc Unit or DU. A Document or part of a document for collections to be processed by NumaHOP.
 
-**Lot**:
+**Workflow**: Steps the Document Unit takes trough NumaHOP. Can be defined at the project level, or the bundle level.
 
-**Workflow**:
+**Notice**: Bibliographic metadatas attached to a DU.
 
+**Condition Report**: A check of the state of the document after it was mainpulated during the digitalization process.
 
+### Grouping of Document Units.
+**Project**: A project is usually a set of documents to be digitalized by the same provider. 
+
+**Bundle**: A physical set of Documentary Units averaging around 20 to 50 documents.
+
+**Train**: As in digitalization train. Smaller set of document for insurance reason.
+
+All sets of grouping are not necessarily useful for all use cases. For smaller volume of documents in a project the train is not as useful.
+
+### Design Pattenrn jargon.
+
+**DTO**: _Data Transfert Object_ an object traveling between the view and the controller.
+
+**Service**: Class containing buisness logic.
+
+**Repository**: Class abstracting a storage method (database or filesystem).
+
+**Mapper**: Class performing mapping from a domain object to another.
