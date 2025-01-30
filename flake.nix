@@ -11,6 +11,7 @@
   in {
     devShells.default = pkgs.mkShell {
       buildInputs = with pkgs; [
+        cargo
         mdbook
         mdbook-mermaid
         mdbook-footnote

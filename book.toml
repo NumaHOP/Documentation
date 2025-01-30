@@ -13,6 +13,8 @@ extra-watch-dirs = ["gen", "theme"]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
 
+[preprocessor.syntect]
+custom-theme = "theme/theme.tmTheme"
 
 [output.html]
 theme = "theme"
