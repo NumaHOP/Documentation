@@ -2,7 +2,7 @@
 
 Numahop supports 2 mehtod of installation:
 - Dockerised solution.
-- Bare installation.
+- Normal installation.
 
 Before the installation process clone the git repository and cd into it:
 ```
@@ -33,7 +33,6 @@ Then we need to compile the numahop `war` and package it in the docker.
 mvn -P 
 ```
 
-
 In order to launch a local docker build of Numahop
 you can run the command:
 ```bash
@@ -53,8 +52,7 @@ make all-up
 ```
 This command launches the docker composition.
 
-# Bare Metal Installation.
-
+# Normal Installation.
 ## Dependencies
 Now use your package manager to install the necessary dependencies to numahop:
 ```
@@ -77,7 +75,6 @@ Move this file at this path: `/opt/pgcn/numahop.war`. The name of the war is not
 Once that is done we can run NumaHOP. It should launch and crash rather quickly.
 
 ## Database
-
 Now we will create an empty database and a user for numahop. 
 run this suite of commands remplacing the placeholders (`db-name`, `db-user-name` and `db-user-pwd`) for your setup:
 ```bash
@@ -101,19 +98,20 @@ FLUSH PRIVILEGES;
 Note these are the minimal rights the numahop user needs to edit the database.
 
 You can verify that all the information is well defined by running `SHOW DATABASES;` and `SHOW GRANTS FOR '<db-user-name>'@localhost`.
+NumaHOP uses an orm with a changelog and will automatically create all the tables it needs for you.
 
 ## Elastic Search
-Just install elastic search.
-If you use a distant 
+Just install elastic search. And make sure it is accessible from where you want to install numahop either by localhost or an url.
 
-## Mail Server 
-Note: Not needed for numahop to function.
+## Mail Server (Optional)
+
+TODO
 
 ## Numahop Config
 See how to configure numahop [here](./config.md).
 After this configuration step you should have an instance that launches successfully.
 
-## If you want to manage Numahop using systemd.
+## If you want to manage Numahop using `systemd`.
 Create the file `/etc/systemd/system/numahop.service` with the content:
 ```toml
 [Unit]
@@ -132,7 +130,7 @@ WantedBy=multi-user.target
 
 Then use:
 ```bash
-systemctl daemon-reload # After adding the file
+systemctl daemon-reload # After adding/modifying the file
 systemctl start numahop # For starting numahop
 systemctl stop numahop # For stoping numahop
 ```
@@ -153,7 +151,7 @@ WantedBy=multi-user.target
 ```
 And instead use:
 ```bash
-systemctl --user daemon-reload # After adding the file
+systemctl --user daemon-reload # After adding/modifying the file
 systemctl --user start numahop # For starting numahop
 systemctl --user stop numahop # For stoping numahop
 ```

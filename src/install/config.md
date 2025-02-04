@@ -30,14 +30,15 @@ The resulting files will be sourced in this order:
 Most of the properties in the yaml files are used either by spring-boot or other dependencies but some are custom.
 All uses of custom properties can be found in the codebase using this command: `grep -e "@Value\(\$\{.*\}\)"`.
 
-### Important properties to define
+### Important/UseFull properties to define
 
 #### Admin
 The admin is the only account present after the installation. It is very important to define
 ```yaml
 admin:
     login: # default: admin
-    password: # Important to override. default: password
+    password: # Important to override. default: hash of password
+    # TODO: Find which hash function is used to set the password.
 ```
 
 <details>
@@ -255,4 +256,3 @@ The value is a [cron expression](https://docs.spring.io/spring-framework/referen
         <li>src/main/java/fr/progilone/pgcn/service/user/UserService.java</li>
     </ul>
 </details>
-
