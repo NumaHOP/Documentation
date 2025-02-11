@@ -92,7 +92,7 @@ CREATE DATABASE <db-name>;
 Then the user NumaHOP will use to connect to the database:
 ```sql
 CREATE USER '<db-user-name>'@localhost IDENTIFIED BY <db-user-pwd>;
-GRANT CREATE, ALTER, DROP, INSERT, SELECT, UPDATE, DELETE ON '<db-name>'.* TO '<db-user-name>'@localhost;
+GRANT CREATE, ALTER, DROP, INSERT, SELECT, UPDATE, INDEX, DELETE ON '<db-name>'.* TO '<db-user-name>'@localhost;
 FLUSH PRIVILEGES;
 ```
 Note these are the minimal rights the numahop user needs to edit the database.
