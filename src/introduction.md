@@ -5,21 +5,21 @@
 </div>
 
 
-## What is Numahop ?
-[NumaHOP](https://www.numahop.fr/) is a software solution to manage the numerisation process of documents from the import of meta-datas and condition report to the diffusion of the documents. It serves as an intermediary between the numerisation provider, the establishments and the export targets. This is achieved mostly in an automated fashion.
+## What is NumaHOP ?
+[NumaHOP](https://www.numahop.fr/) is a software solution to manage the digitalization process of documents from the import of meta-datas and condition report to the diffusion of the documents. It serves as an intermediary between the digitalization provider, the establishments and the export targets. This is achieved mostly in an automated fashion.
 
-## What Numahop can do
-Numahop is composed of modules that can:
+## What NumaHOP can do
+NumaHOP is composed of modules that can:
 - import and convert bibliographic records into DublinCore.
 - inspect and validate images and bibliographic records of digitalized documents.
 - make condition reports for bundles sent to the digitalization provider.
-- use workflow for managing a digitalization projects.
+- use workflow for managing digitalization projects.
 - export documents to archiving services or digital libraries.
 - produce derived documents like OCR, METS, scaled down images.
 
-NumaHOP is able to automatiqualy diffuse documents in bulk. The platform supported are:
+NumaHOP is able to automatically diffuse documents in bulk. The platform supported are:
 - An SFTP server.
-- OMEKAS.
+- OMEKA/OMEKAS.
 - the CINES.
 - Internet Archive.
 

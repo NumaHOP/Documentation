@@ -7,8 +7,8 @@ When NumaHOP is started it search and load configs in this order:
 
 ## Profiles
 There can be multiple files sourced by NumaHOP with a profile system. 
-First the `application.yml` is sourced the the profiles one.
-Each load overrides the keys defined.
+First the `application.yml` is sourced and then the profiles one.
+Each load overrides the keys redefined.
 
 To activate a profile the flag `--spring.profiles.active` can be passed to the war:
 ```bash
@@ -31,9 +31,8 @@ All uses of custom properties can be found in the codebase using this command: `
 
 ### Important/UseFull properties to define
 
-
 #### Instances
-Each instances using numahop must be declared, choose an id for each libraries using Numahop and sotre it there. It is used. 
+Each establishments using numahop must be declared, choose an id for each libraries using Numahop and sotre it there.
 ```yaml
 instance:
     libraries: lib1, lib2, lib3
@@ -58,7 +57,7 @@ instance:
 </details>
 
 #### Admin
-The admin is the only account present after the installation. It is very important to define
+The admin is the only account present after the installation. It is very important to define:
 ```yaml
 admin:
     login: # default: admin
@@ -91,6 +90,7 @@ spring:
 ```
 
 #### Filesystem
+These configuration options define where numahop can find the executables it needs, where to put the various files it generates and where to look for files to import.
 ```yaml
 imageMagick:
     convert: # default : /usr/bin/convert
@@ -98,7 +98,6 @@ imageMagick:
 
 exifTool:
     process: # default : /usr/bin/exiftool
-    quot_char: ''
 
 tesseract:
     process: # default : /usr/bin/tesseract
@@ -279,5 +278,26 @@ The value is a [cron expression](https://docs.spring.io/spring-framework/referen
         <li>src/main/java/fr/progilone/pgcn/service/exchange/internetarchive/InternetArchiveServiceAsync.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/document/DocUnitService.java</li>
         <li>src/main/java/fr/progilone/pgcn/service/user/UserService.java</li>
+    </ul>
+</details>
+
+#### Mail
+
+```yaml
+spring:
+    mail:
+        host: # default: localhost
+        port: # default: 25
+        user:
+        password:
+        from: # default: contact-numahop@numahop.fr
+        tls: # default: false
+        auth: # default: false
+        activated: # default: false
+```
+<details>
+    <summary>Uses:</summary>
+    <ul>
+        <!-- TODO -->
     </ul>
 </details>

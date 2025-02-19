@@ -1,10 +1,10 @@
 # The Workflow Module.
 
 In this module the primitive we operate on are workflows. In NumaHOP workflows are tracking the
-lifecycle of document units.
+life-cycle of document units.
 
-A workflow is constitued of states. Each states is either processed automaticaly or require some
-user interaction in order to be processed. Some states are process automaticaly and don't require
+A workflow is constituted of states. Each states is either processed automatically or require some
+user interaction in order to be processed. Some states are process automatically and don't require
 much user interaction such as the Diffusion, Archiving, Automatic Checks, or Delivery Waiting.
 
 Once the condition required for the state to validate the workflow completes it and start the next
@@ -39,7 +39,7 @@ grouping. (project -> lot -> train -> document unit)
 - DOCUMENT_BROADCAST_LOCAL
 - CLOSING_DOCUMENT
 
-Special state as it is manualy inserted in the workflow in case of a rejection of the state
+Special state as it is manually inserted in the workflow in case of a rejection of the state
 DOCUMENT_PREREJECTION:
 - WAITING_FOR_REDELIVERY
 
@@ -56,6 +56,7 @@ Each states holds a status:
 - SKIPPED
 
 ## Module files Domain objects:
+Domain Ojects:
 - WorkflowModel
 - WorkflowGroup
 - WorkflowStateModel
@@ -81,7 +82,6 @@ Controllers:
 - WorkflowGroupController
 - WorkflowModelController
 
-Workflow are created when a document unit. But once a workflow started its steps can't be modified.
+Workflow are created on a document unit when the workflows are started on the lot level. But once a workflow started its steps can't be modified.
 
-When creating a workflow we use a workflow model. Workflow models are a template of a workflow. Each
-state has different statuses when
+When creating a workflow we use a workflow model. Workflow models are a template of a workflow. Each state has different statuses when

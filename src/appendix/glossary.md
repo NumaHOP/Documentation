@@ -8,17 +8,17 @@ All definition for terms and acronyms used in this documentation.
 
 ## Metadata standards and file formats.
 
-**METS** : _MetataData Encoding and Transportation Standard_. An xml [standard](https://www.loc.gov/standards/mets/) .
+**METS** : _Metata-Data Encoding and Transportation Standard_. An XML [standard](https://www.loc.gov/standards/mets/) .
 
 **EAD** : _Encoded Archival Description_.
 
-**DC** : _DublinCore_. Small Set of core metadata for bibliographic untis. [User Guide](https://www.dublincore.org/resources/userguide/) 
+**DC** : _DublinCore_. Small Set of core metadata for bibliographic units. [User Guide](https://www.dublincore.org/resources/userguide/) 
 
 **SIP** : _Submission Information Package_. A file describing a package to be archived.
 
 **AIP** : _Archival Information Package_. A file representing an archived packaged.
 
-**XSD** : _XML Schema Definition_. An xml file describing an xml format allowing an xml parser to verify a file is well formed according to a standard.
+**XSD** : _XML Schema Definition_. An XML file describing an XML format allowing an XML parser to verify a file is well formed according to a standard.
 
 **MARC**: Format for bibliographic data. [Spec](https://www.loc.gov/marc/bibliographic/)
 
@@ -38,9 +38,9 @@ All definition for terms and acronyms used in this documentation.
 
 **Workflow**: Steps the Document Unit takes trough NumaHOP. Can be defined at the project level, or the bundle level.
 
-**Notice**: Bibliographic metadatas attached to a DU.
+**Notice**: Bibliographic meta-datas attached to a DU.
 
-**Condition Report**: A check of the state of the document after it was mainpulated during the digitalization process.
+**Condition Report**: A check of the state of the document after it was manipulated during the digitalization process.
 
 ### Grouping of Document Units.
 **Project**: A project is usually a set of documents to be digitalized by the same provider. 
@@ -53,10 +53,10 @@ All sets of grouping are not necessarily useful for all use cases. For smaller v
 
 ### Design Pattenrn jargon.
 
-**DTO**: _Data Transfert Object_ an object traveling between the view and the controller.
+**DTO**: _Data Transfer Object_ an object traveling between the view and the controller.
 
-**Service**: Class containing buisness logic.
+**Service**: Class containing business logic.
 
-**Repository**: Class abstracting a storage method (database or filesystem).
+**Repository**: Class abstracting a storage method (database, elasticsearch or file system).
 
 **Mapper**: Class performing mapping from a domain object to another.

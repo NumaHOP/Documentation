@@ -4,7 +4,7 @@ This module manages document units.
 
 ## Module files
 
-Domian Objcets:
+Domain Objects:
 
 Services:
 

@@ -4,9 +4,10 @@ Numahop supports 2 mehtod of installation:
 - Dockerised solution.
 - Normal installation.
 
-Before the installation process clone the git repository and cd into it:
+Before the installation process, clone the git repository and cd into it:
+<!-- TODO: Change this when the repo is moved to the numahop instance -->
 ```
-git clone https://github.com/numahop/numahop.git numahop && cd numahop
+git clone https://github.com/biblibre/numahop.git numahop && cd numahop
 ```
 If you don't have maven installed run this:
 ```
@@ -23,34 +24,30 @@ Please check you have this package installed before the installation.
 docker
 open-jdk-17
 ```
-
-First we need to build the base docker image.
-```
-docker build -t numahop-bashe src/main/docker --target run
-```
-Then we need to compile the numahop `war` and package it in the docker.
-```
-mvn -P 
-```
-
 In order to launch a local docker build of Numahop
 you can run the command:
 ```bash
-make docker-build
+# Using the makefile.
+make setup-docker
+make buil-all
+
+# Running the commands directly
+docker build -t numahop-run src/main/docker --target run
+mvn clean compile -Pdocker,webapp -Dfast=true
 ```
-Otherwise you can run the individual commands yourself:
-```bash
-mvn clean compile
-docker build -t $(docker_run_img_name) $(docker_base_img_build_dir) --target run
-mvn jib:dockerBuild
-```
+The `-Dfast=true` enables a maven profile wich disables tests and checks for faster compilation.
+
 After this you should be able to find an image named `numahop` in your local docker instance.
 
 You can run this instance localy by running:
 ```bash
+# Using the makefile
 make all-up
+# Running the commands directly
+docker compose -p numahop -f env/main/docker/docker-compose.yml up -d
+docker compose -p numahop -f run/main/docker/docker-compose.yml up -d
 ```
-This command launches the docker composition.
+If you connect to `localhost:8080` you should see the login prompt of NumaHOP.
 
 # Normal Installation.
 ## Dependencies
@@ -104,8 +101,7 @@ NumaHOP uses an orm with a changelog and will automatically create all the table
 Just install elastic search and folow this [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html). And make sure it is accessible from where you want to install numahop either by localhost or an url.
 
 ## Mail Server (Optional)
-
-TODO
+NumaHOP needs a smtp mail server for sending emails. It expects it on the port 25 on localhost without auth and security by default. If you want to use a distant server or change the default settings [see](./config.md#mail) in the config chapter.
 
 ## Numahop Config
 See how to configure numahop [here](./config.md).

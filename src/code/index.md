@@ -1,4 +1,5 @@
-# Numahop Architecture
+# NumaHOP Architecture
+
 ```mermaid
 flowchart LR
 

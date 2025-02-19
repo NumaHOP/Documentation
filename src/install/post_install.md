@@ -12,10 +12,10 @@ Here is a list of things you might want to create:
 - Bibliographic Records mappings
 - Automatic Controls settings
  
-## Library
+## Adding a Library
 
 For each libraries declared create a library through the interface. Then you need to edit the libraries inside the
-database to make the column `identifier` match the names declared inside the yaml files.
+database to make the column `identifier` match the names declared inside the yaml files. If the library you created isn't defined in the yaml file you need to edit the yaml file and add an identifer to it and restart numahop.
 
 ```SQL
 -- Print all the libraries you declared through the interface.
