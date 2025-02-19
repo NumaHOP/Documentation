@@ -57,7 +57,7 @@ This command launches the docker composition.
 Now use your package manager to install the necessary dependencies to numahop:
 ```
 mariadb > 10.*
-elastic search > 8.*
+elasticsearch > 8.*
 open-jdk-17
 tesseract-ocr-all
 libimage-exiftool-perl
@@ -101,7 +101,7 @@ You can verify that all the information is well defined by running `SHOW DATABAS
 NumaHOP uses an orm with a changelog and will automatically create all the tables it needs for you.
 
 ## Elastic Search
-Just install elastic search. And make sure it is accessible from where you want to install numahop either by localhost or an url.
+Just install elastic search and folow this [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html). And make sure it is accessible from where you want to install numahop either by localhost or an url.
 
 ## Mail Server (Optional)
 

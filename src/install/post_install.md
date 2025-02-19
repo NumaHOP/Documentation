@@ -40,14 +40,31 @@ SET FOREIGN_KEY_CHECKS = 0;
 UPDATE lib_library SET identifier='<lib-identifier>' WHERE name='<lib-name>';
 SET FOREIGN_KEY_CHECKS = 1;
 
+-- Print all tables corresponding to created objects that have a library field and have rows.
+SELECT c.TABLE_NAME from information_schema.columns c JOIN information_schema.tables t
+ON c.TABLE_NAME = t.TABLE_NAME WHERE c.COLUMN_NAME = 'library' AND t.TABLE_ROWS >=1;
 -- For each table corresponding to the created object fix the foreign key.
 -- <old-uuid> is the value we 
 UPDATE <talble> SET library='<lib-identifier>' WHERE library='<old-uuid>';
 ```
  
 ## First user and user groups
- 
-## WorkflowModel
- 
+
+I advise you create a admin user profile with all rights allowed for each libraries as the admin account configured in the yaml file can do
+some of the things but there are a lot of functionality that are disallowed on this account.
+
+You can also create user profiles that suits your needs. 
+
+## WorkflowModel and workflow groups.
+
+## Mappings
+
 ## FtpConfiguration
+
+## Projects and lots
+
+## Imports
 Needed for preforming a delivery.
+ 
+## Delivery
+

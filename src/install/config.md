@@ -1,4 +1,3 @@
-
 # NumaHOP Configuration.
 NumaHOP is configured in yaml files called `application.yml` or `application-<profile>.yml`.
 
@@ -31,6 +30,32 @@ Most of the properties in the yaml files are used either by spring-boot or other
 All uses of custom properties can be found in the codebase using this command: `grep -e "@Value\(\$\{.*\}\)"`.
 
 ### Important/UseFull properties to define
+
+
+#### Instances
+Each instances using numahop must be declared, choose an id for each libraries using Numahop and sotre it there. It is used. 
+```yaml
+instance:
+    libraries: lib1, lib2, lib3
+```
+
+<details>
+	<summary>Utilisations</summary>
+    <ul>
+        <li>src/main/java/fr/progilone/pgcn/config/BinaryStorageConfiguration.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
+        <li>src/main/java/fr/progilone/pgcn/service/storage/FileStorageManager.java</li>
+    </ul>
+</details>
 
 #### Admin
 The admin is the only account present after the installation. It is very important to define
