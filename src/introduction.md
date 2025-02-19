@@ -1,4 +1,4 @@
-# Numahop 
+> This documentation is in its early stages and is not very complete or definitive.
 
 <div style="background-color: var(--nh-white); max-width: fit-content;">
     <img src="./assets/numahop_logo.png" alt="The NumaHOP logo" />

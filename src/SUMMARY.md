@@ -6,6 +6,7 @@
     - [Post Installation](install/post_install.md)
 - [Code & Architecture](code/index.md)
     - [Structure](code/structure.md) 
+        - [DocUnit](code/modules/docunit.md)
         - [Workflow](code/modules/workflow.md)
     - [REST API](code/api.md)
     - [Mariadb](code/db.md)
