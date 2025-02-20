@@ -61,16 +61,36 @@ The admin is the only account present after the installation. It is very importa
 ```yaml
 admin:
     login: # default: admin
-    password: # Important to override. default: hash of password
-    # TODO: Find which hash function is used to set the password.
+    password: # Important to override. default: hash of "password"
 ```
-
+The password is encrypted using the bcrypt method you can get a good password to encrypt like this:
+```bash
+head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
+```
+Then encrypt it with a bcrypt implementation. But pay attention not all bcrypt algorithms are secure, for example if the resulting hash starts with `$2a$` it is not secure.
 <details>
 	<summary>Uses:</summary>
     <ul>
         <li>src/main/java/fr/progilone/pgcn/service/user/ui/UIUserService.java</li>
         <li>src/main/java/fr/progilone/pgcn/web/rest_int/InternalAccountResource.java</li>
         <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
+    <ul>
+</details>
+
+#### Jhipster Remember Me key
+This is the key needed to make the rememberme service work. It needs to be unique to your installation.
+```yaml
+jhipster.security.rememberme.key: # No defaults must be defined.
+```
+Same as the password you can get a good randomized key like this:
+```bash
+head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
+```
+
+<details>
+	<summary>Uses:</summary>
+    <ul>
+        <li>TODO</li>
     <ul>
 </details>
 
@@ -282,7 +302,6 @@ The value is a [cron expression](https://docs.spring.io/spring-framework/referen
 </details>
 
 #### Mail
-
 ```yaml
 spring:
     mail:
@@ -298,6 +317,7 @@ spring:
 <details>
     <summary>Uses:</summary>
     <ul>
-        <!-- TODO -->
+        <li>TODO</li>
     </ul>
 </details>
+
