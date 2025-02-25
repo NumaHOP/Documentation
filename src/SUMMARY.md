@@ -17,4 +17,5 @@
 []()
 
 [A - Glossary](appendix/glossary.md)
-[B - Contribuors](appendix/contribuors.md)
+[B - Contributors](appendix/contributors.md)
+[C - Design](appendix/design.md)

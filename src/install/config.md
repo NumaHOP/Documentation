@@ -67,7 +67,16 @@ The password is encrypted using the bcrypt method you can get a good password to
 ```bash
 head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 ```
-Then encrypt it with a bcrypt implementation. But pay attention not all bcrypt algorithms are secure, for example if the resulting hash starts with `$2a$` it is not secure.
+Then encrypt it with a bcrypt implementation. But pay attention not all bcrypt algorithms are secure.
+The easiest way to encrypt the password is as such it requires a `python3` installation with the `python3-bcrypt` library:
+```bash
+echo "$pwd" | python3 -c <<PYTHON
+import bcrypt, getpass;
+print(bcrypt.hashpw(input().encode(), bcrypt.gensalt()).decode())'
+PYTHON
+```
+Where pwd is you password.
+
 <details>
 	<summary>Uses:</summary>
     <ul>

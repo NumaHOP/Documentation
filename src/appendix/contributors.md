@@ -1,5 +1,5 @@
-# Contribuors
+# Contributors
 
 Tech'Advantage: Developpement of Numahop from the initial version.
 
-Persee: Dockerisation of Numahop.
+Persée: Dockerisation of Numahop.
