@@ -7,9 +7,9 @@ Numahop supports 2 mehtod of installation:
 Before the installation process, clone the git repository and cd into it:
 <!-- TODO: Change this when the repo is moved to the numahop instance -->
 ```
-git clone https://github.com/biblibre/numahop.git numahop && cd numahop
+git clone https://github.com/biblibre/NumaHOP-code.git numahop && cd numahop
 ```
-If you don't have maven installed run this:
+If you don't have maven installed you can run this command:
 ```
 chmod +x mvnw
 ```
@@ -19,7 +19,7 @@ And use `./mvnw` instead of `mvn`.
 The Dockerised solution is easier to get running. More of the installation is automatized.
 
 ## Dependencies
-Please check you have this package installed before the installation.
+Please check you have these packages installed before the installation.
 ```
 docker
 open-jdk-17
@@ -29,13 +29,15 @@ you can run the command:
 ```bash
 # Using the makefile.
 make setup-docker
-make buil-all
+make build-all
 
 # Running the commands directly
 docker build -t numahop-run src/main/docker --target run
-mvn clean compile -Pdocker,webapp -Dfast=true
+mvn clean compile -Pdocker # Optionaly add: -Dfast=true
 ```
-The `-Dfast=true` enables a maven profile wich disables tests and checks for faster compilation.
+The `-Dfast=true` enables a maven profile wich disables tests and checks for faster compilation. 
+If you have errors originating from these checks you can either try to format the code that fails
+or just use the flag to disable the check.
 
 After this you should be able to find an image named `numahop` in your local docker instance.
 
@@ -63,10 +65,11 @@ imagemagick
 
 ## Compilation
 Then you can run the compilation command for numahop:
+```bash
+mvn package # Optionaly add: -Dfast=true
 ```
-mvn package
-```
-If you have errors during compilation run `mvn -Dfast=true package`. It disables all exections non needed to build numahop such as tests, code analysis and formating.
+If you have errors during compilation run `mvn -Dfast=true package`.
+It disables all exections non needed to build numahop such as tests, code analysis and formating.
 Once the compilation succeds a file `./target/numahop-<semver>.war` should be present in the directory. 
 Move this file at this path: `/opt/pgcn/numahop.war`. The name of the war is not important but its location is.
 Once that is done we can run NumaHOP. It should launch and crash rather quickly.
