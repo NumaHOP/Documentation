@@ -23,9 +23,9 @@ Please check you have these packages installed before the installation.
 ```
 docker
 open-jdk-17
+maven (optional)
 ```
-In order to launch a local docker build of Numahop
-you can run the command:
+In order to launch a local docker build of Numahop you can run the command:
 ```bash
 # Using the makefile.
 make setup-docker
@@ -35,6 +35,7 @@ make build-all
 docker build -t numahop-run src/main/docker --target run
 mvn clean compile -Pdocker # Optionaly add: -Dfast=true
 ```
+
 The `-Dfast=true` enables a maven profile wich disables tests and checks for faster compilation. 
 If you have errors originating from these checks you can either try to format the code that fails
 or just use the flag to disable the check.
@@ -51,7 +52,10 @@ docker compose -p numahop -f run/main/docker/docker-compose.yml up -d
 ```
 If you connect to `localhost:8080` you should see the login prompt of NumaHOP.
 
+TODO: Document how to change the configuration for the docker instance.
+
 # Normal Installation.
+
 ## Dependencies
 Now use your package manager to install the necessary dependencies to numahop:
 ```
@@ -61,7 +65,10 @@ open-jdk-17
 tesseract-ocr-all
 libimage-exiftool-perl
 imagemagick
+libyaz4j (optional)
 ```
+
+The `libyaz4j` dependency is only used by the Z39.50 search queries. If you don't need the Z39.50 queries you can skip this dependency.
 
 ## Compilation
 Then you can run the compilation command for numahop:
