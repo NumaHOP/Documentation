@@ -18,7 +18,7 @@ flowchart LR
             ser(Services)
             rep[Repository]
         end
-        es[Elastic Search]
+        es[(Elastic Search)]
         db[("MermaidDB")]
         fs@{ shape: lin-cyl, label: "disk storage"}
     end
@@ -38,7 +38,5 @@ flowchart LR
     ser <--> rep 
     ser <--> |Export Protocols| exp
 
-    rep <--> db
-    rep <--> es <--> db & fs
-    rep <--> fs
+    rep <--> db & es & fs
 ```

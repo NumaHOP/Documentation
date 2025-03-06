@@ -5293,8 +5293,8 @@
 	"pageSize": int32,
 	"offset": int64,
 	"sort": Array<SortObject>,
-	"unpaged": boolean,
 	"paged": boolean,
+	"unpaged": boolean,
 }
 
 ```
@@ -6099,7 +6099,6 @@
 	"user": string,
 	"key": "INITIALISATION_DOCUMENT" | "GENERATION_BORDEREAU" | "VALIDATION_CONSTAT_ETAT" | "VALIDATION_BORDEREAU_CONSTAT_ETAT" | "CONSTAT_ETAT_AVANT_NUMERISATION" | "NUMERISATION_EN_ATTENTE" | "CONSTAT_ETAT_APRES_NUMERISATION" | "LIVRAISON_DOCUMENT_EN_COURS" | "RELIVRAISON_DOCUMENT_EN_COURS" | "CONTROLES_AUTOMATIQUES_EN_COURS" | "CONTROLE_QUALITE_EN_COURS" | "PREREJET_DOCUMENT" | "PREVALIDATION_DOCUMENT" | "VALIDATION_DOCUMENT" | "VALIDATION_NOTICES" | "RAPPORT_CONTROLES" | "ARCHIVAGE_DOCUMENT" | "DIFFUSION_DOCUMENT" | "DIFFUSION_DOCUMENT_OMEKA" | "DIFFUSION_DOCUMENT_DIGITAL_LIBRARY" | "DIFFUSION_DOCUMENT_LOCALE" | "CLOTURE_DOCUMENT",
 	"done": boolean,
-	"running": boolean,
 	"skipped": boolean,
 	"futureOrCurrentState": boolean,
 	"currentState": boolean,
@@ -6108,6 +6107,7 @@
 	"waiting": boolean,
 	"toSkip": boolean,
 	"skippedOrCanceled": boolean,
+	"running": boolean,
 	"createdDate": DateTime,
 	"lastModifiedDate": DateTime,
 	"errors": Array<PgcnError>,
@@ -6126,8 +6126,8 @@
 	"endDate": DateTime,
 	"docUnit": DocUnit,
 	"done": boolean,
-	"currentStates": Array<DocUnitState>,
 	"futureOrRunning": Array<DocUnitState>,
+	"currentStates": Array<DocUnitState>,
 	"documentRejected": boolean,
 	"documentValidated": boolean,
 	"noticeValidated": boolean,
