@@ -6,7 +6,7 @@ export def main [] {
 
     $output = $output | append ($input | get paths | render_routes);
     $output = $output | append ($input | get components.schemas | render_schemas);
-    $output | str join | save -f ./gen/open-api.md;
+    $output | str join | save -f include/open-api.md;
 }
 
 def indent [lvl] {
