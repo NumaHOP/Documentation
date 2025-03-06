@@ -29,12 +29,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      MDBOOK_VERSION: 0.4.36
+      MDBOOK_PREPROCESSOR__MERMAID__COMMAND: "bin/mdbook-mermaid"
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdBook binary
+      - name: Install mdBook && preprocessors
         run: |
           mkdir bin
+          curl -sSL https://github.com/badboy/mdbook-mermaid/releases/download/v0.14.1/mdbook-mermaid-v0.14.1-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
           curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.45/mdbook-v0.4.45-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=bin
       - name: Setup Pages
         id: pages
