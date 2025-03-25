@@ -11,12 +11,9 @@
         - [Workflow](code/modules/workflow.md)
     - [REST API](code/api.md)
     - [DB Schema](code/db_schema/index.md)
-- [Contribuing](contrib.md)
-
-# Appendix
-[]()
-
-[A - Glossary](appendix/glossary.md)
-[B - Contributors](appendix/contributors.md)
-[C - Design](appendix/design.md)
-[D - User Manuals](appendix/old_manuals.md)
+- [Contributing](contrib.md)
+- [Appendix]()
+    - [Glossary](appendix/glossary.md)
+    - [Contributors](appendix/contributors.md)
+    - [Design](appendix/design.md)
+    - [User Manuals](appendix/old_manuals.md)

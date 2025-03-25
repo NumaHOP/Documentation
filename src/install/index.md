@@ -56,8 +56,8 @@ TODO: Document how to change the configuration for the docker instance.
 
 # Normal Installation.
 
-## Dependencies
-Now use your package manager to install the necessary dependencies to numahop:
+## Runtime Dependencies.
+Now use your package manager to install the necessary runtime dependencies for numahop:
 ```
 mariadb > 10.*
 elasticsearch > 8.*
@@ -71,6 +71,13 @@ libyaz4j (optional)
 The `libyaz4j` dependency is only used by the Z39.50 search queries. If you don't need the Z39.50 queries you can skip this dependency.
 
 ## Compilation
+Build dependencies.
+```
+make
+maven (optional)
+npm (optional)
+```
+
 Then you can run the compilation command for numahop:
 ```bash
 mvn package # Optionaly add: -Dfast=true

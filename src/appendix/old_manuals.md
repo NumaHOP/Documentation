@@ -1,9 +1,9 @@
 ## Old documentation.
 
-Here you can find the old documentation of NumaHOP writen by Tech'Advange previously known as Progilone. These pdf manuals are more intended for a 
+Here you can find the old documentation of NumaHOP writen by Tech'Advange also previously known as Progilone. These pdf manuals are more intended for a 
 user than a developper but are still usefull.
 
-These manuals are written in fench.
+These manuals are written in french.
 
 - [MAN002 Administrator Manual](./old_manuals/MAN002_NumaHOP_-_Manuel_Administrateur.pdf)
 - [MAN003 User Manual](./old_manuals/MAN003_NumaHOP_-_Manuel_Utilisateur.pdf.pdf)
