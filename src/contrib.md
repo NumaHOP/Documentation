@@ -1,4 +1,6 @@
-# Contribuing to numahop.
+# Contributing to numahop.
+
+> If you plan to contribute to numahop you might want to read the [coding guidelines](https://github.com/biblibre/NumaHOP-code/)
 
 ## Developpement environement.
 
