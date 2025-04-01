@@ -4,8 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "NumaHOP Documentation"
-git-repository-url="https://github.com/BibLibre/doc-tech.git" 
-git-repository-icon = "fa-github"
 
 [build]
 create-missing = false
@@ -15,11 +13,13 @@ extra-watch-dirs = ["gen", "theme"]
 command = "mdbook-mermaid"
 
 [output.html.fold]
-enable = true
-level = 2
+enable = true 
+level = 0 
 
 [output.html]
 theme = "theme"
 default-theme = "light"
 preferred-dark-theme = "dark"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+git-repository-url="https://github.com/BibLibre/doc-tech.git" 
+git-repository-icon = "fa-github"
