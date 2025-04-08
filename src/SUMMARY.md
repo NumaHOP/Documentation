@@ -1,5 +1,3 @@
-# Summary
-
 [Introduction](introduction.md)
 
 - [Installation](install/index.md)
@@ -17,3 +15,5 @@
     - [Contributors](appendix/contributors.md)
     - [Design](appendix/design.md)
     - [User Manuals](appendix/old_manuals.md)
+
+- [Unidexed Pages]()

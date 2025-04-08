@@ -2,7 +2,7 @@
 authors = ["Adrien Derobert-Mazure"]
 language = "en"
 multilingual = false
-src = "src"
+src = "build-src"
 title = "NumaHOP Documentation"
 
 [build]
