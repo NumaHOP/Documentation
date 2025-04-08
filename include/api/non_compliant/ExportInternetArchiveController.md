@@ -1,4 +1,4 @@
-# `/api/rest//internet_archive`
+# `/api/rest/internet_archive`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -1,4 +1,4 @@
-# `/api/rest//imagemetadata`
+# `/api/rest/imagemetadata`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

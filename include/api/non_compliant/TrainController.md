@@ -1,4 +1,4 @@
-# `/api/rest//train`
+# `/api/rest/train`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

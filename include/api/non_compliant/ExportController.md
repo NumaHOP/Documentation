@@ -1,4 +1,4 @@
-# `/api/rest//export`
+# `/api/rest/export`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

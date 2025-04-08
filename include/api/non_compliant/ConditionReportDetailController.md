@@ -1,4 +1,4 @@
-# `/api/rest//condreport_detail`
+# `/api/rest/condreport_detail`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

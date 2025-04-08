@@ -1,4 +1,4 @@
-# `/api/rest//conf_digital_library`
+# `/api/rest/conf_digital_library`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -1,4 +1,4 @@
-# `/api/rest//viewsformat`
+# `/api/rest/viewsformat`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

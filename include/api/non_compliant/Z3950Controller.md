@@ -1,4 +1,4 @@
-# `/api/rest//z3950`
+# `/api/rest/z3950`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

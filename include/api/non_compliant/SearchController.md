@@ -1,4 +1,4 @@
-# `/api/rest//search`
+# `/api/rest/search`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

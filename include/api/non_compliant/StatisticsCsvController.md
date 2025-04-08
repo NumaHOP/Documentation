@@ -1,4 +1,4 @@
-# `/api/rest//statistics/csv`
+# `/api/rest/statistics/csv`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

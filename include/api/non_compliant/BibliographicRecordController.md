@@ -1,4 +1,4 @@
-# `/api/rest//bibliographicrecord`
+# `/api/rest/bibliographicrecord`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

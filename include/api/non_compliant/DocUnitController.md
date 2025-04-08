@@ -1,4 +1,4 @@
-# `/api/rest//docunit`
+# `/api/rest/docunit`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

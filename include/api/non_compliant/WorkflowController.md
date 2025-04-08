@@ -1,4 +1,4 @@
-# `/api/rest//workflow`
+# `/api/rest/workflow`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

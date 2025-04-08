@@ -1,4 +1,4 @@
-# `/api/rest//multidelivery`
+# `/api/rest/multidelivery`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -1,4 +1,4 @@
-# `/api/rest//authorization`
+# `/api/rest/authorization`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

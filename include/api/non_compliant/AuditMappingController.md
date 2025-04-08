@@ -1,4 +1,4 @@
-# `/api/rest//audit/mapping`
+# `/api/rest/audit/mapping`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

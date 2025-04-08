@@ -1,4 +1,4 @@
-# `/api/rest//conf_sftp`
+# `/api/rest/conf_sftp`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

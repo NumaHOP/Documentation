@@ -1,4 +1,4 @@
-# `/api/rest//role`
+# `/api/rest/role`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

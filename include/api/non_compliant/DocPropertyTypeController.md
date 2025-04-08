@@ -1,4 +1,4 @@
-# `/api/rest//docpropertytype`
+# `/api/rest/docpropertytype`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -1,4 +1,4 @@
-# `/api/rest//check`
+# `/api/rest/check`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

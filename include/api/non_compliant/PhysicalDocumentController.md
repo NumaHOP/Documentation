@@ -1,4 +1,4 @@
-# `/api/rest//physicaldocument`
+# `/api/rest/physicaldocument`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

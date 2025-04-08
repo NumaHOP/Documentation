@@ -1,4 +1,4 @@
-# `/api/rest//importreport`
+# `/api/rest/importreport`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

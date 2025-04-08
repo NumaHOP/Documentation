@@ -1,4 +1,4 @@
-# `/api/rest//exportftpconfiguration`
+# `/api/rest/exportftpconfiguration`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

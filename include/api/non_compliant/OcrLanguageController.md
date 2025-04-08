@@ -1,4 +1,4 @@
-# `/api/rest//ocrlanguages`
+# `/api/rest/ocrlanguages`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

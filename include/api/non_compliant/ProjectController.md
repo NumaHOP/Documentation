@@ -1,4 +1,4 @@
-# `/api/rest//project`
+# `/api/rest/project`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -216,7 +216,7 @@ def render-non-compliant [] {
 
         mkdir include/api/non_compliant
         [
-            $"# `/api/rest/($base_route)`"
+            $"# `/api/rest($base_route)`"
             "> Not Complete."
             "> Doesn't respect oas v3.1."
             ""

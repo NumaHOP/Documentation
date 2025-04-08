@@ -1,4 +1,4 @@
-# `/api/rest//conf_omeka`
+# `/api/rest/conf_omeka`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

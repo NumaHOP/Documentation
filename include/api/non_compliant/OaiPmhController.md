@@ -1,4 +1,4 @@
-# `/api/rest//oaipmh`
+# `/api/rest/oaipmh`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

@@ -1,4 +1,4 @@
-# `/api/rest//lot`
+# `/api/rest/lot`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

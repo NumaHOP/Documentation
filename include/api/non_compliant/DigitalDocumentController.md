@@ -1,4 +1,4 @@
-# `/api/rest//digitaldocument`
+# `/api/rest/digitaldocument`
 > Not Complete.
 > Doesn't respect oas v3.1.
 

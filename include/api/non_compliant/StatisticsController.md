@@ -1,4 +1,4 @@
-# `/api/rest//statistics`
+# `/api/rest/statistics`
 > Not Complete.
 > Doesn't respect oas v3.1.
 
