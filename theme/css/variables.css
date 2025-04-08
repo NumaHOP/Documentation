@@ -40,9 +40,7 @@
 
   --links: var(--nh-orange);
 
-  --inline-code-color: var(--nh-black);
-
-  --theme-popup-bg: var(--dark-grey);
+  --theme-popup-bg: var(--nh-dark-grey);
   --theme-popup-border: var(--nh-light-grey);
   --theme-hover: var(--nh-orange);
 
@@ -53,7 +51,7 @@
 
   --table-border-color: var(--nh-light-grey);
   --table-header-bg: var(--nh-grey);
-  --table-alternate-bg: var(--nh-grey);
+  --table-alternate-bg: var(--nh-bg);
 
   --searchbar-border-color: var(--nh-light-grey);
   --searchbar-bg: var(--nh-dark-grey);
@@ -63,7 +61,17 @@
   --searchresults-li-bg: magenta;
   --search-mark-bg: var(--nh-light-red);
 
-  --color-scheme: dark;
+	--code-bg: var(--nh-grey);
+	--code-fg: var(--nh-white);
+	--code-comment: var(--nh-light-grey);
+	--code-red: var(--nh-light-red);
+	--code-green: var(--nh);
+	--code-blue: var(--nh-blue);
+	--code-purple: var();
+	--code-orange: var(--nh-light-orange);
+  --inline-code-color: var(--nh-white);
+
+	--color-scheme: dark;
 }
 
 .light {
@@ -89,15 +97,15 @@
   --theme-popup-border: var(--nh-dark-grey);
   --theme-hover: var(--nh-orange);
 
-  --quote-bg: var(--nh-light-grey);
-  --quote-border: hsl(226, 15%, 22%);
+  --quote-bg: var(--nh-light-red);
+  --quote-border: var(--nh-dark-red);
 
   --warning-border: #ff8e00;
 
   --table-border-color: var(--nh-dark-grey);
   --table-header-bg: var(--nh-light-grey);
   --table-header-fg: var(--nh-white);
-  --table-alternate-bg: var(--nh-light-grey);
+  --table-alternate-bg: var(--nh-white);
 
   --searchbar-border-color: var(--nh-light-grey);
   --searchbar-bg: var(--nh-dark-grey);

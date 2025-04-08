@@ -229,6 +229,7 @@ a:hover > .hljs {
 pre {
     position: relative;
 }
+
 pre > .buttons {
     position: absolute;
     z-index: 100;
@@ -285,10 +286,10 @@ xmlns="http://www.w3.org/2000/svg" aria-label="Copy to clipboard">\
 2s-1.75.755-1.75 1.667c0 .911-.793 1.666-1.75 1.666H4.75C3.793 5.333 3 6.09 3 7z"/>\
 <path d="M4 19h6v2H4zM12 11H4v2h8zM4 17h4v-2H4zM15 15v-3l-4.5 4.5L15 21v-3l8.027-.032L23 15z"/>\
 </svg>');
-    filter: var(--copy-button-filter);
+		stroke: var(--nh-white);
 }
 pre > .buttons button.clip-button:hover::before {
-    filter: var(--copy-button-filter-hover);
+    stroke: var(--copy-button-filter-hover);
 }
 
 @media (pointer: coarse) {

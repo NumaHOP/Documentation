@@ -1,6 +1,6 @@
 # Code organization and structure.
 
-## Back-End. 
+## Back-End
 
 The root of the back end code is located at `src/main/java/fr/progilone/pgcn`. 
 
