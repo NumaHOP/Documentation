@@ -21,5 +21,6 @@ theme = "theme"
 default-theme = "light"
 preferred-dark-theme = "dark"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-css = ["./theme/hide_chapters.css"]
 git-repository-url="https://github.com/BibLibre/doc-tech.git" 
 git-repository-icon = "fa-github"

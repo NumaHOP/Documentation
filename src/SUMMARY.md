@@ -13,7 +13,6 @@
 - [Appendix]()
     - [Glossary](appendix/glossary.md)
     - [Contributors](appendix/contributors.md)
-    - [Design](appendix/design.md)
+    - [Design Chart](appendix/design.md)
     - [User Manuals](appendix/old_manuals.md)
-
 - [Unidexed Pages]()
