@@ -63,16 +63,10 @@
 	border-radius: 2px;
 }
 
-.dark .hljs {
-  background: var(--nh-dark-grey);
+.hljs {
+  background: var(--code-bg);
 	border: 2px solid var(--nh-grey);
-  color: var(--fg);
-}
-
-.light .hljs {
-	background: var(--nh-light-grey);
-	border: 2px solid var(--nh-grey);
-	color: var(--fg);
+  color: var(--code-fg);
 }
 
 .hljs-emphasis {

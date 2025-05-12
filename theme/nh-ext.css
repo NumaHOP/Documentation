@@ -1,0 +1,24 @@
+/* Hide the unindexed file in the side bar */
+.chapter {
+  > .chapter-item:not(:has(~ .chapter-item)) {
+    visibility: hidden;
+  }
+  > li:not(:has(~ li)) {
+    visibility: hidden;
+  }
+}
+
+/* Style the api methods tags on the api page. */
+span[api-method] {
+	border-radius: 5px;
+	padding: 0 5px;
+	margin-right: 5px;
+	color: var(--nh-white);
+	border: 1px solid var(--nh-light-grey);
+}
+
+span[api-method="GET"] { background-color: rgb(47, 129, 50); }
+span[api-method="DELETE"] { background-color: rgb(204, 51, 51); }
+span[api-method="POST"] { background-color: rgb(24, 111, 175); }
+span[api-method="PUT"] { background-color: rgb(149, 80, 124); }
+span[api-method="PATCH"] { background-color: rgb(191, 88, 29); }

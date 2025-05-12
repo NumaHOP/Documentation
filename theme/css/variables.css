@@ -16,6 +16,8 @@
   --nh-light-red: #ff003a;
   --nh-orange: #ff5e0e;
   --nh-black: #2d334f;
+	--nh-green: #13fe00;
+	--nh-blue: #1338fe;
   --nh-dark-grey: #3a3a3a;
   --nh-grey: #666666;
   --nh-light-grey: #c8c9db;
@@ -61,6 +63,8 @@
   --searchresults-li-bg: magenta;
   --search-mark-bg: var(--nh-light-red);
 
+  --inline-code-color: var(--nh-white);
+
 	--code-bg: var(--nh-grey);
 	--code-fg: var(--nh-white);
 	--code-comment: var(--nh-light-grey);
@@ -69,7 +73,6 @@
 	--code-blue: var(--nh-blue);
 	--code-purple: var();
 	--code-orange: var(--nh-light-orange);
-  --inline-code-color: var(--nh-white);
 
 	--color-scheme: dark;
 }
@@ -90,8 +93,6 @@
   --icons-hover: var(--nh-orange);
 
   --links: var(--nh-dark-red);
-
-  --inline-code-color: var(--nh-dark-grey);
 
   --theme-popup-bg: var(--nh-white);
   --theme-popup-border: var(--nh-dark-grey);
@@ -114,6 +115,17 @@
   --searchresults-border-color: var(--nh-light-grey);
   --searchresults-li-bg: magenta;
   --search-mark-bg: var(--nh-light-red);
+
+  --inline-code-color: var(--nh-white);
+
+	--code-bg: var(--nh-dark-grey);
+	--code-fg: var(--nh-white);
+	--code-comment: var(--nh-light-grey);
+	--code-red: var(--nh-light-red);
+	--code-green: var(--nh);
+	--code-blue: var(--nh-blue);
+	--code-purple: var();
+	--code-orange: var(--nh-light-orange);
 
   --color-scheme: light;
 }

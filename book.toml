@@ -7,7 +7,7 @@ title = "NumaHOP Documentation"
 
 [build]
 create-missing = false
-extra-watch-dirs = ["gen", "theme"]
+extra-watch-dirs = ["include", "theme", "src", "build-src"]
 
 [preprocessor.mdbook-mermaid]
 command = "mdbook-mermaid"
@@ -21,6 +21,6 @@ theme = "theme"
 default-theme = "light"
 preferred-dark-theme = "dark"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
-additional-css = ["./theme/hide_chapters.css"]
-git-repository-url="https://github.com/BibLibre/doc-tech.git" 
+additional-css = ["./theme/nh-ext.css"]
+git-repository-url = "https://github.com/biblibre/NumaHOP-doc" 
 git-repository-icon = "fa-github"

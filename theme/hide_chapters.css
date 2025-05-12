@@ -1,8 +1,0 @@
-.chapter {
-  > .chapter-item:not(:has(~ .chapter-item)) {
-    visibility: hidden;
-  }
-  > li:not(:has(~ li)) {
-    visibility: hidden;
-  }
-}
