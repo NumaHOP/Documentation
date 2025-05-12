@@ -34,13 +34,17 @@ All definition for terms and acronyms used in this documentation.
 
 **Digitalization service provider**: The company(for external digitalization) or service (internal digitalization) doing the digitalization process.
 
-**Document Unit**: Also referred as Doc Unit or DU. A Document or part of a document for collections to be processed by NumaHOP.
+**Document Unit**: Also referred as `Doc Unit` or `DU`. A Document or part of a document for collections to be processed by NumaHOP.
 
 **Workflow**: Steps the Document Unit takes trough NumaHOP. Can be defined at the project level, or the bundle level.
 
 **Notice**: Bibliographic meta-datas attached to a DU.
 
 **Condition Report**: A check of the state of the document after it was manipulated during the digitalization process.
+
+**Delivery**: The step where the digitalized documents are deposited into NumaHOP and attached to the correct Document Unit.
+
+**Import**: The step where we create the Document Unit.
 
 ### Grouping of Document Units.
 **Project**: A project is usually a set of documents to be digitalized by the same provider. 

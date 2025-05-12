@@ -63,7 +63,7 @@ Each states holds a status:
 - WorkflowGroup
 - WorkflowStateModel
 - WorkflowStateKey
-- WOrkflowStateStatus
+- WorkflowStateStatus
 - DocUnitWorkflow
 - DocUnitState (abstract class).
 - All states classes implementation.

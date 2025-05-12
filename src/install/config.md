@@ -121,6 +121,8 @@ spring:
 #### Filesystem
 These configuration options define where numahop can find the executables it needs, where to put the various files it generates and where to look for files to import.
 ```yaml
+base-path: #default /opt/pgcn
+
 imageMagick:
     convert: # default : /usr/bin/convert
     identify: # default : /usr/bin/identify
@@ -132,47 +134,47 @@ tesseract:
     process: # default : /usr/bin/tesseract
 
 storage:
-    binaries: # default : /opt/pgcn/DAM/DAM_Repository
+    binaries: # default : ${base-path}/DAM/DAM_Repository
 
 nativeLibraries:
     path: # default : /opt/svcmgmt/lib
 
 messaging:
     template:
-        path: # default : /opt/pgcn/Messaging/MessagingTemplate
+        path: # default : ${base-path}/Messaging/MessagingTemplate
 
 
 uploadPath:
-    condition_report: # default : /opt/pgcn/upload/condition_report
-    ead: # default : /opt/pgcn/upload/ead
-    import: # default : /opt/pgcn/upload/import
-    library: # default : /opt/pgcn/upload/library
-    user: # default : /opt/pgcn/upload/user
-    template: # default : /opt/pgcn/upload/templates
+    condition_report: # default : ${base-path}/upload/condition_report
+    ead: # default : ${base-path}/upload/ead
+    import: # default : ${base-path}/upload/import
+    library: # default : ${base-path}/upload/library
+    user: # default : ${base-path}/upload/user
+    template: # default : ${base-path}/upload/templates
 
 export:
     ssh:
-        knownHosts: # default : /opt/pgcn/config/known_hosts
+        knownHosts: # default : ${base-path}/config/known_hosts
 
 services:
     cines:
-        aip: # default : /opt/pgcn/cines/aip
-        cache: # default : /opt/pgcn/cines/cache
+        aip: # default : ${base-path}/cines/aip
+        cache: # default : ${base-path}/cines/cache
         xsd:
-            sip: # default : /opt/pgcn/xsd/sip.xsd
+            sip: # default : ${base-path}/xsd/sip.xsd
     archive:
-        alto: # default : /opt/pgcn/archive/alto
-        text: # default : /opt/pgcn/archive/text
+        alto: # default : ${base-path}/archive/alto
+        text: # default : ${base-path}/archive/text
     metaDatas:
-        path: # default : /opt/pgcn/metadatas
+        path: # default : ${base-path}/metadatas
     deliveryreporting:
-        path: # default : /opt/pgcn/deliveryReporting
+        path: # default : ${base-path}/deliveryReporting
     omeka:
-        cache: # default : /opt/pgcn/omeka/cache
+        cache: # default : ${base-path}/omeka/cache
     ftpexport:
-        cache: # default : /opt/pgcn/ftpexport/cache
+        cache: # default : ${base-path}/ftpexport/cache
     digitalLibraryDiffusion:
-        cache: # default : /opt/pgcn/digitalLibraryDiffusion/cache
+        cache: # default : ${base-path}/digitalLibraryDiffusion/cache
 ```
 <details>
 	<summary>Exiftool Uses:</summary>
