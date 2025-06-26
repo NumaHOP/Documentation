@@ -115,7 +115,8 @@ You can verify that all the information is well defined by running `SHOW DATABAS
 NumaHOP uses an orm with a changelog and will automatically create all the tables it needs for you.
 
 ## Elastic Search
-Just install elastic search and folow this [documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html). And make sure it is accessible from where you want to install numahop either by localhost or an url.
+Just install elastic search and folow this [documentation][1]. And make sure it is accessible from where you want to install numahop either by localhost or an url.
+
 
 ## Mail Server (Optional)
 NumaHOP needs a smtp mail server for sending emails. It expects it on the port 25 on localhost without auth and security by default. If you want to use a distant server or change the default settings [see](./config.md#mail) in the config chapter.
@@ -171,3 +172,5 @@ systemctl --user stop numahop # For stoping numahop
 
 If everything worked correctly you can access the numahop graphical interface by connecting to your server.
 You can now go to the [Post-Installation](./post_install.md) chapter.
+
+  [1]: https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html "Elastic Documentation"

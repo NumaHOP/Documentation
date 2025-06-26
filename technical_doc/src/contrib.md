@@ -1,6 +1,6 @@
 # Contributing to numahop.
 
-> If you plan to contribute to numahop you might want to read the [coding guidelines](https://github.com/biblibre/NumaHOP-code/)
+> If you plan to contribute to numahop you might want to read the [coding guidelines][1].
 
 ## Developpement environement.
 
@@ -26,3 +26,6 @@ For example:
 - to reset the db you can run `make reset-db`.
 - to get a clean reinstall of Numahop `make reset-all`.
 Note the volumes can only be reset by unmouting them from the containers.
+
+
+  [1]: https://github.com/biblibre/NumaHOP-code/

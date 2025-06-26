@@ -295,7 +295,7 @@ cron:
     digitalLibraryExport: # default: 0 0 3 * * ?
 ```
 
-The value is a [cron expression](https://docs.spring.io/spring-framework/reference/integration/scheduling.html#scheduling-cron-expression) used to configure when to run the job.
+The value is a [cron expression][1] used to configure when to run the job.
 <details>
     <summary>Uses:</summary>
     <ul>
@@ -332,3 +332,4 @@ spring:
     </ul>
 </details>
 
+[1]: https://docs.spring.io/spring-framework/reference/integration/scheduling.html#scheduling-cron-expression "Cron Expression"

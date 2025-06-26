@@ -1,0 +1,11 @@
+{
+	"title": "Data Input/Output",
+	"theme": "base",
+	"darkMode": true,
+	"themeVariables": {
+		"primaryColor": "#000000",
+		"primaryTextColor": "#fff",
+		"secondaryColor": "#0000ff",
+		"tertiaryColor": "#00ff00"
+	}
+}

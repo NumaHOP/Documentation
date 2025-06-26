@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 set -x
 
+cd technical_doc || exit 1
+
 rm build-src -r > /dev/null 2>&1
 mkdir build-src
 

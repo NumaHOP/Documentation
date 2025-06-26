@@ -1,11 +1,16 @@
 export MDBOOK_PREPROCESSOR__MERMAID__COMMAND="vendor/mdbook-mermaid"
 
 build:
-	./scripts/build_source.sh
-	vendor/mdbook build 
+	./technical_doc/scripts/build_source.sh
+	vendor/mdbook build technical_doc/ -d ../book/technical_doc
+	vendor/mdbook build user_manual/ -d ../book/user_manual
+	
 	# Remove empty stub pages
-	rm book/code/db_schema/index.html 
-	cp include/db_schema/numahop/* book/code/db_schema -r 
+	rm book/technical_doc/code/db_schema/index.html 
+	cp technical_doc/include/db_schema/numahop/* book/technical_doc/code/db_schema -r 
+	cp landing.html book/index.html
+	cp ./common/theme/favicon.png  book/.
+	cp ./common/theme/css/variables.css book/.
 
 # Open the book in your prefered browser.
 open:
@@ -24,10 +29,3 @@ setup:
 	@curl -sSL https://github.com/schemaspy/schemaspy/releases/download/v6.2.4/schemaspy-6.2.4.jar --output-dir vendor --output schemaspy-6.2.4.jar
 	@echo "Downloading mariadb connector..."
 	@curl -sSL https://dlm.mariadb.com/4174416/Connectors/java/connector-java-3.5.2/mariadb-java-client-3.5.2.jar --output-dir vendor --output mariadb-java-client-3.5.2.jar
-
-# Make sure you have the dockerised version of numahop running on your machine 
-# before running this.
-update-gen:
-	nu scripts/gen-from-open-api.nu
-	nu scripts/grep-api.nu 
-	./scripts/gen_db_schema.sh

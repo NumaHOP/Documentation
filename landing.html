@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html class="light">
+	<head>
+		<meta charset="UTF-8">
+		<title>NumaHOP Documentatoins Manuals</title>
+		<link rel="stylesheet" href="./variables.css">
+		<link rel="stylesheet" href="./general.css">
+		<style>
+			html {
+				background-color: var(--bg);
+				color: var(--fg);
+			}
+			body {
+				display: grid;
+				place-content: center;
+				> { margin-left: auto; margin-right: auto; }
+			}
+			a:link, a:visited { color: var(--links); font-size: 18pt; }
+		</style>
+
+		<script>
+		var path_to_root = "";
+		var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+		</script>
+	</head>
+	<body>
+		<script>
+			var theme;
+			try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+			if (theme === null || theme === undefined) { theme = default_theme; }
+			const html = document.documentElement;
+			html.classList.remove('light')
+			html.classList.add(theme);
+		</script>
+		<h1> NumaHOP Manuals </h1>
+		<a href="technical_doc/index.html">Technical Documentation</a>
+		<p>
+			This document is intended to be used by developpers and administrators of NumaHOP instances.
+		</p>
+
+		<a href="user_manual/index.html">User Manual</a>
+		<p>
+			This document is intended to be used by users of NumaHOP instances.
+		</p>
+	</body>
+</html>

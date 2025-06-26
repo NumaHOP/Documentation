@@ -1,0 +1,26 @@
+[book]
+authors = ["Adrien Derobert-Mazure"]
+language = "en"
+multilingual = false
+src = "build-src"
+title = "NumaHOP Documentation"
+
+[build]
+create-missing = false
+extra-watch-dirs = ["include", "../common/theme", "src", "build-src"]
+
+[preprocessor.mdbook-mermaid]
+command = "mdbook-mermaid"
+
+[output.html.fold]
+enable = true 
+level = 0 
+
+[output.html]
+theme = "../common/theme"
+default-theme = "light"
+preferred-dark-theme = "dark"
+additional-js = ["../common/mermaid.min.js", "../common/mermaid-init.js"]
+additional-css = ["../common/theme/nh-ext.css"]
+git-repository-url = "https://github.com/biblibre/NumaHOP-doc" 
+git-repository-icon = "fa-github"
