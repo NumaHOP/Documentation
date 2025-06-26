@@ -16,6 +16,7 @@ If you dont want to install these the makefile has a setup rule Downloading the 
 - A running NumaHOP instance.
 - bash
 - nu (Temporary: will be replaced by a mdbook preprocessor at a certain point. Used for the api pages.)
+- python3 with the `tree_sitter`, and `tree_sitter_language_pack` libraries. (For the api documentaion.)
 - OpenJdk17
 - wget
 - schemaspy jarfile
