@@ -1,2 +1,2 @@
     - [open-api](code/api/open-api.md)
-    - [api](code/api/index.md)
+    - [api](code/api/scraped-api.md)
