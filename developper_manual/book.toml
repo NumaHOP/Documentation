@@ -3,7 +3,7 @@ authors = ["Adrien Derobert-Mazure"]
 language = "en"
 multilingual = false
 src = "build-src"
-title = "NumaHOP Documentation"
+title = "NumaHOP Developper Manual"
 
 [build]
 create-missing = false
