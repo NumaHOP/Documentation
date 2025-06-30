@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 set -x
 
-rm technical_doc/build-src -r > /dev/null 2>&1
-cp technical_doc/src -r technical_doc/build-src
+rm developper_manual/build-src -r > /dev/null 2>&1
+cp developper_manual/src -r developper_manual/build-src
 
 # Patch in include files.
-cat technical_doc/include/summary_stub.md >> technical_doc/build-src/SUMMARY.md
+cat developper_manual/include/summary_stub.md >> developper_manual/build-src/SUMMARY.md
 #cp include/api build-src/code -r
-mkdir technical_doc/build-src/code/api -p
-cp technical_doc/include/scraped-api.md technical_doc/build-src/code/api/.
-cp technical_doc/include/open-api.md technical_doc/build-src/code/api/.
+mkdir developper_manual/build-src/code/api -p
+cp developper_manual/include/scraped-api.md developper_manual/build-src/code/api/.
+cp developper_manual/include/open-api.md developper_manual/build-src/code/api/.

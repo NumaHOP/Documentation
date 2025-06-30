@@ -1,4 +1,4 @@
 #!/usr/bin/env bash 
 
-rm book/technical_doc/code/db_schema/index.html 
-cp technical_doc/include/db_schema/numahop/* book/technical_doc/code/db_schema -r 
+rm book/developper_manual/code/db_schema/index.html 
+cp developper_manual/include/db_schema/numahop/* book/developper_manual/code/db_schema -r 
