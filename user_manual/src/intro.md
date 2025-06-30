@@ -1,1 +1,0 @@
-# NumaHOP User Manual
