@@ -155,7 +155,7 @@
 # /audit/delivery
 
 ### <span api-method=GET>GET</span> /audit/delivery?from
-**Implementation:** [AuditDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDeliveryController.java#L41-L58)
+**Implementation:** [AuditDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDeliveryController.java#L41-L58)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -183,7 +183,7 @@
 
 
 ### <span api-method=GET>GET</span> /audit/docunit/\{id\}?rev
-**Implementation:** [AuditDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDocUnitController.java#L42-L61)
+**Implementation:** [AuditDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDocUnitController.java#L42-L61)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -198,7 +198,7 @@
 
 
 ### <span api-method=GET>GET</span> /audit/docunit/\{id\}
-**Implementation:** [AuditDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDocUnitController.java#L63-L80)
+**Implementation:** [AuditDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditDocUnitController.java#L63-L80)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -215,7 +215,7 @@
 # /audit/lot
 
 ### <span api-method=GET>GET</span> /audit/lot?from
-**Implementation:** [AuditLotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditLotController.java#L41-L56)
+**Implementation:** [AuditLotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditLotController.java#L41-L56)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -242,7 +242,7 @@
 
 
 ### <span api-method=GET>GET</span> /audit/mapping/\{id\}?rev
-**Implementation:** [AuditMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditMappingController.java#L46-L66)
+**Implementation:** [AuditMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditMappingController.java#L46-L66)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -257,7 +257,7 @@
 
 
 ### <span api-method=GET>GET</span> /audit/mapping/\{id\}
-**Implementation:** [AuditMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditMappingController.java#L68-L86)
+**Implementation:** [AuditMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditMappingController.java#L68-L86)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -274,7 +274,7 @@
 # /audit/project
 
 ### <span api-method=GET>GET</span> /audit/project?from
-**Implementation:** [AuditProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditProjectController.java#L41-L55)
+**Implementation:** [AuditProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditProjectController.java#L41-L55)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -297,7 +297,7 @@
 # /audit/train
 
 ### <span api-method=GET>GET</span> /audit/train?from
-**Implementation:** [AuditTrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditTrainController.java#L41-L56)
+**Implementation:** [AuditTrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/audit/AuditTrainController.java#L41-L56)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -324,7 +324,7 @@
 
 
 ### <span api-method=GET>GET</span> /authorization?dto
-**Implementation:** [AuthorizationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L34-L38)
+**Implementation:** [AuthorizationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L34-L38)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -339,7 +339,7 @@
 
 
 ### <span api-method=GET>GET</span> /authorization
-**Implementation:** [AuthorizationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L40-L44)
+**Implementation:** [AuthorizationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L40-L44)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -356,7 +356,7 @@
 # /authorization/\{identifier\}
 
 ### <span api-method=GET>GET</span> /authorization/\{identifier\}
-**Implementation:** [AuthorizationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L46-L50)
+**Implementation:** [AuthorizationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/AuthorizationController.java#L46-L50)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -376,7 +376,7 @@
 
 
 ### <span api-method=POST>POST</span> /bibliographicrecord
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L81-L91)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L81-L91)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB1
@@ -391,7 +391,7 @@
 
 
 ### <span api-method=POST>POST</span> /bibliographicrecord?delete
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L126-L143)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L126-L143)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -406,7 +406,7 @@
 
 
 ### <span api-method=POST>POST</span> /bibliographicrecord?update
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L276-L294)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L276-L294)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -421,7 +421,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord?search
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L145-L171)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L145-L171)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -452,7 +452,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord?searchAsList
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L173-L201)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L173-L201)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -484,7 +484,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord?dto
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L203-L212)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L203-L212)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -499,7 +499,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord?all_operations
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L214-L224)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L214-L224)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -519,7 +519,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord/\{id\}?duplicate
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L93-L107)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L93-L107)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB1
@@ -534,7 +534,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord/\{identifier\}
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L226-L235)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L226-L235)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -549,7 +549,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord/\{identifier\}?dc
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L237-L246)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L237-L246)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -564,7 +564,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord/\{identifier\}?lock
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L296-L313)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L296-L313)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -579,7 +579,7 @@
 
 
 ### <span api-method=GET>GET</span> /bibliographicrecord/\{identifier\}?unlock
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L315-L332)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L315-L332)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -594,7 +594,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /bibliographicrecord/\{identifier\}
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L109-L124)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L109-L124)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -609,7 +609,7 @@
 
 
 ### <span api-method=POST>POST</span> /bibliographicrecord/\{identifier\}
-**Implementation:** [BibliographicRecordController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L248-L274)
+**Implementation:** [BibliographicRecordController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/BibliographicRecordController.java#L248-L274)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -626,7 +626,7 @@
 # /check
 
 ### <span api-method=GET>GET</span> /check?errors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L55-L59)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L55-L59)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -641,7 +641,7 @@
 
 
 ### <span api-method=POST>POST</span> /check
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L68-L73)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L68-L73)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -661,7 +661,7 @@
 
 
 ### <span api-method=POST>POST</span> /check/\{id\}
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L61-L66)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L61-L66)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -676,7 +676,7 @@
 
 
 ### <span api-method=POST>POST</span> /check/\{id\}?seterrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L75-L82)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L75-L82)
 
 
 **Required Role\(s\):** CHECK_HAB4
@@ -696,7 +696,7 @@
 
 
 ### <span api-method=POST>POST</span> /check/\{id\}?setsamplederrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L84-L92)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L84-L92)
 
 
 **Required Role\(s\):** CHECK_HAB4
@@ -716,7 +716,7 @@
 
 
 ### <span api-method=POST>POST</span> /check/\{id\}?setglobalerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L94-L100)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L94-L100)
 
 
 **Required Role\(s\):** CHECK_HAB4
@@ -731,7 +731,7 @@
 
 
 ### <span api-method=POST>POST</span> /check/\{id\}?setsampledglobalerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L102-L108)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L102-L108)
 
 
 **Required Role\(s\):** CHECK_HAB4
@@ -746,7 +746,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?geterrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L110-L116)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L110-L116)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -761,7 +761,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getsamplederrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L118-L125)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L118-L125)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -776,7 +776,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getcondreportforsamplepage
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L127-L133)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L127-L133)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -791,7 +791,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getglobalerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L135-L141)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L135-L141)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -806,7 +806,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getsampledglobalerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L143-L149)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L143-L149)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -821,7 +821,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getdocumentallerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L151-L157)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L151-L157)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -836,7 +836,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?getsampleallerrors
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L159-L165)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L159-L165)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -851,7 +851,7 @@
 
 
 ### <span api-method=GET>GET</span> /check/\{id\}?summaryresults
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L167-L175)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L167-L175)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -868,7 +868,7 @@
 # /check/auto
 
 ### <span api-method=GET>GET</span> /check/auto?facile
-**Implementation:** [AutomaticCheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/check/AutomaticCheckController.java#L50-L67)
+**Implementation:** [AutomaticCheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/check/AutomaticCheckController.java#L50-L67)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -888,7 +888,7 @@
 
 
 ### <span api-method=POST>POST</span> /checkconfiguration
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L54-L61)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L54-L61)
 
 
 **Required Role\(s\):** CHECK_HAB1
@@ -903,7 +903,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration?search
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L72-L83)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L72-L83)
 
 
 **Required Role\(s\):** CHECK_HAB0
@@ -925,7 +925,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration?rules
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L85-L90)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L85-L90)
 
 
 **Required Role\(s\):** CHECK_HAB0
@@ -940,7 +940,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration?project
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L110-L118)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L110-L118)
 
 
 **Required Role\(s\):** CHECK_HAB0
@@ -955,7 +955,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration?add-radical-controle
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L150-L156)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L150-L156)
 
 
 **Required Role\(s\):** CHECK_HAB1
@@ -975,7 +975,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /checkconfiguration/\{id\}
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L63-L70)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L63-L70)
 
 
 **Required Role\(s\):** CHECK_HAB2
@@ -990,7 +990,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration/\{id\}
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L92-L99)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L92-L99)
 
 
 **Required Role\(s\):** CHECK_HAB0
@@ -1005,7 +1005,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration/\{id\}?edition
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L101-L108)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L101-L108)
 
 
 **Required Role\(s\):** CHECK_HAB0
@@ -1020,7 +1020,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration/\{id\}?duplicate
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L120-L127)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L120-L127)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -1035,7 +1035,7 @@
 
 
 ### <span api-method=GET>GET</span> /checkconfiguration/\{idDocUnit\}?docUnit
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L129-L136)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L129-L136)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -1050,7 +1050,7 @@
 
 
 ### <span api-method=POST>POST</span> /checkconfiguration/\{id\}
-**Implementation:** [CheckConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L138-L148)
+**Implementation:** [CheckConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/checkconfiguration/CheckConfigurationController.java#L138-L148)
 
 
 **Required Role\(s\):** CHECK_HAB1
@@ -1067,7 +1067,7 @@
 # /check/csv/\{id\}
 
 ### <span api-method=GET>GET</span> /check/csv/\{id\}
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L177-L193)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L177-L193)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -1089,7 +1089,7 @@
 # /check/lot_csv/\{id\}
 
 ### <span api-method=GET>GET</span> /check/lot_csv/\{id\}
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L210-L231)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L210-L231)
 
 
 **Required Role\(s\):** 
@@ -1113,7 +1113,7 @@
 # /check/lot_pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /check/lot_pdf/\{id\}
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L233-L252)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L233-L252)
 
 
 **Required Role\(s\):** 
@@ -1132,7 +1132,7 @@
 # /check/pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /check/pdf/\{id\}
-**Implementation:** [CheckController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L195-L208)
+**Implementation:** [CheckController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckController.java#L195-L208)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -1149,7 +1149,7 @@
 # /checkslip_configuration/\{id\}
 
 ### <span api-method=GET>GET</span> /checkslip_configuration/\{id\}
-**Implementation:** [CheckSlipConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckSlipConfigurationController.java#L44-L54)
+**Implementation:** [CheckSlipConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckSlipConfigurationController.java#L44-L54)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -1164,7 +1164,7 @@
 
 
 ### <span api-method=POST>POST</span> /checkslip_configuration/\{id\}
-**Implementation:** [CheckSlipConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckSlipConfigurationController.java#L56-L66)
+**Implementation:** [CheckSlipConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/CheckSlipConfigurationController.java#L56-L66)
 
 
 **Required Role\(s\):** DEL_HAB2
@@ -1184,7 +1184,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport?docUnit
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L77-L89)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L77-L89)
 
 
 **Required Role\(s\):** COND_REPORT_HAB1
@@ -1199,7 +1199,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport?search
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L185-L204)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L185-L204)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1220,7 +1220,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport?import-report
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L346-L384)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L346-L384)
 
 
 **Required Role\(s\):** COND_REPORT_HAB1
@@ -1235,7 +1235,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport?docUnit
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L131-L141)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L131-L141)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1249,8 +1249,8 @@
 **Response Body:** ResponseEntity&lt;ConditionReport&gt;
 
 
-### <span api-method=GET>GET</span> /condreport?summary", "docUnit
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L143-L154)
+### <span api-method=GET>GET</span> /condreport?summary&docUnit
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L143-L154)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1265,7 +1265,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport?sampleId
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L156-L166)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L156-L166)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1280,7 +1280,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport?import-template
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L250-L289)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L250-L289)
 
 
 **Required Role\(s\):** COND_REPORT_HAB1
@@ -1305,7 +1305,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /condreport/\{identifier\}
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L91-L113)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L91-L113)
 
 
 **Required Role\(s\):** COND_REPORT_HAB3
@@ -1320,7 +1320,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport/\{identifier\}
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L115-L129)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L115-L129)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1335,7 +1335,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport/\{id\}?exportto
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L212-L248)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L212-L248)
 
 
 **Required Role\(s\):** COND_REPORT_HAB4
@@ -1350,7 +1350,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport/\{identifier\}
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L168-L183)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L168-L183)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -1365,7 +1365,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport/\{id\}?propagate
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L394-L410)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L394-L410)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1387,7 +1387,7 @@
 # /condreport_attachment
 
 ### <span api-method=GET>GET</span> /condreport_attachment?report
-**Implementation:** [ConditionReportAttachmentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L64-L76)
+**Implementation:** [ConditionReportAttachmentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L64-L76)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1402,7 +1402,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_attachment?report
-**Implementation:** [ConditionReportAttachmentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L199-L219)
+**Implementation:** [ConditionReportAttachmentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L199-L219)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -1427,7 +1427,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /condreport_attachment/\{identifier\}
-**Implementation:** [ConditionReportAttachmentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L82-L94)
+**Implementation:** [ConditionReportAttachmentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L82-L94)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -1442,7 +1442,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_attachment/\{id\}?file
-**Implementation:** [ConditionReportAttachmentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L103-L133)
+**Implementation:** [ConditionReportAttachmentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L103-L133)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1457,7 +1457,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_attachment/\{id\}?thumbnail
-**Implementation:** [ConditionReportAttachmentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L142-L191)
+**Implementation:** [ConditionReportAttachmentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportAttachmentController.java#L142-L191)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1477,7 +1477,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_desc_prop
-**Implementation:** [DescriptionPropertyController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L39-L45)
+**Implementation:** [DescriptionPropertyController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L39-L45)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1492,7 +1492,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_desc_prop
-**Implementation:** [DescriptionPropertyController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L55-L60)
+**Implementation:** [DescriptionPropertyController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L55-L60)
 
 
 **Required Role\(s\):** 
@@ -1509,7 +1509,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_desc_prop?getAllWithFakes
-**Implementation:** [DescriptionPropertyController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L62-L80)
+**Implementation:** [DescriptionPropertyController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L62-L80)
 
 
 **Required Role\(s\):** 
@@ -1528,7 +1528,7 @@
 # /condreport_desc_prop/\{identifier\}
 
 ### <span api-method=DELETE>DELETE</span> /condreport_desc_prop/\{identifier\}
-**Implementation:** [DescriptionPropertyController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L47-L53)
+**Implementation:** [DescriptionPropertyController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L47-L53)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1543,7 +1543,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_desc_prop/\{identifier\}
-**Implementation:** [DescriptionPropertyController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L144-L151)
+**Implementation:** [DescriptionPropertyController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionPropertyController.java#L144-L151)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1560,7 +1560,7 @@
 # /condreport_desc_value
 
 ### <span api-method=POST>POST</span> /condreport_desc_value
-**Implementation:** [DescriptionValueController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L35-L40)
+**Implementation:** [DescriptionValueController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L35-L40)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1575,7 +1575,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_desc_value?property
-**Implementation:** [DescriptionValueController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L50-L56)
+**Implementation:** [DescriptionValueController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L50-L56)
 
 
 **Required Role\(s\):** 
@@ -1594,7 +1594,7 @@
 # /condreport_desc_value/\{identifier\}
 
 ### <span api-method=DELETE>DELETE</span> /condreport_desc_value/\{identifier\}
-**Implementation:** [DescriptionValueController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L42-L48)
+**Implementation:** [DescriptionValueController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L42-L48)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1609,7 +1609,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_desc_value/\{identifier\}
-**Implementation:** [DescriptionValueController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L58-L64)
+**Implementation:** [DescriptionValueController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/DescriptionValueController.java#L58-L64)
 
 
 **Required Role\(s\):** COND_REPORT_HAB6
@@ -1625,8 +1625,8 @@
 ---
 # /condreport_detail
 
-### <span api-method=POST>POST</span> /condreport_detail?type", "detail
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L56-L81)
+### <span api-method=POST>POST</span> /condreport_detail?type&detail
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L56-L81)
 
 
 **Required Role\(s\):** COND_REPORT_HAB1
@@ -1641,7 +1641,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_detail?report
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L120-L131)
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L120-L131)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1661,7 +1661,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /condreport_detail/\{identifier\}
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L83-L106)
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L83-L106)
 
 
 **Required Role\(s\):** COND_REPORT_HAB3
@@ -1676,7 +1676,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_detail/\{identifier\}
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L108-L118)
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L108-L118)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1691,7 +1691,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_detail/\{identifier\}
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L133-L155)
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L133-L155)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -1706,7 +1706,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_detail/\{identifier\}?confirmvalid
-**Implementation:** [ConditionReportDetailController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L157-L176)
+**Implementation:** [ConditionReportDetailController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportDetailController.java#L157-L176)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -1726,7 +1726,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreport_prop_conf
-**Implementation:** [PropertyConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L47-L57)
+**Implementation:** [PropertyConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L47-L57)
 
 
 **Required Role\(s\):** COND_REPORT_HAB5
@@ -1741,7 +1741,7 @@
 
 
 ### <span api-method=GET>GET</span> /condreport_prop_conf?library
-**Implementation:** [PropertyConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L59-L71)
+**Implementation:** [PropertyConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L59-L71)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1760,8 +1760,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;PropertyConfigurationDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /condreport_prop_conf?desc", "library
-**Implementation:** [PropertyConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L73-L85)
+### <span api-method=GET>GET</span> /condreport_prop_conf?desc&library
+**Implementation:** [PropertyConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L73-L85)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1780,8 +1780,8 @@
 **Response Body:** ResponseEntity&lt;PropertyConfigurationDTO&gt;
 
 
-### <span api-method=GET>GET</span> /condreport_prop_conf?internal", "library
-**Implementation:** [PropertyConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L87-L99)
+### <span api-method=GET>GET</span> /condreport_prop_conf?internal&library
+**Implementation:** [PropertyConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L87-L99)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1798,7 +1798,7 @@
 # /condreport_prop_conf/\{identifier\}
 
 ### <span api-method=POST>POST</span> /condreport_prop_conf/\{identifier\}
-**Implementation:** [PropertyConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L101-L111)
+**Implementation:** [PropertyConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/PropertyConfigurationController.java#L101-L111)
 
 
 **Required Role\(s\):** COND_REPORT_HAB5
@@ -1815,7 +1815,7 @@
 # /condreport/csv
 
 ### <span api-method=GET>GET</span> /condreport/csv
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L291-L317)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L291-L317)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1838,7 +1838,7 @@
 # /condreport/pdf
 
 ### <span api-method=GET>GET</span> /condreport/pdf
-**Implementation:** [ConditionReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L319-L344)
+**Implementation:** [ConditionReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportController.java#L319-L344)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -1855,7 +1855,7 @@
 # /condreportslip_configuration/\{id\}
 
 ### <span api-method=GET>GET</span> /condreportslip_configuration/\{id\}
-**Implementation:** [ConditionReportSlipConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportSlipConfigurationController.java#L40-L50)
+**Implementation:** [ConditionReportSlipConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportSlipConfigurationController.java#L40-L50)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -1870,7 +1870,7 @@
 
 
 ### <span api-method=POST>POST</span> /condreportslip_configuration/\{id\}
-**Implementation:** [ConditionReportSlipConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportSlipConfigurationController.java#L52-L63)
+**Implementation:** [ConditionReportSlipConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/conditionreport/ConditionReportSlipConfigurationController.java#L52-L63)
 
 
 **Required Role\(s\):** DEL_HAB2
@@ -1890,7 +1890,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_digital_library
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L42-L54)
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L42-L54)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_DIGITAL_LIBRARY_HAB1
@@ -1904,8 +1904,8 @@
 **Response Body:** ResponseEntity&lt;DigitalLibraryConfiguration&gt;
 
 
-### <span api-method=GET>GET</span> /conf_digital_library?configuration", "library
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L76-L91)
+### <span api-method=GET>GET</span> /conf_digital_library?configuration&library
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L76-L91)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_DIGITAL_LIBRARY_HAB0
@@ -1925,7 +1925,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_digital_library?search
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L93-L107)
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L93-L107)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_DIGITAL_LIBRARY_HAB0
@@ -1949,7 +1949,7 @@
 # /conf_digital_library/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /conf_digital_library/\{id\}
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L56-L74)
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L56-L74)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB2
@@ -1964,7 +1964,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_digital_library/\{id\}
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L109-L127)
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L109-L127)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_DIGITAL_LIBRARY_HAB0
@@ -1979,7 +1979,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_digital_library/\{id\}
-**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L129-L156)
+**Implementation:** [DigitalLibraryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/digitallibrary/DigitalLibraryConfigurationController.java#L129-L156)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_DIGITAL_LIBRARY_HAB1
@@ -1999,7 +1999,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_internet_archive
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L62-L74)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L62-L74)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB1
@@ -2014,7 +2014,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_internet_archive?collections
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L96-L112)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L96-L112)
 
 
 **Required Role\(s\):** 
@@ -2036,7 +2036,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_internet_archive
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L114-L126)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L114-L126)
 
 
 **Required Role\(s\):** 
@@ -2052,8 +2052,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;InternetArchiveConfigurationDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /conf_internet_archive?configurations", "library
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L128-L142)
+### <span api-method=GET>GET</span> /conf_internet_archive?configurations&library
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L128-L142)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB0
@@ -2073,7 +2073,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_internet_archive?search
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L144-L158)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L144-L158)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB0
@@ -2097,7 +2097,7 @@
 # /conf_internet_archive/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /conf_internet_archive/\{id\}
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L76-L94)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L76-L94)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB2
@@ -2112,7 +2112,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_internet_archive/\{id\}
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L160-L178)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L160-L178)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB0
@@ -2127,7 +2127,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_internet_archive/\{id\}
-**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L180-L204)
+**Implementation:** [InternetArchiveConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/InternetArchiveConfigurationController.java#L180-L204)
 
 
 **Required Role\(s\):** CONF_INTERNET_ARCHIVE_HAB1
@@ -2144,7 +2144,7 @@
 # /conf_mail
 
 ### <span api-method=POST>POST</span> /conf_mail
-**Implementation:** [MailboxConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L49-L61)
+**Implementation:** [MailboxConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L49-L61)
 
 
 **Required Role\(s\):** MAIL_HAB1
@@ -2159,7 +2159,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_mail
-**Implementation:** [MailboxConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L83-L98)
+**Implementation:** [MailboxConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L83-L98)
 
 
 **Required Role\(s\):** MAIL_HAB0
@@ -2176,7 +2176,7 @@
 # /conf_mail/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /conf_mail/\{id\}
-**Implementation:** [MailboxConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L63-L81)
+**Implementation:** [MailboxConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L63-L81)
 
 
 **Required Role\(s\):** MAIL_HAB2
@@ -2191,7 +2191,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_mail/\{id\}
-**Implementation:** [MailboxConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L100-L118)
+**Implementation:** [MailboxConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L100-L118)
 
 
 **Required Role\(s\):** MAIL_HAB0
@@ -2206,7 +2206,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_mail/\{id\}
-**Implementation:** [MailboxConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L120-L144)
+**Implementation:** [MailboxConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/MailboxConfigurationController.java#L120-L144)
 
 
 **Required Role\(s\):** MAIL_HAB1
@@ -2226,7 +2226,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_omeka
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L62-L74)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L62-L74)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB1
@@ -2241,7 +2241,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_omeka?collections
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L96-L118)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L96-L118)
 
 
 **Required Role\(s\):** 
@@ -2263,7 +2263,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_omeka?items
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L120-L143)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L120-L143)
 
 
 **Required Role\(s\):** 
@@ -2285,7 +2285,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_omeka
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L145-L157)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L145-L157)
 
 
 **Required Role\(s\):** 
@@ -2301,8 +2301,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;OmekaConfigurationDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /conf_omeka?configuration", "library", "project
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L159-L175)
+### <span api-method=GET>GET</span> /conf_omeka?configuration&library&project
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L159-L175)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB0
@@ -2323,7 +2323,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_omeka?search
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L177-L192)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L177-L192)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB0
@@ -2348,7 +2348,7 @@
 # /conf_omeka/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /conf_omeka/\{id\}
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L76-L94)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L76-L94)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB2
@@ -2363,7 +2363,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_omeka/\{id\}
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L194-L212)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L194-L212)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB0
@@ -2378,7 +2378,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_omeka/\{id\}
-**Implementation:** [OmekaConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L214-L238)
+**Implementation:** [OmekaConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/omeka/OmekaConfigurationController.java#L214-L238)
 
 
 **Required Role\(s\):** CONF_DIFFUSION_OMEKA_HAB1
@@ -2398,7 +2398,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_sftp
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L74-L86)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L74-L86)
 
 
 **Required Role\(s\):** SFTP_HAB1
@@ -2412,8 +2412,8 @@
 **Response Body:** ResponseEntity&lt;SftpConfiguration&gt;
 
 
-### <span api-method=GET>GET</span> /conf_sftp?pacs", "library
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L108-L125)
+### <span api-method=GET>GET</span> /conf_sftp?pacs&library
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L108-L125)
 
 
 **Required Role\(s\):** 
@@ -2429,8 +2429,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;CinesPAC&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /conf_sftp?pacs", "configuration
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L127-L137)
+### <span api-method=GET>GET</span> /conf_sftp?pacs&configuration
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L127-L137)
 
 
 **Required Role\(s\):** 
@@ -2447,7 +2447,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_sftp
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L139-L152)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L139-L152)
 
 
 **Required Role\(s\):** SFTP_HAB0
@@ -2462,7 +2462,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_sftp?library
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L154-L167)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L154-L167)
 
 
 **Required Role\(s\):** SFTP_HAB0
@@ -2477,7 +2477,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_sftp?search
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L169-L183)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L169-L183)
 
 
 **Required Role\(s\):** SFTP_HAB0
@@ -2504,7 +2504,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /conf_sftp/\{id\}
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L88-L106)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L88-L106)
 
 
 **Required Role\(s\):** SFTP_HAB2
@@ -2519,7 +2519,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_sftp/\{id\}
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L185-L202)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L185-L202)
 
 
 **Required Role\(s\):** SFTP_HAB0
@@ -2534,7 +2534,7 @@
 
 
 ### <span api-method=GET>GET</span> /conf_sftp/\{id\}?init
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L204-L226)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L204-L226)
 
 
 **Required Role\(s\):** SFTP_HAB0
@@ -2549,7 +2549,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_sftp/\{id\}
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L228-L252)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L228-L252)
 
 
 **Required Role\(s\):** SFTP_HAB1
@@ -2564,7 +2564,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf_sftp/\{id\}?upload
-**Implementation:** [SftpConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L261-L282)
+**Implementation:** [SftpConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/SftpConfigurationController.java#L261-L282)
 
 
 **Required Role\(s\):** SFTP_HAB1
@@ -2581,7 +2581,7 @@
 # /conf/cineslangcode
 
 ### <span api-method=GET>GET</span> /conf/cineslangcode
-**Implementation:** [CinesLanguageCodeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CinesLanguageCodeController.java#L32-L37)
+**Implementation:** [CinesLanguageCodeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CinesLanguageCodeController.java#L32-L37)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -2596,7 +2596,7 @@
 
 
 ### <span api-method=POST>POST</span> /conf/cineslangcode
-**Implementation:** [CinesLanguageCodeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CinesLanguageCodeController.java#L39-L46)
+**Implementation:** [CinesLanguageCodeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CinesLanguageCodeController.java#L39-L46)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -2616,7 +2616,7 @@
 
 
 ### <span api-method=POST>POST</span> /csvmapping
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L43-L54)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L43-L54)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -2631,7 +2631,7 @@
 
 
 ### <span api-method=GET>GET</span> /csvmapping
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L76-L88)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L76-L88)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -2646,7 +2646,7 @@
 
 
 ### <span api-method=GET>GET</span> /csvmapping?library
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L90-L102)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L90-L102)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -2660,8 +2660,8 @@
 **Response Body:** ResponseEntity&lt;Set&lt;CSVMappingDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /csvmapping?usable", "library
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L104-L117)
+### <span api-method=GET>GET</span> /csvmapping?usable&library
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L104-L117)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -2676,7 +2676,7 @@
 
 
 ### <span api-method=GET>GET</span> /csvmapping?usable
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L119-L131)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L119-L131)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -2696,7 +2696,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /csvmapping/\{id\}
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L56-L74)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L56-L74)
 
 
 **Required Role\(s\):** MAP_HAB2
@@ -2711,7 +2711,7 @@
 
 
 ### <span api-method=GET>GET</span> /csvmapping/\{id\}
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L133-L150)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L133-L150)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -2726,7 +2726,7 @@
 
 
 ### <span api-method=GET>GET</span> /csvmapping/\{id\}?duplicate
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L152-L177)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L152-L177)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -2741,7 +2741,7 @@
 
 
 ### <span api-method=POST>POST</span> /csvmapping/\{id\}
-**Implementation:** [CSVMappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L179-L201)
+**Implementation:** [CSVMappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/CSVMappingController.java#L179-L201)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -2761,7 +2761,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?search
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L84-L108)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L84-L108)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2788,8 +2788,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleDeliveryDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /delivery?widget", "from
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L110-L132)
+### <span api-method=GET>GET</span> /delivery?widget&from
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L110-L132)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2811,8 +2811,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;AuditDeliveryRevisionDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /delivery?sampledWidget", "from
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L134-L157)
+### <span api-method=GET>GET</span> /delivery?sampledWidget&from
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L134-L157)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2835,7 +2835,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L448-L457)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L448-L457)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2850,7 +2850,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?dto
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L459-L472)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L459-L472)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -2865,7 +2865,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?previouscheckslip
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L474-L485)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L474-L485)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2880,7 +2880,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?filterByProjectsLots
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L495-L508)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L495-L508)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -2900,7 +2900,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?project
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L521-L533)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L521-L533)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2914,8 +2914,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;DeliveryDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /delivery?docUnit", "latest
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L535-L545)
+### <span api-method=GET>GET</span> /delivery?docUnit&latest
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L535-L545)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2930,7 +2930,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery?delivstatus
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L547-L563)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L547-L563)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2944,8 +2944,8 @@
 **Response Body:** ResponseEntity&lt;Map&lt;String, Object&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /delivery?diskspace", "widget
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L608-L621)
+### <span api-method=GET>GET</span> /delivery?diskspace&widget
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L608-L621)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -2960,7 +2960,7 @@
 
 
 ### <span api-method=POST>POST</span> /delivery
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L363-L380)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L363-L380)
 
 
 **Required Role\(s\):** DEL_HAB1
@@ -2980,7 +2980,7 @@
 
 
 ### <span api-method=POST>POST</span> /delivery/\{id\}?deliver
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L166-L194)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L166-L194)
 
 
 **Required Role\(s\):** 
@@ -3002,7 +3002,7 @@
 
 
 ### <span api-method=POST>POST</span> /delivery/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L401-L422)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L401-L422)
 
 
 **Required Role\(s\):** 
@@ -3019,7 +3019,7 @@
 
 
 ### <span api-method=POST>POST</span> /delivery/\{id\}?detachDoc
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L565-L578)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L565-L578)
 
 
 **Required Role\(s\):** DEL_HAB8
@@ -3034,7 +3034,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?predeliver
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L202-L216)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L202-L216)
 
 
 **Required Role\(s\):** 
@@ -3051,7 +3051,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?digitalDocuments
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L286-L317)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L286-L317)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3066,7 +3066,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?deliverySample
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L319-L329)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L319-L329)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3081,7 +3081,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?checkConfig
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L331-L340)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L331-L340)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3096,7 +3096,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?deliveryReport
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L342-L361)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L342-L361)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3111,7 +3111,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L437-L446)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L437-L446)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3126,7 +3126,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?duplicate
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L487-L493)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L487-L493)
 
 
 **Required Role\(s\):** 
@@ -3143,7 +3143,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?forViewer
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L510-L519)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L510-L519)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3158,7 +3158,7 @@
 
 
 ### <span api-method=GET>GET</span> /delivery/\{id\}?delivprogress
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L586-L603)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L586-L603)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3173,7 +3173,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /delivery/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L382-L399)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L382-L399)
 
 
 **Required Role\(s\):** DEL_HAB3
@@ -3190,7 +3190,7 @@
 # /delivery_configuration/\{id\}
 
 ### <span api-method=GET>GET</span> /delivery_configuration/\{id\}
-**Implementation:** [DeliveryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryConfigurationController.java#L48-L59)
+**Implementation:** [DeliveryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryConfigurationController.java#L48-L59)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3205,7 +3205,7 @@
 
 
 ### <span api-method=POST>POST</span> /delivery_configuration/\{id\}
-**Implementation:** [DeliveryConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryConfigurationController.java#L61-L72)
+**Implementation:** [DeliveryConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryConfigurationController.java#L61-L72)
 
 
 **Required Role\(s\):** DEL_HAB2
@@ -3222,7 +3222,7 @@
 # /delivery/csv/\{id\}
 
 ### <span api-method=GET>GET</span> /delivery/csv/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L218-L233)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L218-L233)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3244,7 +3244,7 @@
 # /delivery/lot_csv/\{id\}
 
 ### <span api-method=GET>GET</span> /delivery/lot_csv/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L252-L268)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L252-L268)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3266,7 +3266,7 @@
 # /delivery/lot_pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /delivery/lot_pdf/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L270-L284)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L270-L284)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3283,7 +3283,7 @@
 # /delivery/pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /delivery/pdf/\{id\}
-**Implementation:** [DeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L235-L250)
+**Implementation:** [DeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/delivery/DeliveryController.java#L235-L250)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -3303,7 +3303,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?thumbnail
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L93-L104)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L93-L104)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3318,7 +3318,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?view
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L110-L122)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L110-L122)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -3333,7 +3333,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L127-L137)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L127-L137)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3348,7 +3348,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?docUnit
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L142-L150)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L142-L150)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3363,7 +3363,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?deliverynotes
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L152-L162)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L152-L162)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3378,7 +3378,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?filename
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L167-L176)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L167-L176)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3393,7 +3393,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?masterPdfInfos
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L181-L191)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L181-L191)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3408,7 +3408,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?metadata
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L193-L201)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L193-L201)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3423,7 +3423,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?samplemetadata
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L203-L211)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L203-L211)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3438,7 +3438,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?filenamesErrors
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L216-L225)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L216-L225)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3453,7 +3453,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?filesErrors
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L230-L239)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L230-L239)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3468,7 +3468,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?page
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L329-L337)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L329-L337)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3483,7 +3483,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument/\{identifier\}?nbPieces
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L401-L411)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L401-L411)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -3497,8 +3497,8 @@
 **Response Body:** ResponseEntity&lt;Map&lt;String, String&gt;&gt;
 
 
-### <span api-method=POST>POST</span> /digitaldocument/\{identifier\}?checksOK", "sampling
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L244-L296)
+### <span api-method=POST>POST</span> /digitaldocument/\{identifier\}?checksOK&sampling
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L244-L296)
 
 
 **Required Role\(s\):** CHECK_HAB4
@@ -3518,7 +3518,7 @@
 
 
 ### <span api-method=POST>POST</span> /digitaldocument/\{identifier\}
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L301-L310)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L301-L310)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3538,7 +3538,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument?toCheck
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L315-L324)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L315-L324)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3553,7 +3553,7 @@
 
 
 ### <span api-method=GET>GET</span> /digitaldocument?search
-**Implementation:** [DigitalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L342-L382)
+**Implementation:** [DigitalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DigitalDocumentController.java#L342-L382)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3602,7 +3602,7 @@
 
 
 ### <span api-method=GET>GET</span> /docpropertytype
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L42-L47)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L42-L47)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3617,7 +3617,7 @@
 
 
 ### <span api-method=GET>GET</span> /docpropertytype?dto
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L49-L54)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L49-L54)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3632,7 +3632,7 @@
 
 
 ### <span api-method=GET>GET</span> /docpropertytype?customOnly
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L56-L61)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L56-L61)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3646,8 +3646,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;DocPropertyTypeDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /docpropertytype?dto", "supertype
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L63-L70)
+### <span api-method=GET>GET</span> /docpropertytype?dto&supertype
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L63-L70)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3662,7 +3662,7 @@
 
 
 ### <span api-method=POST>POST</span> /docpropertytype
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L79-L93)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L79-L93)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -3679,7 +3679,7 @@
 # /docpropertytype/\{id\}
 
 ### <span api-method=GET>GET</span> /docpropertytype/\{id\}
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L72-L77)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L72-L77)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3694,7 +3694,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /docpropertytype/\{id\}
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L95-L109)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L95-L109)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -3709,7 +3709,7 @@
 
 
 ### <span api-method=POST>POST</span> /docpropertytype/\{id\}
-**Implementation:** [DocPropertyTypeController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L111-L118)
+**Implementation:** [DocPropertyTypeController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocPropertyTypeController.java#L111-L118)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -3729,7 +3729,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L109-L123)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L109-L123)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB1
@@ -3744,7 +3744,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?delete
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L137-L145)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L137-L145)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -3759,7 +3759,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?updateselection
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L152-L169)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L152-L169)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3774,7 +3774,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?deleteDocUnitsProject
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L171-L180)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L171-L180)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -3789,7 +3789,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?removeAllFromLot
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L182-L189)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L182-L189)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -3804,7 +3804,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?unlink
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L191-L206)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L191-L206)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -3819,7 +3819,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?createProjectFromDoc
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L208-L215)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L208-L215)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -3834,7 +3834,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?searchAsList
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L271-L291)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L271-L291)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3855,7 +3855,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?searchAsMinList
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L293-L303)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L293-L303)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -3870,7 +3870,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?projectAndLot
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L345-L355)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L345-L355)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3891,7 +3891,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?setTrain
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L357-L371)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L357-L371)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3906,7 +3906,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?addchild
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L458-L468)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L458-L468)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3926,7 +3926,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?removechild
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L475-L486)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L475-L486)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3946,7 +3946,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?addsibling
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L508-L518)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L508-L518)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3966,7 +3966,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit?removesibling
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L525-L537)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L525-L537)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -3986,7 +3986,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?search
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L217-L258)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L217-L258)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4025,8 +4025,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleDocUnitDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /docunit?searchAllForProject", "project
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L260-L269)
+### <span api-method=GET>GET</span> /docunit?searchAllForProject&project
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L260-L269)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4047,7 +4047,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?dto
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L305-L311)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L305-L311)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4062,7 +4062,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?project
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L414-L424)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L414-L424)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4077,7 +4077,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?lot
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L426-L435)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L426-L435)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4092,7 +4092,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?parent
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L442-L451)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L442-L451)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4107,7 +4107,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?sibling
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L493-L501)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L493-L501)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4122,7 +4122,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?export
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L544-L566)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L544-L566)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4143,7 +4143,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit?export_ftp
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L573-L601)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L573-L601)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4168,7 +4168,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /docunit/\{identifier\}
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L125-L135)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L125-L135)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -4183,7 +4183,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit/\{identifier\}
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L313-L320)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L313-L320)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4198,7 +4198,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit/\{identifier\}?lock
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L603-L620)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L603-L620)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4213,7 +4213,7 @@
 
 
 ### <span api-method=GET>GET</span> /docunit/\{identifier\}?unlock
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L622-L639)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L622-L639)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4228,7 +4228,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit/\{identifier\}
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L322-L343)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L322-L343)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4243,7 +4243,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit/\{identifier\}?removeProject
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L378-L388)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L378-L388)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4258,7 +4258,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit/\{identifier\}?removeLot
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L390-L400)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L390-L400)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4273,7 +4273,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit/\{identifier\}?removeTrain
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L402-L412)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L402-L412)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4288,7 +4288,7 @@
 
 
 ### <span api-method=POST>POST</span> /docunit/\{identifier\}?inactiveDoc
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L641-L653)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L641-L653)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB2
@@ -4305,7 +4305,7 @@
 # /docunit/initHistory
 
 ### <span api-method=GET>GET</span> /docunit/initHistory
-**Implementation:** [DocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L99-L107)
+**Implementation:** [DocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/DocUnitController.java#L99-L107)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -4322,7 +4322,7 @@
 # /downloadlogsfile
 
 ### <span api-method=GET>GET</span> /downloadlogsfile?logFile
-**Implementation:** [AdminLogsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/logs/AdminLogsController.java#L38-L65)
+**Implementation:** [AdminLogsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/logs/AdminLogsController.java#L38-L65)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -4339,7 +4339,7 @@
 # /export/cines/\{identifier\}
 
 ### <span api-method=GET>GET</span> /export/cines/\{identifier\}?export
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L75-L84)
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L75-L84)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -4354,7 +4354,7 @@
 
 
 ### <span api-method=POST>POST</span> /export/cines/\{id\}?save
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L86-L97)
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L86-L97)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4373,8 +4373,8 @@
 > Doesn't respect oas v3.1.
 
 
-### <span api-method=POST>POST</span> /export/cines?send", "dc
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L103-L111)
+### <span api-method=POST>POST</span> /export/cines?send&dc
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L103-L111)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4395,8 +4395,8 @@
 **Response Body:** ResponseEntity&lt;CinesReport&gt;
 
 
-### <span api-method=POST>POST</span> /export/cines?send", "ead
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L117-L125)
+### <span api-method=POST>POST</span> /export/cines?send&ead
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L117-L125)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4417,7 +4417,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/cines?check_mailbox
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L131-L171)
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L131-L171)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4431,8 +4431,8 @@
 **Response Body:** ResponseEntity&lt;?&gt;
 
 
-### <span api-method=GET>GET</span> /export/cines?aip", "docUnit
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L173-L188)
+### <span api-method=GET>GET</span> /export/cines?aip&docUnit
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L173-L188)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4446,8 +4446,8 @@
 **Response Body:** ResponseEntity&lt;?&gt;
 
 
-### <span api-method=GET>GET</span> /export/cines?sip", "docUnit
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L190-L207)
+### <span api-method=GET>GET</span> /export/cines?sip&docUnit
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L190-L207)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4466,8 +4466,8 @@
 **Response Body:** ResponseEntity&lt;?&gt;
 
 
-### <span api-method=GET>GET</span> /export/cines?mets", "docUnit
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L209-L225)
+### <span api-method=GET>GET</span> /export/cines?mets&docUnit
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L209-L225)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4487,7 +4487,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/cines?mass_export
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L230-L244)
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L230-L244)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4504,7 +4504,7 @@
 # /export/cines/regenerateMets
 
 ### <span api-method=GET>GET</span> /export/cines/regenerateMets
-**Implementation:** [ExportCinesController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L249-L257)
+**Implementation:** [ExportCinesController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportCinesController.java#L249-L257)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4524,7 +4524,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/csv?docUnit
-**Implementation:** [ExportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L68-L98)
+**Implementation:** [ExportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L68-L98)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4549,7 +4549,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/csv?lot
-**Implementation:** [ExportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L100-L129)
+**Implementation:** [ExportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L100-L129)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4576,7 +4576,7 @@
 # /export/digitalLibrary
 
 ### <span api-method=POST>POST</span> /export/digitalLibrary?send
-**Implementation:** [DigitalLibraryDiffusionController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/digitallibrary/DigitalLibraryDiffusionController.java#L65-L90)
+**Implementation:** [DigitalLibraryDiffusionController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/digitallibrary/DigitalLibraryDiffusionController.java#L65-L90)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4591,7 +4591,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/digitalLibrary?mass_export
-**Implementation:** [DigitalLibraryDiffusionController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/digitallibrary/DigitalLibraryDiffusionController.java#L96-L116)
+**Implementation:** [DigitalLibraryDiffusionController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/digitallibrary/DigitalLibraryDiffusionController.java#L96-L116)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4608,7 +4608,7 @@
 # /export/ead
 
 ### <span api-method=GET>GET</span> /export/ead
-**Implementation:** [ExportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L163-L176)
+**Implementation:** [ExportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L163-L176)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4628,7 +4628,7 @@
 
 
 ### <span api-method=POST>POST</span> /exportftpconfiguration
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L52-L66)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L52-L66)
 
 
 **Required Role\(s\):** EXP_FTP_HAB1
@@ -4643,7 +4643,7 @@
 
 
 ### <span api-method=GET>GET</span> /exportftpconfiguration?search
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L89-L100)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L89-L100)
 
 
 **Required Role\(s\):** EXP_FTP_HAB0
@@ -4664,8 +4664,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleExportFTPConfDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /exportftpconfiguration?project", "fullConfig
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L123-L134)
+### <span api-method=GET>GET</span> /exportftpconfiguration?project&fullConfig
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L123-L134)
 
 
 **Required Role\(s\):** EXP_FTP_HAB0
@@ -4685,7 +4685,7 @@
 
 
 ### <span api-method=GET>GET</span> /exportftpconfiguration?libraryId
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L136-L143)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L136-L143)
 
 
 **Required Role\(s\):** EXP_FTP_HAB0
@@ -4702,7 +4702,7 @@
 # /exportftpconfiguration/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /exportftpconfiguration/\{id\}
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L68-L87)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L68-L87)
 
 
 **Required Role\(s\):** EXP_FTP_HAB2
@@ -4717,7 +4717,7 @@
 
 
 ### <span api-method=GET>GET</span> /exportftpconfiguration/\{id\}
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L102-L121)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L102-L121)
 
 
 **Required Role\(s\):** EXP_FTP_HAB0
@@ -4732,7 +4732,7 @@
 
 
 ### <span api-method=POST>POST</span> /exportftpconfiguration/\{id\}
-**Implementation:** [ExportFTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L145-L172)
+**Implementation:** [ExportFTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exportftpconfiguration/ExportFTPConfigurationController.java#L145-L172)
 
 
 **Required Role\(s\):** EXP_FTP_HAB1
@@ -4749,7 +4749,7 @@
 # /export/omeka
 
 ### <span api-method=POST>POST</span> /export/omeka?sendomeka
-**Implementation:** [ExportOmekaController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/omeka/ExportOmekaController.java#L68-L92)
+**Implementation:** [ExportOmekaController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/omeka/ExportOmekaController.java#L68-L92)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4764,7 +4764,7 @@
 
 
 ### <span api-method=GET>GET</span> /export/omeka?mass_export
-**Implementation:** [ExportOmekaController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/omeka/ExportOmekaController.java#L98-L117)
+**Implementation:** [ExportOmekaController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/omeka/ExportOmekaController.java#L98-L117)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4781,7 +4781,7 @@
 # /export/rdfxml
 
 ### <span api-method=GET>GET</span> /export/rdfxml
-**Implementation:** [ExportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L131-L161)
+**Implementation:** [ExportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportController.java#L131-L161)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB4
@@ -4798,7 +4798,7 @@
 # /filecleaning/deleteorphans
 
 ### <span api-method=GET>GET</span> /filecleaning/deleteorphans
-**Implementation:** [FileCleaningController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/utils/FileCleaningController.java#L44-L54)
+**Implementation:** [FileCleaningController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/utils/FileCleaningController.java#L44-L54)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4815,7 +4815,7 @@
 # /filesgestionconfig/\{idLibrary\}
 
 ### <span api-method=GET>GET</span> /filesgestionconfig/\{idLibrary\}
-**Implementation:** [FilesGestionConfigController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L32-L40)
+**Implementation:** [FilesGestionConfigController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L32-L40)
 
 
 **Required Role\(s\):** FILES_GEST_HAB0
@@ -4830,7 +4830,7 @@
 
 
 ### <span api-method=POST>POST</span> /filesgestionconfig/\{id\}
-**Implementation:** [FilesGestionConfigController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L42-L52)
+**Implementation:** [FilesGestionConfigController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L42-L52)
 
 
 **Required Role\(s\):** FILES_GEST_HAB0
@@ -4847,7 +4847,7 @@
 # /filesgestionconfig
 
 ### <span api-method=POST>POST</span> /filesgestionconfig
-**Implementation:** [FilesGestionConfigController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L54-L62)
+**Implementation:** [FilesGestionConfigController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/filesgestionconfiguration/FilesGestionConfigController.java#L54-L62)
 
 
 **Required Role\(s\):** FILES_GEST_HAB0
@@ -4867,7 +4867,7 @@
 
 
 ### <span api-method=POST>POST</span> /ftpconfiguration
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L49-L63)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L49-L63)
 
 
 **Required Role\(s\):** FTP_HAB1
@@ -4882,7 +4882,7 @@
 
 
 ### <span api-method=GET>GET</span> /ftpconfiguration?search
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L85-L96)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L85-L96)
 
 
 **Required Role\(s\):** FTP_HAB0
@@ -4904,7 +4904,7 @@
 
 
 ### <span api-method=GET>GET</span> /ftpconfiguration?project
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L119-L128)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L119-L128)
 
 
 **Required Role\(s\):** FTP_HAB0
@@ -4921,7 +4921,7 @@
 # /ftpconfiguration/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /ftpconfiguration/\{id\}
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L65-L83)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L65-L83)
 
 
 **Required Role\(s\):** FTP_HAB2
@@ -4936,7 +4936,7 @@
 
 
 ### <span api-method=GET>GET</span> /ftpconfiguration/\{id\}
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L98-L117)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L98-L117)
 
 
 **Required Role\(s\):** FTP_HAB0
@@ -4951,7 +4951,7 @@
 
 
 ### <span api-method=POST>POST</span> /ftpconfiguration/\{id\}
-**Implementation:** [FTPConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L130-L156)
+**Implementation:** [FTPConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ftpconfiguration/FTPConfigurationController.java#L130-L156)
 
 
 **Required Role\(s\):** FTP_HAB1
@@ -4971,7 +4971,7 @@
 
 
 ### <span api-method=GET>GET</span> /help
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L31-L38)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L31-L38)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -4992,7 +4992,7 @@
 
 
 ### <span api-method=GET>GET</span> /help?tag
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L40-L44)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L40-L44)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5007,7 +5007,7 @@
 
 
 ### <span api-method=GET>GET</span> /help?modulelist
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L71-L75)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L71-L75)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5022,7 +5022,7 @@
 
 
 ### <span api-method=POST>POST</span> /help
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L65-L69)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L65-L69)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5039,7 +5039,7 @@
 # /help/\{id\}
 
 ### <span api-method=GET>GET</span> /help/\{id\}
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L46-L50)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L46-L50)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5054,7 +5054,7 @@
 
 
 ### <span api-method=POST>POST</span> /help/\{id\}
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L52-L56)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L52-L56)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5069,7 +5069,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /help/\{id\}
-**Implementation:** [HelpPageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L58-L63)
+**Implementation:** [HelpPageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/help/HelpPageController.java#L58-L63)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5089,7 +5089,7 @@
 
 
 ### <span api-method=GET>GET</span> /imagemetadata
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L38-L43)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L38-L43)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5104,7 +5104,7 @@
 
 
 ### <span api-method=GET>GET</span> /imagemetadata?getMetaValues
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L83-L93)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L83-L93)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5119,7 +5119,7 @@
 
 
 ### <span api-method=POST>POST</span> /imagemetadata
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L45-L52)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L45-L52)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5134,7 +5134,7 @@
 
 
 ### <span api-method=POST>POST</span> /imagemetadata?saveList
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L54-L62)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L54-L62)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5149,7 +5149,7 @@
 
 
 ### <span api-method=POST>POST</span> /imagemetadata?saveValues
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L73-L81)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L73-L81)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5166,7 +5166,7 @@
 # /imagemetadata/\{id\}
 
 ### <span api-method=POST>POST</span> /imagemetadata/\{id\}
-**Implementation:** [ImageMetadataController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L64-L71)
+**Implementation:** [ImageMetadataController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/imagemetadata/ImageMetadataController.java#L64-L71)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB5
@@ -5183,7 +5183,7 @@
 # /impdocunit
 
 ### <span api-method=GET>GET</span> /impdocunit?report
-**Implementation:** [ImportedDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportedDocUnitController.java#L48-L72)
+**Implementation:** [ImportedDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportedDocUnitController.java#L48-L72)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5205,7 +5205,7 @@
 # /impdocunit/\{id\}
 
 ### <span api-method=POST>POST</span> /impdocunit/\{id\}?process
-**Implementation:** [ImportedDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportedDocUnitController.java#L74-L97)
+**Implementation:** [ImportedDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportedDocUnitController.java#L74-L97)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -5225,7 +5225,7 @@
 
 
 ### <span api-method=POST>POST</span> /import?mapping
-**Implementation:** [ImportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportController.java#L94-L217)
+**Implementation:** [ImportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportController.java#L94-L217)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -5258,7 +5258,7 @@
 
 
 ### <span api-method=POST>POST</span> /import?import
-**Implementation:** [ImportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportController.java#L224-L254)
+**Implementation:** [ImportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportController.java#L224-L254)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -5278,7 +5278,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport?search
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L52-L64)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L52-L64)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5300,7 +5300,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L66-L79)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L66-L79)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5326,7 +5326,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport/\{id\}
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L81-L98)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L81-L98)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5341,7 +5341,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport/\{id\}?status
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L100-L119)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L100-L119)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5356,7 +5356,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport/\{id\}?hasfile
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L145-L173)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L145-L173)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5371,7 +5371,7 @@
 
 
 ### <span api-method=GET>GET</span> /importreport/\{id\}?file
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L175-L201)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L175-L201)
 
 
 **Required Role\(s\):** EXC_HAB0
@@ -5386,7 +5386,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /importreport/\{id\}
-**Implementation:** [ImportReportController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L125-L143)
+**Implementation:** [ImportReportController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ImportReportController.java#L125-L143)
 
 
 **Required Role\(s\):** EXC_HAB1
@@ -5406,7 +5406,7 @@
 
 
 ### <span api-method=GET>GET</span> /internet_archive/\{id\}?prepare_item
-**Implementation:** [ExportInternetArchiveController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L67-L85)
+**Implementation:** [ExportInternetArchiveController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L67-L85)
 
 
 **Required Role\(s\):** EXPORT_INTERNET_ARCHIVE_HAB0
@@ -5421,7 +5421,7 @@
 
 
 ### <span api-method=POST>POST</span> /internet_archive/\{id\}?create
-**Implementation:** [ExportInternetArchiveController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L87-L106)
+**Implementation:** [ExportInternetArchiveController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L87-L106)
 
 
 **Required Role\(s\):** EXPORT_INTERNET_ARCHIVE_HAB0
@@ -5436,7 +5436,7 @@
 
 
 ### <span api-method=POST>POST</span> /internet_archive/\{id\}?save
-**Implementation:** [ExportInternetArchiveController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L111-L129)
+**Implementation:** [ExportInternetArchiveController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L111-L129)
 
 
 **Required Role\(s\):** EXPORT_INTERNET_ARCHIVE_HAB0
@@ -5453,7 +5453,7 @@
 # /internet_archive
 
 ### <span api-method=GET>GET</span> /internet_archive?mass_export
-**Implementation:** [ExportInternetArchiveController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L134-L151)
+**Implementation:** [ExportInternetArchiveController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/ExportInternetArchiveController.java#L134-L151)
 
 
 **Required Role\(s\):** EXPORT_INTERNET_ARCHIVE_HAB0
@@ -5473,7 +5473,7 @@
 
 
 ### <span api-method=POST>POST</span> /library
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L74-L81)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L74-L81)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5488,7 +5488,7 @@
 
 
 ### <span api-method=GET>GET</span> /library?dto
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L106-L112)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L106-L112)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5503,7 +5503,7 @@
 
 
 ### <span api-method=GET>GET</span> /library?search
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L114-L128)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L114-L128)
 
 
 **Required Role\(s\):** 
@@ -5535,7 +5535,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /library/\{id\}
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L83-L92)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L83-L92)
 
 
 **Required Role\(s\):** LIB_HAB3
@@ -5550,7 +5550,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /library/\{id\}?logo
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L301-L318)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L301-L318)
 
 
 **Required Role\(s\):** LIB_HAB2
@@ -5565,7 +5565,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?dto
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L94-L104)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L94-L104)
 
 
 **Required Role\(s\):** 
@@ -5583,7 +5583,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L130-L139)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L130-L139)
 
 
 **Required Role\(s\):** 
@@ -5601,7 +5601,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?providers
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L141-L160)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L141-L160)
 
 
 **Required Role\(s\):** 
@@ -5619,7 +5619,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?users
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L162-L173)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L162-L173)
 
 
 **Required Role\(s\):** 
@@ -5637,7 +5637,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?logo
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L195-L221)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L195-L221)
 
 
 **Required Role\(s\):** 
@@ -5655,7 +5655,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?thumbnail
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L231-L266)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L231-L266)
 
 
 **Required Role\(s\):** 
@@ -5673,7 +5673,7 @@
 
 
 ### <span api-method=GET>GET</span> /library/\{id\}?logoexists
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L275-L293)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L275-L293)
 
 
 **Required Role\(s\):** 
@@ -5691,7 +5691,7 @@
 
 
 ### <span api-method=POST>POST</span> /library/\{id\}
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L175-L185)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L175-L185)
 
 
 **Required Role\(s\):** LIB_HAB2
@@ -5706,7 +5706,7 @@
 
 
 ### <span api-method=POST>POST</span> /library/\{id\}?logo
-**Implementation:** [LibraryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L327-L350)
+**Implementation:** [LibraryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryController.java#L327-L350)
 
 
 **Required Role\(s\):** LIB_HAB2
@@ -5723,7 +5723,7 @@
 # /libraryparameter
 
 ### <span api-method=POST>POST</span> /libraryparameter
-**Implementation:** [LibraryParameterController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L53-L60)
+**Implementation:** [LibraryParameterController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L53-L60)
 
 
 **Required Role\(s\):** LIB_HAB1
@@ -5738,7 +5738,7 @@
 
 
 ### <span api-method=GET>GET</span> /libraryparameter?cinesdefaultvalues
-**Implementation:** [LibraryParameterController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L88-L99)
+**Implementation:** [LibraryParameterController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L88-L99)
 
 
 **Required Role\(s\):** 
@@ -5758,7 +5758,7 @@
 # /libraryparameter/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /libraryparameter/\{id\}
-**Implementation:** [LibraryParameterController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L62-L68)
+**Implementation:** [LibraryParameterController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L62-L68)
 
 
 **Required Role\(s\):** LIB_HAB3
@@ -5773,7 +5773,7 @@
 
 
 ### <span api-method=GET>GET</span> /libraryparameter/\{id\}
-**Implementation:** [LibraryParameterController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L70-L77)
+**Implementation:** [LibraryParameterController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L70-L77)
 
 
 **Required Role\(s\):** 
@@ -5791,7 +5791,7 @@
 
 
 ### <span api-method=POST>POST</span> /libraryparameter/\{id\}
-**Implementation:** [LibraryParameterController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L79-L86)
+**Implementation:** [LibraryParameterController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/library/LibraryParameterController.java#L79-L86)
 
 
 **Required Role\(s\):** LIB_HAB2
@@ -5811,7 +5811,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /lot/\{id\}
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L87-L97)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L87-L97)
 
 
 **Required Role\(s\):** LOT_HAB2
@@ -5826,7 +5826,7 @@
 
 
 ### <span api-method=GET>GET</span> /lot/\{id\}
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L240-L250)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L240-L250)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -5841,7 +5841,7 @@
 
 
 ### <span api-method=GET>GET</span> /lot/\{id\}?dto
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L281-L292)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L281-L292)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -5856,7 +5856,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot/\{id\}?unlinkProject
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L339-L350)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L339-L350)
 
 
 **Required Role\(s\):** LOT_HAB1
@@ -5871,7 +5871,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot/\{id\}?validate
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L352-L368)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L352-L368)
 
 
 **Required Role\(s\):** LOT_HAB4
@@ -5886,7 +5886,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot/\{id\}
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L370-L381)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L370-L381)
 
 
 **Required Role\(s\):** LOT_HAB1
@@ -5906,7 +5906,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot?delete
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L99-L107)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L99-L107)
 
 
 **Required Role\(s\):** LOT_HAB2
@@ -5921,7 +5921,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot?search
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L133-L151)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L133-L151)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -5942,7 +5942,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L323-L337)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L323-L337)
 
 
 **Required Role\(s\):** LOT_HAB0
@@ -5957,7 +5957,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot?project
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L383-L391)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L383-L391)
 
 
 **Required Role\(s\):** LOT_HAB1
@@ -5972,7 +5972,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot?cloturelot
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L441-L453)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L441-L453)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -5987,7 +5987,7 @@
 
 
 ### <span api-method=POST>POST</span> /lot?decloturelot
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L459-L469)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L459-L469)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6002,7 +6002,7 @@
 
 
 ### <span api-method=GET>GET</span> /lot?search
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L109-L131)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L109-L131)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6028,8 +6028,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleLotDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?widget", "from
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L153-L174)
+### <span api-method=GET>GET</span> /lot?widget&from
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L153-L174)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6050,8 +6050,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;AuditLotRevisionDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?simpleByProject", "project
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L176-L188)
+### <span api-method=GET>GET</span> /lot?simpleByProject&project
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L176-L188)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6065,8 +6065,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;SimpleLotDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?filterByProjects", "projectIds
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L190-L198)
+### <span api-method=GET>GET</span> /lot?filterByProjects&projectIds
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L190-L198)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6080,8 +6080,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;SimpleLotDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?dto", "libraries
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L200-L208)
+### <span api-method=GET>GET</span> /lot?dto&libraries
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L200-L208)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6095,8 +6095,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;LotListDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?dto", "projects
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L210-L218)
+### <span api-method=GET>GET</span> /lot?dto&projects
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L210-L218)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6110,8 +6110,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;LotListDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?dto", "complete", "libraries
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L220-L228)
+### <span api-method=GET>GET</span> /lot?dto&complete&libraries
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L220-L228)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6125,8 +6125,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;LotListDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?dto", "complete", "projects
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L230-L238)
+### <span api-method=GET>GET</span> /lot?dto&complete&projects
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L230-L238)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6141,7 +6141,7 @@
 
 
 ### <span api-method=GET>GET</span> /lot?project
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L252-L264)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L252-L264)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6155,8 +6155,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;LotDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?project", "simpleForDocUnit
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L266-L279)
+### <span api-method=GET>GET</span> /lot?project&simpleForDocUnit
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L266-L279)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6170,8 +6170,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;LotDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /lot?dto", "lot
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L294-L302)
+### <span api-method=GET>GET</span> /lot?dto&lot
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L294-L302)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -6186,7 +6186,7 @@
 
 
 ### <span api-method=GET>GET</span> /lot?dto
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L304-L321)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L304-L321)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6203,7 +6203,7 @@
 # /lot/csv/\{id\}
 
 ### <span api-method=GET>GET</span> /lot/csv/\{id\}
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L393-L414)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L393-L414)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -6225,7 +6225,7 @@
 # /lot/pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /lot/pdf/\{id\}
-**Implementation:** [LotController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L416-L435)
+**Implementation:** [LotController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/lot/LotController.java#L416-L435)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -6245,7 +6245,7 @@
 
 
 ### <span api-method=POST>POST</span> /mapping
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L63-L74)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L63-L74)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -6259,8 +6259,8 @@
 **Response Body:** ResponseEntity&lt;Mapping&gt;
 
 
-### <span api-method=POST>POST</span> /mapping?import", "library
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L317-L342)
+### <span api-method=POST>POST</span> /mapping?import&library
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L317-L342)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -6280,7 +6280,7 @@
 
 
 ### <span api-method=GET>GET</span> /mapping
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L96-L133)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L96-L133)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -6294,8 +6294,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;MappingDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /mapping?usable", "library
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L135-L148)
+### <span api-method=GET>GET</span> /mapping?usable&library
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L135-L148)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -6310,7 +6310,7 @@
 
 
 ### <span api-method=GET>GET</span> /mapping?usable
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L150-L162)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L150-L162)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -6330,7 +6330,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /mapping/\{id\}
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L76-L94)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L76-L94)
 
 
 **Required Role\(s\):** MAP_HAB2
@@ -6345,7 +6345,7 @@
 
 
 ### <span api-method=GET>GET</span> /mapping/\{id\}
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L164-L181)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L164-L181)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -6360,7 +6360,7 @@
 
 
 ### <span api-method=GET>GET</span> /mapping/\{id\}?duplicate
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L183-L209)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L183-L209)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -6375,7 +6375,7 @@
 
 
 ### <span api-method=GET>GET</span> /mapping/\{id\}?export
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L243-L267)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L243-L267)
 
 
 **Required Role\(s\):** MAP_HAB0
@@ -6390,7 +6390,7 @@
 
 
 ### <span api-method=POST>POST</span> /mapping/\{id\}
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L211-L233)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L211-L233)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -6405,7 +6405,7 @@
 
 
 ### <span api-method=POST>POST</span> /mapping/\{id\}?import
-**Implementation:** [MappingController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L277-L307)
+**Implementation:** [MappingController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/MappingController.java#L277-L307)
 
 
 **Required Role\(s\):** MAP_HAB1
@@ -6425,7 +6425,7 @@
 
 
 ### <span api-method=GET>GET</span> /multidelivery/\{id\}?predeliver
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L80-L99)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L80-L99)
 
 
 **Required Role\(s\):** DEL_HAB5
@@ -6440,7 +6440,7 @@
 
 
 ### <span api-method=GET>GET</span> /multidelivery/\{id\}
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L159-L172)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L159-L172)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -6455,7 +6455,7 @@
 
 
 ### <span api-method=GET>GET</span> /multidelivery/\{id\}?digitalDocuments
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L174-L201)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L174-L201)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -6470,7 +6470,7 @@
 
 
 ### <span api-method=POST>POST</span> /multidelivery/\{id\}?deliver
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L109-L131)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L109-L131)
 
 
 **Required Role\(s\):** 
@@ -6487,7 +6487,7 @@
 
 
 ### <span api-method=POST>POST</span> /multidelivery/\{id\}
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L234-L267)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L234-L267)
 
 
 **Required Role\(s\):** 
@@ -6504,7 +6504,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /multidelivery/\{id\}
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L269-L283)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L269-L283)
 
 
 **Required Role\(s\):** DEL_HAB3
@@ -6521,7 +6521,7 @@
 # /multidelivery
 
 ### <span api-method=GET>GET</span> /multidelivery?search
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L133-L157)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L133-L157)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -6548,7 +6548,7 @@
 
 
 ### <span api-method=POST>POST</span> /multidelivery
-**Implementation:** [MultiLotsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L203-L232)
+**Implementation:** [MultiLotsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/multilotsdelivery/MultiLotsDeliveryController.java#L203-L232)
 
 
 **Required Role\(s\):** DEL_HAB1
@@ -6565,7 +6565,7 @@
 # /numahop
 
 ### <span api-method=GET>GET</span> /numahop?build
-**Implementation:** [NumahopController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java#L30-L39)
+**Implementation:** [NumahopController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/NumahopController.java#L30-L39)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6585,7 +6585,7 @@
 
 
 ### <span api-method=GET>GET</span> /oaipmh?identify
-**Implementation:** [OaiPmhController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L61-L67)
+**Implementation:** [OaiPmhController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L61-L67)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -6600,7 +6600,7 @@
 
 
 ### <span api-method=GET>GET</span> /oaipmh?listIdentifiers
-**Implementation:** [OaiPmhController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L69-L92)
+**Implementation:** [OaiPmhController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L69-L92)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -6622,7 +6622,7 @@
 
 
 ### <span api-method=POST>POST</span> /oaipmh
-**Implementation:** [OaiPmhController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L94-L131)
+**Implementation:** [OaiPmhController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/oaipmh/OaiPmhController.java#L94-L131)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -6651,7 +6651,7 @@
 # /ocrlangconfiguration
 
 ### <span api-method=POST>POST</span> /ocrlangconfiguration
-**Implementation:** [OcrLangConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L44-L51)
+**Implementation:** [OcrLangConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L44-L51)
 
 
 **Required Role\(s\):** OCR_LANG_HAB1
@@ -6666,7 +6666,7 @@
 
 
 ### <span api-method=GET>GET</span> /ocrlangconfiguration?search
-**Implementation:** [OcrLangConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L70-L82)
+**Implementation:** [OcrLangConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L70-L82)
 
 
 **Required Role\(s\):** OCR_LANG_HAB0
@@ -6690,7 +6690,7 @@
 # /ocrlangconfiguration/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /ocrlangconfiguration/\{id\}
-**Implementation:** [OcrLangConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L53-L59)
+**Implementation:** [OcrLangConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L53-L59)
 
 
 **Required Role\(s\):** OCR_LANG_HAB2
@@ -6705,7 +6705,7 @@
 
 
 ### <span api-method=GET>GET</span> /ocrlangconfiguration/\{id\}
-**Implementation:** [OcrLangConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L61-L68)
+**Implementation:** [OcrLangConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L61-L68)
 
 
 **Required Role\(s\):** OCR_LANG_HAB0
@@ -6720,7 +6720,7 @@
 
 
 ### <span api-method=POST>POST</span> /ocrlangconfiguration/\{id\}
-**Implementation:** [OcrLangConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L84-L90)
+**Implementation:** [OcrLangConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLangConfigurationController.java#L84-L90)
 
 
 **Required Role\(s\):** OCR_LANG_HAB1
@@ -6740,7 +6740,7 @@
 
 
 ### <span api-method=GET>GET</span> /ocrlanguages?languages
-**Implementation:** [OcrLanguageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLanguageController.java#L35-L41)
+**Implementation:** [OcrLanguageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLanguageController.java#L35-L41)
 
 
 **Required Role\(s\):** OCR_LANG_HAB0
@@ -6755,7 +6755,7 @@
 
 
 ### <span api-method=GET>GET</span> /ocrlanguages?langs
-**Implementation:** [OcrLanguageController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLanguageController.java#L43-L50)
+**Implementation:** [OcrLanguageController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/ocrlangconfiguration/OcrLanguageController.java#L43-L50)
 
 
 **Required Role\(s\):** OCR_LANG_HAB0
@@ -6772,7 +6772,7 @@
 # /physicaldocument/\{identifier\}
 
 ### <span api-method=GET>GET</span> /physicaldocument/\{identifier\}
-**Implementation:** [PhysicalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L38-L43)
+**Implementation:** [PhysicalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L38-L43)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6787,7 +6787,7 @@
 
 
 ### <span api-method=POST>POST</span> /physicaldocument/\{identifier\}
-**Implementation:** [PhysicalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L45-L52)
+**Implementation:** [PhysicalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L45-L52)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6807,7 +6807,7 @@
 
 
 ### <span api-method=GET>GET</span> /physicaldocument?train
-**Implementation:** [PhysicalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L54-L61)
+**Implementation:** [PhysicalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L54-L61)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6822,7 +6822,7 @@
 
 
 ### <span api-method=GET>GET</span> /physicaldocument?trainDocUnits
-**Implementation:** [PhysicalDocumentController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L63-L70)
+**Implementation:** [PhysicalDocumentController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/PhysicalDocumentController.java#L63-L70)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6842,7 +6842,7 @@
 
 
 ### <span api-method=POST>POST</span> /project
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L65-L77)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L65-L77)
 
 
 **Required Role\(s\):** PROJ_HAB0
@@ -6857,7 +6857,7 @@
 
 
 ### <span api-method=POST>POST</span> /project?delete
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L91-L100)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L91-L100)
 
 
 **Required Role\(s\):** PROJ_HAB4
@@ -6872,7 +6872,7 @@
 
 
 ### <span api-method=GET>GET</span> /project?search
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L127-L144)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L127-L144)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -6898,7 +6898,7 @@
 
 
 ### <span api-method=GET>GET</span> /project?searchProject
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L146-L161)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L146-L161)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -6920,8 +6920,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;SimpleProjectDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /project?widget", "from
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L163-L178)
+### <span api-method=GET>GET</span> /project?widget&from
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L163-L178)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -6942,7 +6942,7 @@
 
 
 ### <span api-method=GET>GET</span> /project?dto
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L192-L205)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L192-L205)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -6956,8 +6956,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;SimpleProjectDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /project?dto", "libraries
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L207-L216)
+### <span api-method=GET>GET</span> /project?dto&libraries
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L207-L216)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -6972,7 +6972,7 @@
 
 
 ### <span api-method=GET>GET</span> /project?dto2
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L218-L231)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L218-L231)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -6986,8 +6986,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;SimpleProjectDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /project?dto2", "libraries
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L233-L242)
+### <span api-method=GET>GET</span> /project?dto2&libraries
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L233-L242)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7007,7 +7007,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /project/\{id\}
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L79-L89)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L79-L89)
 
 
 **Required Role\(s\):** PROJ_HAB4
@@ -7022,7 +7022,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}?idDocs
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L102-L112)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L102-L112)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7037,7 +7037,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}?idLibraries
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L114-L125)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L114-L125)
 
 
 **Required Role\(s\):** PROJ_HAB3
@@ -7052,7 +7052,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L244-L275)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L244-L275)
 
 
 **Required Role\(s\):** PROJ_HAB1
@@ -7067,7 +7067,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}?cancelProj
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L277-L289)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L277-L289)
 
 
 **Required Role\(s\):** PROJ_HAB6
@@ -7082,7 +7082,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}?suspendProj
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L291-L303)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L291-L303)
 
 
 **Required Role\(s\):** PROJ_HAB5
@@ -7097,7 +7097,7 @@
 
 
 ### <span api-method=POST>POST</span> /project/\{id\}?reactivProj
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L305-L317)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L305-L317)
 
 
 **Required Role\(s\):** PROJ_HAB5
@@ -7112,7 +7112,7 @@
 
 
 ### <span api-method=GET>GET</span> /project/\{id\}
-**Implementation:** [ProjectController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L180-L190)
+**Implementation:** [ProjectController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/project/ProjectController.java#L180-L190)
 
 
 **Required Role\(s\):** PROJ_HAB7
@@ -7132,7 +7132,7 @@
 
 
 ### <span api-method=POST>POST</span> /role
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L41-L47)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L41-L47)
 
 
 **Required Role\(s\):** ROLE_HAB1
@@ -7147,7 +7147,7 @@
 
 
 ### <span api-method=GET>GET</span> /role?search
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L57-L64)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L57-L64)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -7167,7 +7167,7 @@
 
 
 ### <span api-method=GET>GET</span> /role?dto
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L66-L71)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L66-L71)
 
 
 **Required Role\(s\):** 
@@ -7185,7 +7185,7 @@
 
 
 ### <span api-method=GET>GET</span> /role
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L73-L78)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L73-L78)
 
 
 **Required Role\(s\):** 
@@ -7204,7 +7204,7 @@
 # /role/\{identifier\}
 
 ### <span api-method=DELETE>DELETE</span> /role/\{identifier\}
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L49-L55)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L49-L55)
 
 
 **Required Role\(s\):** ROLE_HAB3
@@ -7219,7 +7219,7 @@
 
 
 ### <span api-method=GET>GET</span> /role/\{identifier\}
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L80-L85)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L80-L85)
 
 
 **Required Role\(s\):** ROLE_HAB0
@@ -7234,7 +7234,7 @@
 
 
 ### <span api-method=POST>POST</span> /role/\{identifier\}
-**Implementation:** [RoleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L87-L94)
+**Implementation:** [RoleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/RoleController.java#L87-L94)
 
 
 **Required Role\(s\):** ROLE_HAB2
@@ -7251,7 +7251,7 @@
 # /sample/\{id\}
 
 ### <span api-method=GET>GET</span> /sample/\{id\}
-**Implementation:** [SampleController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/sample/SampleController.java#L27-L34)
+**Implementation:** [SampleController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/sample/SampleController.java#L27-L34)
 
 
 **Required Role\(s\):** DEL_HAB0
@@ -7271,7 +7271,7 @@
 
 
 ### <span api-method=GET>GET</span> /search?index
-**Implementation:** [SearchController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L78-L84)
+**Implementation:** [SearchController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L78-L84)
 
 
 **Required Role\(s\):** SUPER_ADMIN
@@ -7286,7 +7286,7 @@
 
 
 ### <span api-method=GET>GET</span> /search?search
-**Implementation:** [SearchController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L100-L138)
+**Implementation:** [SearchController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L100-L138)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -7309,7 +7309,7 @@
 
 
 ### <span api-method=GET>GET</span> /search?suggest
-**Implementation:** [SearchController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L140-L150)
+**Implementation:** [SearchController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/SearchController.java#L140-L150)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB0
@@ -7334,7 +7334,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?projectList
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L66-L84)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L66-L84)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7359,7 +7359,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?projectGroupByStatus
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L86-L94)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L86-L94)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7374,7 +7374,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?lotGroupByStatus
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L96-L105)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L96-L105)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7394,7 +7394,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?projectProgress
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L107-L124)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L107-L124)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7418,7 +7418,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?lotProgress
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L126-L142)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L126-L142)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7442,7 +7442,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?trainGroupByStatus
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L144-L154)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L144-L154)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7462,7 +7462,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?docunitGroupByStatus
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L156-L168)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L156-L168)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7483,7 +7483,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?userGroupByLibrary
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L170-L178)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L170-L178)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7498,7 +7498,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics?provider_train
-**Implementation:** [StatisticsController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L180-L202)
+**Implementation:** [StatisticsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsController.java#L180-L202)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7530,7 +7530,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/csv?provider_train
-**Implementation:** [StatisticsCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L55-L91)
+**Implementation:** [StatisticsCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L55-L91)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7559,7 +7559,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/csv?lotProgress
-**Implementation:** [StatisticsCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L93-L123)
+**Implementation:** [StatisticsCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L93-L123)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7583,7 +7583,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/csv?projectProgress
-**Implementation:** [StatisticsCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L125-L151)
+**Implementation:** [StatisticsCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsCsvController.java#L125-L151)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7609,7 +7609,7 @@
 # /statistics/delivery
 
 ### <span api-method=GET>GET</span> /statistics/delivery?provider_delivery
-**Implementation:** [StatisticsDeliveryController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDeliveryController.java#L39-L58)
+**Implementation:** [StatisticsDeliveryController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDeliveryController.java#L39-L58)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7633,7 +7633,7 @@
 # /statistics/delivery/csv
 
 ### <span api-method=GET>GET</span> /statistics/delivery/csv?provider_delivery
-**Implementation:** [StatisticsDeliveryCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDeliveryCsvController.java#L49-L76)
+**Implementation:** [StatisticsDeliveryCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDeliveryCsvController.java#L49-L76)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7662,7 +7662,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?count
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L69-L82)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L69-L82)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7685,7 +7685,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?countStatus
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L84-L100)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L84-L100)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7706,7 +7706,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?average
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L102-L122)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L102-L122)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7731,7 +7731,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?export
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L124-L134)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L124-L134)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7752,7 +7752,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?archive
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L136-L145)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L136-L145)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7773,7 +7773,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?checkdelay
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L147-L161)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L147-L161)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7796,7 +7796,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?doc_published
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L163-L184)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L163-L184)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7823,7 +7823,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?doc_rejected
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L186-L205)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L186-L205)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7848,7 +7848,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit?doc_types
-**Implementation:** [StatisticsDocUnitController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L207-L214)
+**Implementation:** [StatisticsDocUnitController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsDocUnitController.java#L207-L214)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7874,7 +7874,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit/csv?average
-**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L56-L83)
+**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L56-L83)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7900,7 +7900,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit/csv?doc_published
-**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L85-L115)
+**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L85-L115)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7927,7 +7927,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/docunit/csv?doc_rejected
-**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L117-L145)
+**Implementation:** [StatisticsDocUnitCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsDocUnitCsvController.java#L117-L145)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7957,7 +7957,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wdelivery
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L63-L87)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L63-L87)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -7985,7 +7985,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wcontrol
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L89-L107)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L89-L107)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8008,7 +8008,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wdocunit
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L124-L168)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L124-L168)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8039,7 +8039,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wdocunitpending
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L170-L214)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L170-L214)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8069,8 +8069,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;WorkflowDocUnitProgressDTOPending&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /statistics/workflow?wdocunit", "current
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L216-L239)
+### <span api-method=GET>GET</span> /statistics/workflow?wdocunit&current
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L216-L239)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8093,7 +8093,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wstate
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L241-L258)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L241-L258)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8116,7 +8116,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wuser
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L260-L279)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L260-L279)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8140,7 +8140,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wprofile_activity
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L293-L318)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L293-L318)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8164,7 +8164,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow?wuser_activity
-**Implementation:** [StatisticsWorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L333-L358)
+**Implementation:** [StatisticsWorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/StatisticsWorkflowController.java#L333-L358)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8193,7 +8193,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wdelivery
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L60-L90)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L60-L90)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8221,7 +8221,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wdocunit
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L92-L126)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L92-L126)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8251,7 +8251,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wstate
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L128-L152)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L128-L152)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8276,7 +8276,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wuser
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L154-L180)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L154-L180)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8302,7 +8302,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wprofile_activity
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L182-L209)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L182-L209)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8329,7 +8329,7 @@
 
 
 ### <span api-method=GET>GET</span> /statistics/workflow/csv?wuser_activity
-**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L211-L238)
+**Implementation:** [StatisticsWorkflowCsvController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/statistics/csv/StatisticsWorkflowCsvController.java#L211-L238)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8358,7 +8358,7 @@
 # /template
 
 ### <span api-method=POST>POST</span> /template
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L55-L65)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L55-L65)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8373,7 +8373,7 @@
 
 
 ### <span api-method=GET>GET</span> /template
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L96-L120)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L96-L120)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8393,7 +8393,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /template/\{identifier\}
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L71-L88)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L71-L88)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8408,7 +8408,7 @@
 
 
 ### <span api-method=GET>GET</span> /template/\{id\}?download
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L130-L159)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L130-L159)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8423,7 +8423,7 @@
 
 
 ### <span api-method=POST>POST</span> /template/\{id\}?upload
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L168-L190)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L168-L190)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8438,7 +8438,7 @@
 
 
 ### <span api-method=POST>POST</span> /template/\{id\}
-**Implementation:** [TemplateController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L198-L219)
+**Implementation:** [TemplateController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/template/TemplateController.java#L198-L219)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8458,7 +8458,7 @@
 
 
 ### <span api-method=GET>GET</span> /train?search
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L69-L99)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L69-L99)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -8488,7 +8488,7 @@
 
 
 ### <span api-method=GET>GET</span> /train?filterByProjects
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L113-L121)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L113-L121)
 
 
 **Required Role\(s\):** LOT_HAB3
@@ -8503,7 +8503,7 @@
 
 
 ### <span api-method=GET>GET</span> /train?dto
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L161-L168)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L161-L168)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -8517,8 +8517,8 @@
 **Response Body:** ResponseEntity&lt;Collection&lt;TrainDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /train?dto", "complete
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L170-L178)
+### <span api-method=GET>GET</span> /train?dto&complete
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L170-L178)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -8533,7 +8533,7 @@
 
 
 ### <span api-method=GET>GET</span> /train?project
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L180-L192)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L180-L192)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -8547,8 +8547,8 @@
 **Response Body:** ResponseEntity&lt;List&lt;TrainDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /train?simpleByProject", "project
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L194-L207)
+### <span api-method=GET>GET</span> /train?simpleByProject&project
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L194-L207)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8563,7 +8563,7 @@
 
 
 ### <span api-method=POST>POST</span> /train
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L148-L159)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L148-L159)
 
 
 **Required Role\(s\):** TRA_HAB0
@@ -8580,7 +8580,7 @@
 # /train/\{id\}
 
 ### <span api-method=GET>GET</span> /train/\{id\}
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L101-L111)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L101-L111)
 
 
 **Required Role\(s\):** TRA_HAB3
@@ -8595,7 +8595,7 @@
 
 
 ### <span api-method=POST>POST</span> /train/\{id\}
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L123-L134)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L123-L134)
 
 
 **Required Role\(s\):** TRA_HAB1
@@ -8610,7 +8610,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /train/\{id\}
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L136-L146)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L136-L146)
 
 
 **Required Role\(s\):** TRA_HAB2
@@ -8627,7 +8627,7 @@
 # /train/csv/\{id\}
 
 ### <span api-method=GET>GET</span> /train/csv/\{id\}
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L209-L228)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L209-L228)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -8649,7 +8649,7 @@
 # /train/pdf/\{id\}
 
 ### <span api-method=GET>GET</span> /train/pdf/\{id\}
-**Implementation:** [TrainController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L230-L247)
+**Implementation:** [TrainController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/train/TrainController.java#L230-L247)
 
 
 **Required Role\(s\):** COND_REPORT_HAB0
@@ -8669,7 +8669,7 @@
 
 
 ### <span api-method=POST>POST</span> /user/\{id\}?change_password
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L78-L91)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L78-L91)
 
 
 **Required Role\(s\):** USER_HAB2
@@ -8684,7 +8684,7 @@
 
 
 ### <span api-method=POST>POST</span> /user/\{id\}
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L198-L225)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L198-L225)
 
 
 **Required Role\(s\):** 
@@ -8701,7 +8701,7 @@
 
 
 ### <span api-method=POST>POST</span> /user/\{id\}?signature
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L388-L421)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L388-L421)
 
 
 **Required Role\(s\):** 
@@ -8718,7 +8718,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /user/\{id\}
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L106-L116)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L106-L116)
 
 
 **Required Role\(s\):** USER_HAB3
@@ -8733,7 +8733,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /user/\{id\}?signature
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L351-L379)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L351-L379)
 
 
 **Required Role\(s\):** 
@@ -8750,7 +8750,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L141-L157)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L141-L157)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8765,7 +8765,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}?dto
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L159-L170)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L159-L170)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -8780,7 +8780,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}?duplicate
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L227-L237)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L227-L237)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -8795,7 +8795,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}?signature
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L254-L281)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L254-L281)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -8810,7 +8810,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}?thumbnail
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L290-L317)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L290-L317)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -8825,7 +8825,7 @@
 
 
 ### <span api-method=GET>GET</span> /user/\{id\}?signexists
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L325-L343)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L325-L343)
 
 
 **Required Role\(s\):** 
@@ -8847,7 +8847,7 @@
 
 
 ### <span api-method=POST>POST</span> /user
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L93-L104)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L93-L104)
 
 
 **Required Role\(s\):** USER_HAB1
@@ -8862,7 +8862,7 @@
 
 
 ### <span api-method=GET>GET</span> /user?search
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L118-L139)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L118-L139)
 
 
 **Required Role\(s\):** USER_HAB0
@@ -8887,7 +8887,7 @@
 
 
 ### <span api-method=GET>GET</span> /user?dto
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L172-L180)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L172-L180)
 
 
 **Required Role\(s\):** 
@@ -8905,7 +8905,7 @@
 
 
 ### <span api-method=GET>GET</span> /user?providers
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L182-L196)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L182-L196)
 
 
 **Required Role\(s\):** 
@@ -8925,7 +8925,7 @@
 # /user/dashboard
 
 ### <span api-method=POST>POST</span> /user/dashboard
-**Implementation:** [UserController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L239-L245)
+**Implementation:** [UserController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/user/UserController.java#L239-L245)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -8942,7 +8942,7 @@
 # /viewer/document/\{identifier\}/\{pageNumber\}/\{args1\}/\{args2\}/\{test\}/default.jpg
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/\{pageNumber\}/\{args1\}/\{args2\}/\{test\}/default.jpg
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L166-L177)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L166-L177)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -8959,7 +8959,7 @@
 # /viewer/document/\{identifier\}/\{pageNumber\}/full/\{dim1\}/\{dim2\}/default.jpg
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/\{pageNumber\}/full/\{dim1\}/\{dim2\}/default.jpg
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L118-L152)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L118-L152)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -8976,7 +8976,7 @@
 # /viewer/document/\{identifier\}/\{pageNumber\}/info.json
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/\{pageNumber\}/info.json
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L95-L105)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L95-L105)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -8993,7 +8993,7 @@
 # /viewer/document/\{identifier\}/manifest
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/manifest
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L68-L77)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L68-L77)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9010,7 +9010,7 @@
 # /viewer/document/\{identifier\}/master/\{pageNumber\}
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/master/\{pageNumber\}
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L207-L223)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L207-L223)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9027,7 +9027,7 @@
 # /viewer/document/\{identifier\}/master/
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/master/
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L233-L250)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L233-L250)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9044,7 +9044,7 @@
 # /viewer/document/sample/\{identifier\}/manifest
 
 ### <span api-method=GET>GET</span> /viewer/document/sample/\{identifier\}/manifest
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L79-L87)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L79-L87)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9061,7 +9061,7 @@
 # /viewer/document/\{identifier\}/thumbnail/\{pageNumber\}/thumb.jpg
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/thumbnail/\{pageNumber\}/thumb.jpg
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L188-L196)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L188-L196)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9078,7 +9078,7 @@
 # /viewer/document/\{identifier\}/toc
 
 ### <span api-method=GET>GET</span> /viewer/document/\{identifier\}/toc
-**Implementation:** [ViewerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L260-L276)
+**Implementation:** [ViewerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/document/ViewerController.java#L260-L276)
 
 
 **Required Role\(s\):** CHECK_HAB3
@@ -9098,7 +9098,7 @@
 
 
 ### <span api-method=GET>GET</span> /viewsformat?search
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L45-L56)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L45-L56)
 
 
 **Required Role\(s\):** IMG_FORMAT_HAB0
@@ -9120,7 +9120,7 @@
 
 
 ### <span api-method=GET>GET</span> /viewsformat?project
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L86-L94)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L86-L94)
 
 
 **Required Role\(s\):** IMG_FORMAT_HAB0
@@ -9135,7 +9135,7 @@
 
 
 ### <span api-method=POST>POST</span> /viewsformat
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L58-L66)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L58-L66)
 
 
 **Required Role\(s\):** IMG_FORMAT_HAB1
@@ -9152,7 +9152,7 @@
 # /viewsformat/\{id\}
 
 ### <span api-method=POST>POST</span> /viewsformat/\{id\}
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L68-L75)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L68-L75)
 
 
 **Required Role\(s\):** CHECK_HAB1
@@ -9167,7 +9167,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /viewsformat/\{id\}
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L77-L84)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L77-L84)
 
 
 **Required Role\(s\):** IMG_FORMAT_HAB1
@@ -9182,7 +9182,7 @@
 
 
 ### <span api-method=GET>GET</span> /viewsformat/\{id\}
-**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L96-L108)
+**Implementation:** [ViewsFormatConfigurationController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/viewsformat/ViewsFormatConfigurationController.java#L96-L108)
 
 
 **Required Role\(s\):** IMG_FORMAT_HAB0
@@ -9199,7 +9199,7 @@
 # /workflow/\{identifier\}
 
 ### <span api-method=GET>GET</span> /workflow/\{identifier\}
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L44-L53)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L44-L53)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9218,8 +9218,8 @@
 > Doesn't respect oas v3.1.
 
 
-### <span api-method=GET>GET</span> /workflow?canProcess", "docUnit
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L55-L66)
+### <span api-method=GET>GET</span> /workflow?canProcess&docUnit
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L55-L66)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9238,8 +9238,8 @@
 **Response Body:** ResponseEntity&lt;BooleanValueDTO&gt;
 
 
-### <span api-method=GET>GET</span> /workflow?process", "docUnitId
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L68-L79)
+### <span api-method=GET>GET</span> /workflow?process&docUnitId
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L68-L79)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9259,7 +9259,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?docUnit
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L81-L91)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L81-L91)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9274,7 +9274,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?isDone
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L93-L102)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L93-L102)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9294,7 +9294,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?isWorkflowStarted
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L104-L113)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L104-L113)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9309,7 +9309,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?isCheckStarted
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L115-L124)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L115-L124)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9324,7 +9324,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?isWaitingRedelivering
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L126-L135)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L126-L135)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9339,7 +9339,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?canReportBeValidated
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L137-L146)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L137-L146)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9354,7 +9354,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow?isRejectDefinitive
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L148-L157)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L148-L157)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9369,7 +9369,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?resetNumWaiting
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L165-L171)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L165-L171)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9384,7 +9384,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?massValidate
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L179-L194)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L179-L194)
 
 
 **Required Role\(s\):** COND_REPORT_HAB2
@@ -9399,7 +9399,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?massValidateRecords
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L202-L217)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L202-L217)
 
 
 **Required Role\(s\):** DOC_UNIT_HAB3
@@ -9414,7 +9414,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?endAllDocWorkflows
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L225-L232)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L225-L232)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9429,7 +9429,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?validDocWorkflowState
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L234-L242)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L234-L242)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9444,7 +9444,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow?reinitDocWorkflowState
-**Implementation:** [WorkflowController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L244-L252)
+**Implementation:** [WorkflowController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowController.java#L244-L252)
 
 
 **Required Role\(s\):** This method is either unprotected or the roles are verified manualy in the implementation. Check implementation details for more information.
@@ -9464,7 +9464,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow_group
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L58-L68)
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L58-L68)
 
 
 **Required Role\(s\):** WORKFLOW_HAB1
@@ -9479,7 +9479,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow_group?search
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L84-L97)
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L84-L97)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9502,8 +9502,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleWorkflowGroupDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /workflow_group?groups", "library
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L125-L133)
+### <span api-method=GET>GET</span> /workflow_group?groups&library
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L125-L133)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9520,7 +9520,7 @@
 # /workflow_group/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /workflow_group/\{id\}
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L70-L82)
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L70-L82)
 
 
 **Required Role\(s\):** WORKFLOW_HAB3
@@ -9535,7 +9535,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow_group/\{id\}
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L99-L105)
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L99-L105)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9550,7 +9550,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow_group/\{id\}
-**Implementation:** [WorkflowGroupController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L107-L123)
+**Implementation:** [WorkflowGroupController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowGroupController.java#L107-L123)
 
 
 **Required Role\(s\):** WORKFLOW_HAB2
@@ -9570,7 +9570,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow_model
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L57-L67)
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L57-L67)
 
 
 **Required Role\(s\):** WORKFLOW_HAB1
@@ -9585,7 +9585,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow_model?search
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L77-L95)
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L77-L95)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9608,8 +9608,8 @@
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleWorkflowModelDTO&gt;&gt;
 
 
-### <span api-method=GET>GET</span> /workflow_model?models", "library
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L117-L132)
+### <span api-method=GET>GET</span> /workflow_model?models&library
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L117-L132)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9631,7 +9631,7 @@
 # /workflow_model/\{id\}
 
 ### <span api-method=DELETE>DELETE</span> /workflow_model/\{id\}
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L69-L75)
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L69-L75)
 
 
 **Required Role\(s\):** WORKFLOW_HAB3
@@ -9646,7 +9646,7 @@
 
 
 ### <span api-method=GET>GET</span> /workflow_model/\{id\}
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L97-L103)
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L97-L103)
 
 
 **Required Role\(s\):** WORKFLOW_HAB4
@@ -9661,7 +9661,7 @@
 
 
 ### <span api-method=POST>POST</span> /workflow_model/\{id\}
-**Implementation:** [WorkflowModelController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L105-L115)
+**Implementation:** [WorkflowModelController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/workflow/WorkflowModelController.java#L105-L115)
 
 
 **Required Role\(s\):** WORKFLOW_HAB2
@@ -9681,7 +9681,7 @@
 
 
 ### <span api-method=POST>POST</span> /z3950?server
-**Implementation:** [Z3950Controller.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/z3950/Z3950Controller.java#L72-L80)
+**Implementation:** [Z3950Controller.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/z3950/Z3950Controller.java#L72-L80)
 
 
 **Required Role\(s\):** EXC_HAB3
@@ -9702,7 +9702,7 @@
 
 
 ### <span api-method=POST>POST</span> /z3950?mapping
-**Implementation:** [Z3950Controller.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/z3950/Z3950Controller.java#L94-L148)
+**Implementation:** [Z3950Controller.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/exchange/z3950/Z3950Controller.java#L94-L148)
 
 
 **Required Role\(s\):** EXC_HAB2
@@ -9732,7 +9732,7 @@
 
 
 ### <span api-method=POST>POST</span> /z3950Server
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L48-L54)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L48-L54)
 
 
 **Required Role\(s\):** Z3950_HAB1
@@ -9747,7 +9747,7 @@
 
 
 ### <span api-method=GET>GET</span> /z3950Server?dto
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L62-L67)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L62-L67)
 
 
 **Required Role\(s\):** Z3950_HAB0
@@ -9762,7 +9762,7 @@
 
 
 ### <span api-method=GET>GET</span> /z3950Server
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L73-L78)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L73-L78)
 
 
 **Required Role\(s\):** Z3950_HAB0
@@ -9779,7 +9779,7 @@
 # /z3950Server/\{id\}
 
 ### <span api-method=GET>GET</span> /z3950Server/\{id\}
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L85-L90)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L85-L90)
 
 
 **Required Role\(s\):** Z3950_HAB0
@@ -9794,7 +9794,7 @@
 
 
 ### <span api-method=POST>POST</span> /z3950Server/\{id\}
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L98-L104)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L98-L104)
 
 
 **Required Role\(s\):** Z3950_HAB1
@@ -9809,7 +9809,7 @@
 
 
 ### <span api-method=DELETE>DELETE</span> /z3950Server/\{id\}
-**Implementation:** [Z3950ServerController.java](https://github.com/biblibre/NumaHOP-code/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L110-L116)
+**Implementation:** [Z3950ServerController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/z3950/Z3950ServerController.java#L110-L116)
 
 
 **Required Role\(s\):** Z3950_HAB2

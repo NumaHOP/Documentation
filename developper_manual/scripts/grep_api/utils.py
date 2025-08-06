@@ -64,6 +64,7 @@ def query_patterns(dictcls: Type[TD], query: Query, node: Node) -> list[TD]:
     only contains one pattern.
     """
 
+    # Fill out the typed dict with the matches.
     def get_pattern_match(qmatch: QueryMatch) -> TD:
         dict_keys = dictcls.__annotations__.keys()
         _, pmatch = qmatch

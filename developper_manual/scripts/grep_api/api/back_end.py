@@ -9,9 +9,14 @@ import re
 java_lang: Language = get_language("java")
 java_parser: Parser = get_parser("java")
 
-
-path_var_pat = re.compile(
-    r"""
+"""
+    Retrive the path parameter out of the method arguments.
+"""
+class PathVarMatch(TypedDict):
+    real_name: Optional[str]
+    ty: str
+    var_name: str
+path_var_pat = re.compile(r"""
     @PathVariable
     (?:
         [(]
@@ -25,13 +30,15 @@ path_var_pat = re.compile(
 """,
     re.VERBOSE,
 )
-class PathVarMatch(TypedDict):
-    real_name: Optional[str]
+
+"""
+    Retrive the query parameter out of the method arguments.
+"""
+class ReqParamMatch(TypedDict):
+    param: Optional[str]
     ty: str
     var_name: str
-
-req_param_pat = re.compile(
-    r"""
+req_param_pat = re.compile(r"""
     @RequestParam
     (?:
         [(]
@@ -42,59 +49,52 @@ req_param_pat = re.compile(
     \s(?P<ty> [\w\s<>]* )
     \s(?P<var_name> \w* )
     [),]
-""",
-    re.VERBOSE,
-)
-class ReqParamMatch(TypedDict):
-    param: Optional[str]
-    ty: str
-    var_name: str
+""", re.VERBOSE)
 
-req_param_name_pat = re.compile(
-    r"""
-    (?:name|value)\s=\s"(?P<named>.*?)"
-    |^"(?P<unnamed>.*?)"$
-""",
-    re.VERBOSE,
-)
+"""
+    Retrive the query parameter out of the method arguments.
+"""
 class ReqParamNameMatch(TypedDict):
     named: Optional[str]
     unnamed: Optional[str]
+req_param_name_pat = re.compile(r"""
+    (?:name|value)\s=\s"(?P<named>.*?)"
+    |^"(?P<unnamed>.*?)"$
+""", re.VERBOSE)
 
-req_param_req_pat = re.compile(
-    r"""
-    required \s=\s (true|false)
-""",
-    re.VERBOSE,
-)
-
-req_param_dval_pat = re.compile(
-    r"""
-    defaultValue \s=\s "(?P<dval>.*?)"
-""",
-    re.VERBOSE,
-)
+req_param_req_pat = re.compile(r"""required \s=\s (true|false)""", re.VERBOSE)
 class ReqParamDvalMatch(TypedDict):
     dval: str
+req_param_dval_pat = re.compile( r""" defaultValue \s=\s "(?P<dval>.*?)" """, re.VERBOSE)
 
+
+"""
+    Retrive the HTTP method from the handler annotations.
+"""
+class MappingMethodPat(TypedDict):
+    method: str
 mapping_method_pat = re.compile(
     r"""
     \s*@RequestMapping[(].*method\s=\sRequestMethod\.(?P<method>GET|POST|DELETE)
-""",
-    re.VERBOSE,
-)
-class MappingMethodPat(TypedDict):
-    method: str
+""", re.VERBOSE)
 
+
+"""
+    Retrive the HTTP route from the handler annotations.
+"""
+class MappingRoutePat(TypedDict):
+    route: str
 mapping_route_pat = re.compile(
     r"""
     \s*@RequestMapping[(].*value\s=\s"(?P<route>[^"]*)"
-""",
-    re.VERBOSE,
-)
-class MappingRoutePat(TypedDict):
-    route: str
+""", re.VERBOSE)
 
+"""
+    Retrive the HTTP query parameters from the handler annotations.
+"""
+class MappingParramMatch(TypedDict):
+    single: Optional[str]
+    multiple: Optional[str]
 mapping_param_pat = re.compile(
     r"""
     \s*
@@ -111,9 +111,6 @@ mapping_param_pat = re.compile(
 """,
     re.VERBOSE | re.DOTALL,
 )
-class MappingParramMatch(TypedDict):
-    single: Optional[str]
-    multiple: Optional[str]
 
 roles_pat = re.compile(
     r"""
@@ -129,6 +126,9 @@ class RolesMatch(TypedDict):
 statuses_pat = re.compile("HttpStatus.(?P<status>[A-Z_]*)")
 
 
+# Query for fetching the class level annotations that can combine with method level ones.
+class ControllerMatch(TypedDict):
+    meta: Node
 class_q: Query = java_lang.query(r"""
 (class_declaration
     (modifiers) @meta
@@ -136,9 +136,15 @@ class_q: Query = java_lang.query(r"""
 """)
 
 
-class ControllerMatch(TypedDict):
+"""
+    Query for fetching the methods name, body, its annotations and parameters.
+"""
+class HandlerMatch(TypedDict):
+    method: Node
+    fun: str
+    ret_ty: str
     meta: Node
-
+    args: Node
 
 handler_q = java_lang.query(r"""
 (method_declaration
@@ -154,14 +160,11 @@ handler_q = java_lang.query(r"""
 ) @method
 """)
 
-
-class HandlerMatch(TypedDict):
-    method: Node
-    fun: str
-    ret_ty: str
-    meta: Node
-    args: Node
-
+"""
+     Query for fetching the possible status codes from the body of the function.
+"""
+class StatusMatch(TypedDict):
+    status: str
 
 http_status_q = java_lang.query(r"""
 (field_access
@@ -172,8 +175,6 @@ http_status_q = java_lang.query(r"""
 """)
 
 
-class StatusMatch(TypedDict):
-    status: str
 
 
 class Controller:
@@ -262,9 +263,9 @@ class Handler:
         # Param
         if param := u.search(MappingParramMatch, mapping_param_pat, meta_content):
             if single := param["single"]:
-                self.params = [single.strip("\" ")]
+                self.params = [p.strip("\" ") for p in single.split(",")]
             elif multiple := param["multiple"]:
-                self.params = [p.rstrip("\" ") for p in multiple.split(",")]
+                self.params = [p.strip("\" ") for p in multiple.split(",")]
 
     def parse_arguments(self, arg_content: str):
         self.path_vars: dict[str, str] = {}
@@ -304,4 +305,4 @@ class Handler:
     def get_location_link(self) -> str:
         start_line = self.range.start_point.row + 1
         end_line = self.range.end_point.row + 1
-        return f"https://github.com/biblibre/NumaHOP-code/blob/master/{self.controller.file_path}#L{start_line}-L{end_line}"
+        return f"https://github.com/NumaHOP/NumaHOP/blob/master/{self.controller.file_path}#L{start_line}-L{end_line}"

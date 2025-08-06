@@ -4,6 +4,13 @@ from sys import argv
 from api.index import Api
 from utils import find_files
 
+# This file temporary. It is used because the API of NumaHOP is not compliant with
+# the oas v3.1 REST specification.
+#
+# It scrapes the source code of NumaHOP using TreeSitter and some regexes to get the 
+# information necessary to document the API.
+# 
+# It does not report on the usage of the API in the front-end yet.
 
 def is_back_end_controller(file_path):
     file_name = os.path.basename(file_path)

@@ -103,7 +103,7 @@ class Route:
     def print_summary(self):
         if self.param:
             print(
-                f"{self.implementation.functionality:<42} | {self.method:<6} | {self.path}?{','.join(self.param)}"
+                f"{self.implementation.functionality:<42} | {self.method:<6} | {self.path}?{'&'.join(self.param)}"
             )
         else:
             print(
@@ -144,7 +144,7 @@ class Route:
     def render_content(self: Self):
         title = f"<span api-method={self.method}>{self.method}</span> {self.path.__repr__()}"
         if self.param:
-            title = f"<span api-method={self.method}>{self.method}</span> {self.path}?{','.join(self.param)}"
+            title = f"<span api-method={self.method}>{self.method}</span> {self.path}?{'&'.join(self.param)}"
 
         return_ty = ""
         impl = f"**Implementation:** [{self.implementation.controller.get_name()}]({self.implementation.get_location_link()})"
