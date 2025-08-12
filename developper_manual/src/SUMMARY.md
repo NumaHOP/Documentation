@@ -9,6 +9,7 @@
         - [Workflow](code/modules/workflow.md)
     - [REST API](code/api.md)
     - [DB Schema](code/db_schema/index.md)
+    - [FileSystem](code/file_storage.md)
 - [Contributing](contrib.md)
 - [Appendix]()
     - [Glossary](appendix/glossary.md)
