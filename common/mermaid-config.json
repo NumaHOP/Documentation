@@ -1,11 +1,26 @@
 {
-	"title": "Data Input/Output",
-	"theme": "base",
-	"darkMode": true,
-	"themeVariables": {
-		"primaryColor": "#000000",
-		"primaryTextColor": "#fff",
-		"secondaryColor": "#0000ff",
-		"tertiaryColor": "#00ff00"
-	}
+    "title": "Data Input/Output",
+    "theme": "base",
+    "themeVariables": {
+        "darkMode": true,
+        "backgroundColor": "#3a3a3a",
+        "fontSize": "24px",
+        "lineColor": "#ff5e0e",
+        "nodeColor": "#fff",
+        "primaryColor": "#666666",
+        "primaryBorderColor": "#ff5e0e",
+        "tertiaryColor": "#3a3a3a",
+        "tertiaryBorderColor": "#c8c9db",
+        "tertiaryTextColor": "#fff",
+        "nodeTextColor": "#ffffff"
+    },
+    "flowchart": { 
+        "defaultRenderer": "elk",
+        "curve": "linear", 
+        "inheritDir": true
+    },
+    "elk": {
+        "mergeEdges": true,
+        "nodePlacementStrategy": "LINEAR_SEGMENTS"
+    }
 }

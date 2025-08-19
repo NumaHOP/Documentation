@@ -1,0 +1,32 @@
+flowchart TB
+  subgraph fr[Angular Front-End]
+    fr-view[View] 
+    fr-ser[Services]
+  end
+
+  subgraph ext[External]
+    smtp[Mails]
+    exp[Exports Targets]
+  end
+
+  subgraph be[BackEnd]
+    subgraph java[Java Application]
+      cont[Rest Controllers]
+      ser(Services)
+      rep[Repository]
+    end
+    es[(Elastic Search)]
+    db[("MermaidDB")]
+    fs@{ shape: lin-cyl, label: "disk storage"}
+  end
+
+  fr-view <--> fr-ser
+  fr-ser <--> |REST API| cont
+
+  cont <--> ser 
+
+  ser <--> smtp
+  ser <--> rep 
+  ser <--> exp
+
+  rep <--> db & es & fs

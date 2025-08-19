@@ -30,8 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install mdBook && preprocessors
+      - name: Install build deps
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
         run: |
+          npm install -g @mermaid-js/mermaid-cli
           make ci 
       - name: Setup Pages
         id: pages

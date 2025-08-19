@@ -1,0 +1,63 @@
+flowchart LR
+    subgraph l[Legend]
+        direction LR
+        wio[Connection Wished]:::wishNode
+        prot@{shape: das, label: "Protocol"}
+        dc>DataCategory]
+    end
+    subgraph in[Inputs]
+        koha[Koha]
+        ho[Horizon]
+        al[ALMA]
+        or[OpenRefine]
+        cal[Calames]
+        mc[Manual
+        Creation]
+        dp[Digitization
+        Provider]
+        id[Internal
+        Digitization]
+        iiif[IIIF Server]
+        img>Images]
+        md>MetaData]
+    end
+    nh((NumaHOP))
+    subgraph out[Outputs]
+        man@{shape: das, label: "Manual"}
+        dsftp@{shape: das, label: "Dedicated SFTP"}
+        sftp[Basic SFTP]
+        s3[S3 API]
+        ia[Internet Archive]
+        omk[OmekaS]
+        lg[Limgalery]
+        c[Cantaloup]
+        s3[S3 Buckets]
+        cines[CINES]
+        cs[Custom Server]
+    end
+
+    koha & ho ==> |MarcXML| md
+    cal ==> md
+    cal & al ==> |EAD| or ==> md
+    al ==> md
+    mc ==> |CSV, JSON| md
+
+    iiif:::wishNode e1@==> |iiif| img
+    dp ==> |Jp2, TIF, PDF, Jpg| img
+    id ==> img
+
+
+    md & img === nh 
+
+    nh === dsftp 
+    nh === sftp
+
+    nh === s3
+    s3 ==> ia
+    sftp ==> c & lg & cs
+    dsftp e2@==> c
+    dsftp ==> omk & cines
+
+    classDef wishLink stroke:#982135, stroke-width:5, stroke-dasharray:9,5, stroke-dashoffset:900, animation:dash 25s linear infinite;
+    classDef wishNode stroke:#982135, stroke-width: 3, stroke-dasharray: 9,5, stoke-dashoffset: 900, animation: dash 25s linear infinite;
+    class e1,e2 wishLink; 
