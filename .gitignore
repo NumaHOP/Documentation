@@ -1,4 +1,5 @@
 **/book
 vendor
+node_modules
 **/build-src
 **/__pycache__
