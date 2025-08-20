@@ -1,6 +1,6 @@
 import os
 import re
-from sys import argv
+from argparse import ArgumentParser
 from api.index import Api
 from utils import find_files
 
@@ -28,11 +28,16 @@ def does_file_contains_match(compiled_pattern: re.Pattern, file_path):
         return False
 
 
-if len(argv) != 2:
-    print("Please provide only the root directory of the numahop source code.")
-    exit(1)
+parser = ArgumentParser(
+    prog='ApiScrapper',
+    description='Scraps the spring annotations to document the api',
+)
+parser.add_argument('source', help="NumaHOP source path")
+parser.add_argument('-o', '--output', help="Where to put the generated markdown")
+
+args = parser.parse_args()
 # NumaHOP source code root.
-root_path = argv[1]
+root_path = args.source
 back_end_root = os.path.join(root_path, "src/main/java/fr/progilone/pgcn")
 
 # user = Controller(root_path, file)

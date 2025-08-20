@@ -8,8 +8,12 @@ build:
 	# User manual
 	vendor/mdbook build user_manual/ -d ../book/user_manual
 
-# TODO: Add a watch rule for devloppement.
+update-gen:
+	./build_scripts/update-include.sh
 
+
+# TODO: Add a watch rule for devloppement.
+#
 # Open the book in your prefered browser.
 open:
 	xdg-open book/index.html
@@ -20,8 +24,6 @@ ci:
 	-if [ ! -d vendor ]; then mkdir vendor; fi
 	@echo "Downloading mdbook..."
 	@curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.47/mdbook-v0.4.47-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=vendor
-	@echo "Downloading mermaid-cli..."
-	@npm ci
 
 # Fetches mdbook with the needed processors, the mariadb J connector and the schemaspy jars.
 # It fetches the gh binary releases wich is quicker than installing normally. If you don't want

@@ -7,20 +7,28 @@ Note: This documentation is very incomplete and in its early stages.
 ## Dependencies
 ### For building
 - mdbook 
-- mdbook-mermaid
 
 If you dont want to install these the makefile has a setup rule Downloading the needed executables from the github release pages. Use at your own risk.
 
 ### For updating the generated part of the documentation.
 
+For updating the database explorer:
 - A running NumaHOP instance.
-- bash
-- nu (Temporary: will be replaced by a mdbook preprocessor at a certain point. Used for the api pages.)
-- python3 with the `tree_sitter`, and `tree_sitter_language_pack` libraries. (For the api documentaion.)
-- OpenJdk17
-- wget
-- schemaspy jarfile
 - mariadb-j-connector jarfile
+- OpenJdk17
+- schemaspy jarfile
+- curl
+
+For updating the graphs:
+- node24
+
+For updating the api section:
+- nu (Temporary: will be replaced by a mdbook preprocessor at a certain point. Used for the api pages.)
+- python3 with the `tree_sitter`, and `tree_sitter_language_pack` libraries.
+- A check-out of the nuamahop source.
+
+For running the scripts:
+- bash
 
 ## Generated documentation.
 
