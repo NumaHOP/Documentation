@@ -3,6 +3,7 @@
 - [Installation](install/index.md)
     - [Static Configuration](install/config.md)
     - [Post Installation](install/post_install.md)
+    - [Docker Usage](install/docker_usage.md)
 - [Code & Architecture](code/index.md)
     - [Structure](code/structure.md) 
         - [DocUnit](code/modules/docunit.md)
