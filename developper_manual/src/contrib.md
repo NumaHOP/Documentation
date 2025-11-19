@@ -28,4 +28,4 @@ For example:
 Note the volumes can only be reset by unmouting them from the containers.
 
 
-  [1]: https://github.com/biblibre/NumaHOP-code/
+  [1]: https://github.com/NumaHOP/NumaHOP/

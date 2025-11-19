@@ -6,8 +6,8 @@ Numahop supports 2 mehtod of installation:
 
 Before the installation process, clone the git repository and cd into it:
 <!-- TODO: Change this when the repo is moved to the numahop instance -->
-```
-git clone https://github.com/biblibre/NumaHOP-code.git numahop && cd numahop
+```bash
+git clone https://github.com/NumaHOP/NumaHOP.git numahop && cd numahop
 ```
 If you don't have maven installed you can run this command:
 ```
