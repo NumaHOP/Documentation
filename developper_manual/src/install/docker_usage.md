@@ -58,18 +58,19 @@ There is 2 files available:
 
 Now all your composition can be started with:
 ```bash
-# Note: all docker compose commands with the -f argument should be started from the root of the NumaHOP source code repository.
+# Note: all docker compose commands with the -f argument should be started from the root of the NumaHOP source code repository
 docker compose -p numahop -f env/main/docker/docker-compose.yml up
 docker compose -p numahop -f run/main/docker/docker-compose.yml up
 
-# Or using the make file:
+# Or using the make file
 make all-up
 ```
 
-You now should be able to access your NumaHOP instance at [https://localhost:8080](https://localhost:8080).
+You now should be able to access your NumaHOP instance at [http://localhost:8080](http://localhost:8080).
 You also can consult numahop logs with:
 ```bash
-docker compose -p numahop logs -f numahop
+
+docker compose -p numahop -f run/main/docker/docker-compose.yml logs 
 # Or using the make file
 make app-logs
 ```
@@ -87,7 +88,7 @@ If you want to execute a command inside a container:
 ```bash
 docker compose -p numahop exec -it [service-name] -- [command]
 # There is no makefile rule in this case as it is not possible to pass arguments to a makefile rule...
-# For example to connect to the db use:
+# For example to connect to the db use
 docker compose -p numahop exec -it numahop-mariadb -- mariadb -Dnumahop -unumahop -pnumahop
 ```
 
