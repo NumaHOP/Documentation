@@ -5,6 +5,8 @@ Most of the commands that refer to files on this page sould be run inside a loca
 git clone https://github.com/NumaHOP/NumaHOP.git numahop && cd numahop
 ```
 
+It is recommended to use at least docker v28.4.0.
+
 ## Description of the setup
 The Docker image of NumaHOP is built in 2 stages first a `base` is established.
 In this base we install the runtime dependencies of NumaHOP and setup the system user that numahop will use.
