@@ -5,7 +5,7 @@ for people managing the NumaHOP releases and the documentation. Under the
 NumaHOP organisation there is 2 active repositories:
 - [github.com/NumaHOP/NumaHOP](https://github.com/NumaHOP/NumaHOP) contains the
   source code for NumaHOP
-- [github.com/NumaHOP/NumaHOP](https://github.com/NumaHOP/Documentation)
+- [github.com/NumaHOP/Documentation](https://github.com/NumaHOP/Documentation)
   contains the source of the developper manual and the user manual
 
 ## How To Report a Bug
