@@ -1,8 +1,7 @@
 [book]
 authors = ["Adrien Derobert-Mazure"]
 language = "en"
-multilingual = false
-src = "src"
+src = "build-src"
 title = "NumaHOP User Manual"
 
 [build]
@@ -15,7 +14,7 @@ default-theme = "light"
 preferred-dark-theme = "dark"
 additional-css = ["../common/theme/nh-ext.css"]
 git-repository-url = "https://github.com/NumaHOP/Documentation" 
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 
 [output.html.fold]
 enable = true

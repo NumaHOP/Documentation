@@ -44,7 +44,7 @@ else
 	echo "Data base not found. Couldn't run schema spy."
 fi
 
-echo "Update the api documentation...";
+echo "Update the api documentation from the source code...";
 if [ -d "$NH_SOURCE_PATH" ]; then 
 	python3 devlopper_manual/scripts/grep_api "$NH_SOURCE_PATH" -o developper_manual/include-cache/scraped-api.md
 else
