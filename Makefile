@@ -33,6 +33,6 @@ vendor:
 	@echo "Downloading mdbook..."
 	@curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.4.47/mdbook-v0.4.47-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=vendor
 	@echo "Downloading schemaspy..."
-	@curl -sSL https://github.com/schemaspy/schemaspy/releases/download/v6.2.4/schemaspy-6.2.4.jar --output-dir vendor --output schemaspy-6.2.4.jar
+	@curl -sSL https://github.com/schemaspy/schemaspy/releases/download/v7.0.2/schemaspy-app.jar --output-dir vendor --output schemaspy.jar
 	@echo "Downloading mariadb connector..."
 	@curl -sSL https://dlm.mariadb.com/4174416/Connectors/java/connector-java-3.5.2/mariadb-java-client-3.5.2.jar --output-dir vendor --output mariadb-java-client-3.5.2.jar
