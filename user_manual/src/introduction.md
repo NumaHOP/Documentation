@@ -1,7 +1,7 @@
 > This documentation is in its early stages. It is not very complete or definitive and can be inexact.
 
 <div style="background-color: var(--nh-white); max-width: fit-content;">
-    <img src="./assets/numahop_logo.png" alt="The NumaHOP logo" />
+    <img src="./assets/images/numahop_logo.png" alt="The NumaHOP logo" />
 </div>
 
 ## What is NumaHOP ?

@@ -2,22 +2,24 @@
 /* Globals */
 
 :root {
-  --sidebar-width: 300px;
+  --sidebar-target-width: 300px;
+  --sidebar-width: min(var(--sidebar-target-width), 80vw);
   --sidebar-resize-indicator-width: 8px;
   --sidebar-resize-indicator-space: 2px;
   --page-padding: 15px;
   --content-max-width: 80%;
   --menu-bar-height: 50px;
   --mono-font: "Source Code Pro", Consolas, "Ubuntu Mono", Menlo, "DejaVu Sans Mono", monospace, monospace;
-  --code-font-size: 0.875em /* please adjust the ace font size accordingly in editor.js */;
+  --code-font-size: 0.875em; /* please adjust the ace font size accordingly in editor.js */
+  --searchbar-margin-block-start: 5px;
 
   --nh-yellow: #ffcc75;
   --nh-dark-red: #982135;
   --nh-light-red: #ff003a;
   --nh-orange: #ff5e0e;
   --nh-black: #2d334f;
-	--nh-green: #13fe00;
-	--nh-blue: #1338fe;
+  --nh-green: #13fe00;
+  --nh-blue: #1338fe;
   --nh-dark-grey: #3a3a3a;
   --nh-grey: #666666;
   --nh-light-grey: #c8c9db;
@@ -38,7 +40,7 @@
   --scrollbar: var(--sidebar-fg);
 
   --icons: var(--nh-white);
-  --icons-hover: var(--nh-orange);
+  --icons-hover: var(--nh-light-red);
 
   --links: var(--nh-orange);
 
@@ -75,6 +77,22 @@
 	--code-orange: var(--nh-light-orange);
 
 	--color-scheme: dark;
+    /* Same as `--icons` */
+    --copy-button-filter: invert(45%) sepia(6%) saturate(621%) hue-rotate(198deg) brightness(99%) contrast(85%);
+    /* Same as `--sidebar-active` */
+    --copy-button-filter-hover: invert(68%) sepia(55%) saturate(531%) hue-rotate(341deg) brightness(104%) contrast(101%);
+
+    --footnote-highlight: #2668a6;
+
+    --overlay-bg: rgba(33, 40, 48, 0.4);
+
+    --blockquote-note-color: #74b9ff;
+    --blockquote-tip-color: #09ca09;
+    --blockquote-important-color: #d3abff;
+    --blockquote-warning-color: #f0b72f;
+    --blockquote-caution-color: #f21424;
+
+    --sidebar-header-border-color: #c18639;
 }
 
 .light {
