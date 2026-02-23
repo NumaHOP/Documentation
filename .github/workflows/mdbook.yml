@@ -51,7 +51,7 @@ jobs:
       
       - name: Install mdbook
         run: |
-          cargo binstall mdbook --version v0.5.2 --locked
+          cargo binstall mdbook --version 0.5.2 --locked
 
       - name: Setup Pages
         id: pages

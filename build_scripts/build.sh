@@ -24,7 +24,7 @@ done
 # === MdBook executions ===
 # =========================
 for manual in "${MANUALS[@]}"; do
-   ./vendor/mdbook build "$manual" -d "./manuals/$manual"
+   mdbook build "$manual" -d "./manuals/$manual"
 done
 
 # ==========================

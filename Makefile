@@ -17,8 +17,6 @@ open:
 # to fetch the binary installations you can install everything manually.
 vendor:
 	-if [ ! -d vendor ]; then mkdir vendor; fi
-	@echo "Downloading mdbook..."
-	@curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.5.2/mdbook-v0.5.2-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=vendor
 	@echo "Downloading schemaspy..."
 	@curl -sSL https://github.com/schemaspy/schemaspy/releases/download/v7.0.2/schemaspy-app.jar --output-dir vendor --output schemaspy.jar
 	@echo "Downloading mariadb connector..."
