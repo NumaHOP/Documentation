@@ -12,13 +12,6 @@ update-gen:
 open:
 	xdg-open manuals/index.html
 
-
-# Download everything needed in ci.
-ci:
-	-if [ ! -d vendor ]; then mkdir vendor; fi
-	@echo "Downloading mdbook..."
-	@curl -sSL https://github.com/rust-lang/mdBook/releases/download/v0.5.2/mdbook-v0.5.2-x86_64-unknown-linux-gnu.tar.gz | tar -xz --directory=vendor
-
 # Fetches mdbook with the needed processors, the mariadb J connector and the schemaspy jars.
 # It fetches the gh binary releases wich is quicker than installing normally. If you don't want
 # to fetch the binary installations you can install everything manually.
