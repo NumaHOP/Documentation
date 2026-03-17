@@ -44,5 +44,5 @@ back_end_root = os.path.join(root_path, "src/main/java/fr/progilone/pgcn")
 
 api = Api(root_path, find_files(is_back_end_controller, back_end_root, "java"))
 api.index()
-api.render_to_md("include/scraped-api.md")
+api.render_to_md(args.output)
 print("Done")

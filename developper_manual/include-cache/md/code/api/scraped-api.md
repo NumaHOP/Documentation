@@ -62,7 +62,6 @@
 * [/docunit](#docunit)
 * [/docunit/\{identifier\}](#docunitidentifier)
 * [/docunit/initHistory](#docunitinitHistory)
-* [/downloadlogsfile](#downloadlogsfile)
 * [/export/cines/\{identifier\}](#exportcinesidentifier)
 * [/export/cines](#exportcines)
 * [/export/cines/regenerateMets](#exportcinesregenerateMets)
@@ -168,10 +167,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditDeliveryRevisionDTO&gt;&gt;
@@ -228,9 +227,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditLotRevisionDTO&gt;&gt;
@@ -287,8 +286,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditProjectRevisionDTO&gt;&gt;
@@ -310,9 +309,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditTrainRevisionDTO&gt;&gt;
@@ -434,18 +433,18 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|statuses|List<String>|no|`None`|
-|lastModifiedDateFrom|LocalDate|no|`None`|
-|lastModifiedDateTo|LocalDate|no|`None`|
-|createdDateFrom|LocalDate|no|`None`|
-|createdDateTo|LocalDate|no|`None`|
-|orphan|Boolean|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|statuses|`List<String>`|no|`None`|
+|lastModifiedDateFrom|`LocalDate`|no|`None`|
+|lastModifiedDateTo|`LocalDate`|no|`None`|
+|createdDateFrom|`LocalDate`|no|`None`|
+|createdDateTo|`LocalDate`|no|`None`|
+|orphan|`Boolean`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleBibliographicRecordDTO&gt;&gt;
@@ -465,19 +464,19 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|searchAsList|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|statuses|List<String>|no|`None`|
-|trains|List<String>|no|`None`|
-|lastModifiedDateFrom|LocalDate|no|`None`|
-|lastModifiedDateTo|LocalDate|no|`None`|
-|createdDateFrom|LocalDate|no|`None`|
-|createdDateTo|LocalDate|no|`None`|
-|orphan|Boolean|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|``|
+|searchAsList|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|statuses|`List<String>`|no|`None`|
+|trains|`List<String>`|no|`None`|
+|lastModifiedDateFrom|`LocalDate`|no|`None`|
+|lastModifiedDateTo|`LocalDate`|no|`None`|
+|createdDateFrom|`LocalDate`|no|`None`|
+|createdDateTo|`LocalDate`|no|`None`|
+|orphan|`Boolean`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|``|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleListBibliographicRecordDTO&gt;&gt;
@@ -689,7 +688,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|pageNumber|Integer|no|`None`|
+|pageNumber|`Integer`|no|`None`|
 
 
 **Response Body:** DocErrorReport
@@ -709,7 +708,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|pageNumber|Integer|no|`None`|
+|pageNumber|`Integer`|no|`None`|
 
 
 **Response Body:** DocErrorReport
@@ -916,9 +915,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleCheckConfigurationDTO&gt;&gt;
@@ -1080,7 +1079,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`utf-8`|
+|encoding|`String`|no|`utf-8`|
 
 
 
@@ -1104,7 +1103,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`utf-8`|
+|encoding|`String`|no|`utf-8`|
 
 
 
@@ -1212,8 +1211,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|page|Integer|no|`0`|
-|size|Integer|no|``|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|``|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SearchResult&gt;&gt;
@@ -1293,7 +1292,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|import-template|List<String>|no|`None`|
+|import-template|`List<String>`|no|`None`|
 
 
 
@@ -1378,7 +1377,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
+|docUnit|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -1415,7 +1414,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|file|List<MultipartFile>|no|`None`|
+|file|`List<MultipartFile>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;ConditionReportAttachment&gt;&gt;
@@ -1754,7 +1753,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|Library|no|`None`|
+|library|`Library`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;PropertyConfigurationDTO&gt;&gt;
@@ -1774,7 +1773,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|desc|DescriptionProperty|no|`None`|
+|desc|`DescriptionProperty`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;PropertyConfigurationDTO&gt;
@@ -1828,8 +1827,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|reports|List<String>|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|reports|`List<String>`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -1918,7 +1917,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|Library|no|`None`|
+|library|`Library`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Set&lt;DigitalLibraryConfigurationDTO&gt;&gt;
@@ -1938,9 +1937,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;DigitalLibraryConfigurationDTO&gt;&gt;
@@ -2029,7 +2028,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
+|library|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;InternetArchiveCollection&gt;&gt;
@@ -2066,7 +2065,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|Library|no|`None`|
+|library|`Library`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Set&lt;InternetArchiveConfigurationDTO&gt;&gt;
@@ -2086,9 +2085,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;InternetArchiveConfigurationDTO&gt;&gt;
@@ -2256,7 +2255,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|omekaConf|String|no|`None`|
+|omekaConf|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;OmekaList&gt;&gt;
@@ -2278,7 +2277,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|omekaConf|String|no|`None`|
+|omekaConf|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;OmekaList&gt;&gt;
@@ -2315,8 +2314,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|Library|no|`None`|
-|project|Project|no|`None`|
+|library|`Library`|no|`None`|
+|project|`Project`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Set&lt;OmekaConfigurationDTO&gt;&gt;
@@ -2336,10 +2335,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|omekas|Boolean|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|omekas|`Boolean`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;OmekaConfigurationDTO&gt;&gt;
@@ -2490,9 +2489,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SftpConfigurationDTO&gt;&gt;
@@ -2774,15 +2773,15 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|providers|List<String>|no|`None`|
-|status|List<DeliveryStatus>|no|`None`|
-|deliveryDateFrom|LocalDate|no|`None`|
-|deliveryDateTo|LocalDate|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|providers|`List<String>`|no|`None`|
+|status|`List<DeliveryStatus>`|no|`None`|
+|deliveryDateFrom|`LocalDate`|no|`None`|
+|deliveryDateTo|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleDeliveryDTO&gt;&gt;
@@ -2802,10 +2801,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditDeliveryRevisionDTO&gt;&gt;
@@ -2825,10 +2824,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditDeliveryRevisionDTO&gt;&gt;
@@ -2893,7 +2892,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|filteredProjects|List<String>|no|`None`|
+|filteredProjects|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;SimpleDeliveryDTO&gt;&gt;
@@ -2995,7 +2994,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|create_docs|boolean|no|`false`|
+|create_docs|`boolean`|no|`false`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -3235,7 +3234,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`None`|
+|encoding|`String`|no|`None`|
 
 
 
@@ -3257,7 +3256,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`None`|
+|encoding|`String`|no|`None`|
 
 
 
@@ -3511,7 +3510,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|checksOK|boolean|no|`None`|
+|checksOK|`boolean`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -3566,31 +3565,31 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|status|List<String>|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|trains|List<String>|no|`None`|
-|deliveries|List<String>|no|`None`|
-|page|Integer|no|`0`|
-|dateFrom|LocalDate|no|`None`|
-|dateTo|LocalDate|no|`None`|
-|dateLimitFrom|LocalDate|no|`None`|
-|dateLimitTo|LocalDate|no|`None`|
-|searchPgcnId|String|no|`None`|
-|searchTitre|String|no|`None`|
-|searchRadical|String|no|`None`|
-|fileFormats|List<String>|no|`None`|
-|maxAngles|List<String>|no|`None`|
-|searchPageFrom|Integer|no|`None`|
-|searchPageTo|Integer|no|`None`|
-|searchPageCheckFrom|Long|no|`None`|
-|searchPageCheckTo|Long|no|`None`|
-|searchMinSize|Double|no|`None`|
-|searchMaxSize|Double|no|`None`|
-|validated|boolean|no|`None`|
-|size|Integer|no|``|
+|search|`String`|no|`None`|
+|status|`List<String>`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|trains|`List<String>`|no|`None`|
+|deliveries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
+|dateFrom|`LocalDate`|no|`None`|
+|dateTo|`LocalDate`|no|`None`|
+|dateLimitFrom|`LocalDate`|no|`None`|
+|dateLimitTo|`LocalDate`|no|`None`|
+|searchPgcnId|`String`|no|`None`|
+|searchTitre|`String`|no|`None`|
+|searchRadical|`String`|no|`None`|
+|fileFormats|`List<String>`|no|`None`|
+|maxAngles|`List<String>`|no|`None`|
+|searchPageFrom|`Integer`|no|`None`|
+|searchPageTo|`Integer`|no|`None`|
+|searchPageCheckFrom|`Long`|no|`None`|
+|searchPageCheckTo|`Long`|no|`None`|
+|searchMinSize|`Double`|no|`None`|
+|searchMaxSize|`Double`|no|`None`|
+|validated|`boolean`|no|`None`|
+|size|`Integer`|no|``|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleListDigitalDocumentDTO&gt;&gt;
@@ -3847,8 +3846,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|page|Integer|no|`0`|
-|size|Integer|no|``|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|``|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleListDocUnitDTO&gt;&gt;
@@ -3883,8 +3882,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|project|String|no|`None`|
-|lot|String|no|`None`|
+|project|`String`|no|`None`|
+|lot|`String`|no|`None`|
 
 
 
@@ -3919,7 +3918,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|parent|String|no|`None`|
+|parent|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;DocUnitDTO&gt;
@@ -3939,7 +3938,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|parent|String|no|`None`|
+|parent|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;DocUnitDTO&gt;
@@ -3959,7 +3958,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|siblingid|String|no|`None`|
+|siblingid|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;DocUnitDTO&gt;
@@ -3979,7 +3978,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|siblingid|String|no|`None`|
+|siblingid|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;DocUnitDTO&gt;
@@ -3999,27 +3998,27 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|hasDigitalDocuments|boolean|no|`false`|
-|active|boolean|no|`true`|
-|archived|boolean|no|`false`|
-|nonArchived|boolean|no|`false`|
-|archivable|boolean|no|`false`|
-|nonArchivable|boolean|no|`false`|
-|distributed|boolean|no|`false`|
-|nonDistributed|boolean|no|`false`|
-|distributable|boolean|no|`false`|
-|nonDistributable|boolean|no|`false`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|statuses|List<String>|no|`None`|
-|lastModifiedDateFrom|LocalDate|no|`None`|
-|lastModifiedDateTo|LocalDate|no|`None`|
-|createdDateFrom|LocalDate|no|`None`|
-|createdDateTo|LocalDate|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|``|
+|search|`String`|no|`None`|
+|hasDigitalDocuments|`boolean`|no|`false`|
+|active|`boolean`|no|`true`|
+|archived|`boolean`|no|`false`|
+|nonArchived|`boolean`|no|`false`|
+|archivable|`boolean`|no|`false`|
+|nonArchivable|`boolean`|no|`false`|
+|distributed|`boolean`|no|`false`|
+|nonDistributed|`boolean`|no|`false`|
+|distributable|`boolean`|no|`false`|
+|nonDistributable|`boolean`|no|`false`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|statuses|`List<String>`|no|`None`|
+|lastModifiedDateFrom|`LocalDate`|no|`None`|
+|lastModifiedDateTo|`LocalDate`|no|`None`|
+|createdDateFrom|`LocalDate`|no|`None`|
+|createdDateTo|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|``|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleDocUnitDTO&gt;&gt;
@@ -4039,8 +4038,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|project|String|no|`None`|
-|page|Integer|no|`0`|
+|project|`String`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SummaryDocUnitWithLotDTO&gt;&gt;
@@ -4135,8 +4134,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docs|List<String>|no|`None`|
-|types|List<String>|no|`METS,VIEW`|
+|docs|`List<String>`|no|`None`|
+|types|`List<String>`|no|`METS,VIEW`|
 
 
 
@@ -4156,7 +4155,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docs|List<String>|no|`None`|
+|docs|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -4319,23 +4318,6 @@
 **Response Body:** ResponseEntity&lt;?&gt;
 
 ---
-# /downloadlogsfile
-
-### <span api-method=GET>GET</span> /downloadlogsfile?logFile
-**Implementation:** [AdminLogsController.java](https://github.com/NumaHOP/NumaHOP/blob/master/src/main/java/fr/progilone/pgcn/web/rest/administration/logs/AdminLogsController.java#L38-L65)
-
-
-**Required Role\(s\):** DEL_HAB0
-
-**Functionality:** getLogFile
-
-**Request Body:** TODO
-
-
-
-**Response Body:** ResponseEntity&lt;?&gt;
-
----
 # /export/cines/\{identifier\}
 
 ### <span api-method=GET>GET</span> /export/cines/\{identifier\}?export
@@ -4387,9 +4369,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
-|conf|SftpConfiguration|no|`None`|
-|reversion|boolean|no|`false`|
+|docUnit|`String`|no|`None`|
+|conf|`SftpConfiguration`|no|`None`|
+|reversion|`boolean`|no|`false`|
 
 
 **Response Body:** ResponseEntity&lt;CinesReport&gt;
@@ -4409,8 +4391,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
-|conf|SftpConfiguration|no|`None`|
+|docUnit|`String`|no|`None`|
+|conf|`SftpConfiguration`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;CinesReport&gt;
@@ -4460,7 +4442,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
+|docUnit|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -4480,7 +4462,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
+|docUnit|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -4537,12 +4519,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|List<String>|no|`None`|
-|field|List<String>|no|`None`|
-|docfield|List<String>|no|`None`|
-|bibfield|List<String>|no|`None`|
-|physfield|List<String>|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|docUnit|`List<String>`|no|`None`|
+|field|`List<String>`|no|`None`|
+|docfield|`List<String>`|no|`None`|
+|bibfield|`List<String>`|no|`None`|
+|physfield|`List<String>`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -4562,12 +4544,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|lot|String|no|`None`|
-|field|List<String>|no|`None`|
-|docfield|List<String>|no|`None`|
-|bibfield|List<String>|no|`None`|
-|physfield|List<String>|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|lot|`String`|no|`None`|
+|field|`List<String>`|no|`None`|
+|docfield|`List<String>`|no|`None`|
+|bibfield|`List<String>`|no|`None`|
+|physfield|`List<String>`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -4656,9 +4638,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleExportFTPConfDTO&gt;&gt;
@@ -4678,7 +4660,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|project|String|no|`None`|
+|project|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;? extends AbstractDTO&gt;&gt;
@@ -4895,9 +4877,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleFTPConfigurationDTO&gt;&gt;
@@ -4984,8 +4966,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|modules|List<String>|no|`None`|
-|types|List<HelpPageType>|no|`None`|
+|modules|`List<String>`|no|`None`|
+|types|`List<HelpPageType>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;ModuleDto&gt;&gt;
@@ -5196,7 +5178,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|errors|boolean|no|`false`|
+|errors|`boolean`|no|`false`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;ImportedDocUnit&gt;&gt;
@@ -5238,20 +5220,20 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|file|List<MultipartFile>|no|`None`|
-|format|FileFormat|no|`None`|
-|encoding|DataEncoding|no|`UTF_8`|
-|mapping|String|no|`None`|
-|mappingChildren|String|no|`None`|
-|parent|String|no|`None`|
-|library|String|no|`None`|
-|project|String|no|`None`|
-|lot|String|no|`None`|
-|join|String|no|`None`|
-|validation|boolean|no|`false`|
-|dedup|boolean|no|`false`|
-|archivable|boolean|no|`false`|
-|distributable|boolean|no|`false`|
+|file|`List<MultipartFile>`|no|`None`|
+|format|`FileFormat`|no|`None`|
+|encoding|`DataEncoding`|no|`UTF_8`|
+|mapping|`String`|no|`None`|
+|mappingChildren|`String`|no|`None`|
+|parent|`String`|no|`None`|
+|library|`String`|no|`None`|
+|project|`String`|no|`None`|
+|lot|`String`|no|`None`|
+|join|`String`|no|`None`|
+|validation|`boolean`|no|`false`|
+|dedup|`boolean`|no|`false`|
+|archivable|`boolean`|no|`false`|
+|distributable|`boolean`|no|`false`|
 
 
 **Response Body:** ResponseEntity&lt;ImportReport&gt;
@@ -5291,9 +5273,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|users|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|users|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;ImportReport&gt;&gt;
@@ -5313,8 +5295,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|page|int|no|`0`|
-|size|int|no|`10`|
+|page|`int`|no|`0`|
+|size|`int`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;ImportReport&gt;&gt;
@@ -5519,11 +5501,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|initiale|String|no|`None`|
-|institutions|List<String>|no|`None`|
-|isActive|boolean|no|`true`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|institutions|`List<String>`|no|`None`|
+|isActive|`boolean`|no|`true`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleLibraryDTO&gt;&gt;
@@ -5934,8 +5916,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleLotDTO&gt;&gt;
@@ -6015,14 +5997,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|active|boolean|no|`true`|
-|docNumber|Integer|no|`None`|
-|fileFormat|List<String>|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|active|`boolean`|no|`true`|
+|docNumber|`Integer`|no|`None`|
+|fileFormat|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleLotDTO&gt;&gt;
@@ -6042,9 +6024,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditLotRevisionDTO&gt;&gt;
@@ -6216,7 +6198,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`None`|
+|encoding|`String`|no|`None`|
 
 
 
@@ -6273,7 +6255,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|String|no|`None`|
+|library|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Mapping&gt;
@@ -6534,14 +6516,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|lots|List<String>|no|`None`|
-|providers|List<String>|no|`None`|
-|deliveryDateFrom|LocalDate|no|`None`|
-|deliveryDateTo|LocalDate|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|lots|`List<String>`|no|`None`|
+|providers|`List<String>`|no|`None`|
+|deliveryDateFrom|`LocalDate`|no|`None`|
+|deliveryDateTo|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;MultiLotsDeliveryDTO&gt;&gt;
@@ -6613,9 +6595,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|baseUrl|String|no|`None`|
-|from|String|no|`None`|
-|to|String|no|`None`|
+|baseUrl|`String`|no|`None`|
+|from|`String`|no|`None`|
+|to|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Map&lt;String, String&gt;&gt;
@@ -6635,14 +6617,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|String|no|`None`|
-|project|String|no|`None`|
-|lot|String|no|`None`|
-|validation|boolean|no|`false`|
-|dedup|boolean|no|`false`|
-|baseUrl|String|no|`None`|
-|from|String|no|`None`|
-|to|String|no|`None`|
+|library|`String`|no|`None`|
+|project|`String`|no|`None`|
+|lot|`String`|no|`None`|
+|validation|`boolean`|no|`false`|
+|dedup|`boolean`|no|`false`|
+|baseUrl|`String`|no|`None`|
+|from|`String`|no|`None`|
+|to|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;ImportReport&gt;
@@ -6679,9 +6661,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleOcrLangConfigDTO&gt;&gt;
@@ -6885,13 +6867,13 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|initiale|String|no|`None`|
-|active|boolean|no|`true`|
-|libraries|List<String>|no|`None`|
-|status|List<ProjectStatus>|no|`None`|
-|provider|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|active|`boolean`|no|`true`|
+|libraries|`List<String>`|no|`None`|
+|status|`List<ProjectStatus>`|no|`None`|
+|provider|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleProjectDTO&gt;&gt;
@@ -6911,10 +6893,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|searchProject|String|no|`None`|
-|initiale|String|no|`None`|
-|active|boolean|no|`true`|
-|libraries|List<String>|no|`None`|
+|searchProject|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|active|`boolean`|no|`true`|
+|libraries|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;SimpleProjectDTO&gt;&gt;
@@ -6934,8 +6916,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|from|LocalDate|no|`None`|
-|library|List<String>|no|`None`|
+|from|`LocalDate`|no|`None`|
+|library|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;AuditProjectRevisionDTO&gt;&gt;
@@ -7160,7 +7142,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
+|search|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;RoleDTO&gt;&gt;
@@ -7299,10 +7281,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
-|get|List<SearchEntity>|no|`DOCUNIT`|
-|fuzzy|boolean|no|`true`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
+|get|`List<SearchEntity>`|no|`DOCUNIT`|
+|fuzzy|`boolean`|no|`true`|
 
 
 **Response Body:** ResponseEntity&lt;Map&lt;SearchEntity, Page&lt;?&gt;&gt;&gt;
@@ -7322,7 +7304,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|suggest|String|no|`None`|
+|suggest|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;
@@ -7347,12 +7329,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|projects|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|search|`String`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsProjectDTO&gt;&gt;
@@ -7387,7 +7369,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
+|libraries|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;
@@ -7407,11 +7389,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|Integer|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsProgressDTO&gt;&gt;
@@ -7431,11 +7413,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|Integer|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsProgressDTO&gt;&gt;
@@ -7455,7 +7437,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
+|libraries|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;
@@ -7475,8 +7457,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
-|project|List<String>|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;Map&lt;String, Object&gt;&gt;&gt;
@@ -7511,14 +7493,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|train|List<String>|no|`None`|
-|returnFrom|LocalDate|no|`None`|
-|returnTo|LocalDate|no|`None`|
-|sendFrom|LocalDate|no|`None`|
-|sendTo|LocalDate|no|`None`|
-|insuranceFrom|Double|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|train|`List<String>`|no|`None`|
+|returnFrom|`LocalDate`|no|`None`|
+|returnTo|`LocalDate`|no|`None`|
+|sendFrom|`LocalDate`|no|`None`|
+|sendTo|`LocalDate`|no|`None`|
+|insuranceFrom|`Double`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;StatisticsProviderTrainDTO&gt;&gt;
@@ -7543,16 +7525,16 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|train|List<String>|no|`None`|
-|returnFrom|LocalDate|no|`None`|
-|returnTo|LocalDate|no|`None`|
-|sendFrom|LocalDate|no|`None`|
-|sendTo|LocalDate|no|`None`|
-|insuranceFrom|Double|no|`None`|
-|insuranceTo|Double|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|train|`List<String>`|no|`None`|
+|returnFrom|`LocalDate`|no|`None`|
+|returnTo|`LocalDate`|no|`None`|
+|sendFrom|`LocalDate`|no|`None`|
+|sendTo|`LocalDate`|no|`None`|
+|insuranceFrom|`Double`|no|`None`|
+|insuranceTo|`Double`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7572,11 +7554,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7596,11 +7578,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7622,9 +7604,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|provider|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
+|library|`List<String>`|no|`None`|
+|provider|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;StatisticsProviderDeliveryDTO&gt;&gt;
@@ -7646,11 +7628,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|provider|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|provider|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7675,10 +7657,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|libraries|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsDocUnitCountDTO&gt;&gt;
@@ -7698,8 +7680,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|project|String|no|`None`|
-|lot|String|no|`None`|
+|project|`String`|no|`None`|
+|lot|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;StatisticsDocUnitStatusRatioDTO&gt;
@@ -7719,12 +7701,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;StatisticsDocUnitAverageDTO&gt;&gt;
@@ -7744,8 +7726,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;StatisticsProcessedDocUnitDTO&gt;&gt;
@@ -7765,8 +7747,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;StatisticsProcessedDocUnitDTO&gt;&gt;
@@ -7786,10 +7768,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|libraries|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -7809,14 +7791,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|type|List<String>|no|`None`|
-|collection|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|type|`List<String>`|no|`None`|
+|collection|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsDocPublishedDTO&gt;&gt;
@@ -7836,12 +7818,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|provider|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|Integer|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|provider|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;StatisticsDocRejectedDTO&gt;&gt;
@@ -7861,8 +7843,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;String&gt;&gt;
@@ -7887,13 +7869,13 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7913,14 +7895,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|type|List<String>|no|`None`|
-|collection|List<String>|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|type|`List<String>`|no|`None`|
+|collection|`List<String>`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7940,12 +7922,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|provider|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|provider|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -7970,15 +7952,15 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|pgcnid|String|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|int|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|pgcnid|`String`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`int`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;WorkflowDeliveryProgressDTO&gt;&gt;
@@ -7998,10 +7980,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<DigitalDocumentStatus>|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<DigitalDocumentStatus>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;WorkflowDocUnitProgressDTO&gt;&gt;
@@ -8021,18 +8003,18 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|project_active|boolean|no|`false`|
-|lot|List<String>|no|`None`|
-|train|List<String>|no|`None`|
-|pgcnid|String|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|status|List<WorkflowStateStatus>|no|`None`|
-|mine|boolean|no|`false`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|int|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|project_active|`boolean`|no|`false`|
+|lot|`List<String>`|no|`None`|
+|train|`List<String>`|no|`None`|
+|pgcnid|`String`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|status|`List<WorkflowStateStatus>`|no|`None`|
+|mine|`boolean`|no|`false`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`int`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;WorkflowDocUnitProgressDTO&gt;&gt;
@@ -8052,18 +8034,18 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|project_active|boolean|no|`false`|
-|lot|List<String>|no|`None`|
-|train|List<String>|no|`None`|
-|pgcnid|String|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|status|List<WorkflowStateStatus>|no|`None`|
-|mine|boolean|no|`false`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|page|int|no|`0`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|project_active|`boolean`|no|`false`|
+|lot|`List<String>`|no|`None`|
+|train|`List<String>`|no|`None`|
+|pgcnid|`String`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|status|`List<WorkflowStateStatus>`|no|`None`|
+|mine|`boolean`|no|`false`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|page|`int`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;WorkflowDocUnitProgressDTOPending&gt;&gt;
@@ -8083,10 +8065,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;WorkflowDocUnitProgressDTO&gt;&gt;
@@ -8106,10 +8088,10 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|workflow|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|from|LocalDate|no|`None`|
+|library|`List<String>`|no|`None`|
+|workflow|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|from|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;List&lt;WorkflowStateProgressDTO&gt;&gt;
@@ -8129,11 +8111,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;WorkflowUserProgressDTO&gt;&gt;
@@ -8153,11 +8135,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|role|List<String>|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|role|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;WorkflowProfileActivityDTO&gt;&gt;
@@ -8177,11 +8159,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|role|List<String>|no|`None`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|role|`List<String>`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;WorkflowUserActivityDTO&gt;&gt;
@@ -8206,15 +8188,15 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|pgcnid|String|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|pgcnid|`String`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8234,17 +8216,17 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|train|List<String>|no|`None`|
-|pgcnid|String|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|status|List<WorkflowStateStatus>|no|`None`|
-|mine|boolean|no|`false`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|train|`List<String>`|no|`None`|
+|pgcnid|`String`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|status|`List<WorkflowStateStatus>`|no|`None`|
+|mine|`boolean`|no|`false`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8264,12 +8246,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|workflow|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|workflow|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8289,13 +8271,13 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|delivery|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|delivery|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8315,14 +8297,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|role|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|role|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8342,14 +8324,14 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|List<String>|no|`None`|
-|project|List<String>|no|`None`|
-|lot|List<String>|no|`None`|
-|state|List<WorkflowStateKey>|no|`None`|
-|role|List<String>|no|`None`|
-|from|LocalDate|no|`None`|
-|to|LocalDate|no|`None`|
-|encoding|String|no|`ISO-8859-15`|
+|library|`List<String>`|no|`None`|
+|project|`List<String>`|no|`None`|
+|lot|`List<String>`|no|`None`|
+|state|`List<WorkflowStateKey>`|no|`None`|
+|role|`List<String>`|no|`None`|
+|from|`LocalDate`|no|`None`|
+|to|`LocalDate`|no|`None`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8471,17 +8453,17 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|projects|List<String>|no|`None`|
-|active|boolean|no|`true`|
-|statuses|List<String>|no|`None`|
-|providerSendingDateFrom|LocalDate|no|`None`|
-|providerSendingDateTo|LocalDate|no|`None`|
-|returnDateFrom|LocalDate|no|`None`|
-|returnDateTo|LocalDate|no|`None`|
-|docNumber|Integer|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|projects|`List<String>`|no|`None`|
+|active|`boolean`|no|`true`|
+|statuses|`List<String>`|no|`None`|
+|providerSendingDateFrom|`LocalDate`|no|`None`|
+|providerSendingDateTo|`LocalDate`|no|`None`|
+|returnDateFrom|`LocalDate`|no|`None`|
+|returnDateTo|`LocalDate`|no|`None`|
+|docNumber|`Integer`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleTrainDTO&gt;&gt;
@@ -8640,7 +8622,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|encoding|String|no|`ISO-8859-15`|
+|encoding|`String`|no|`ISO-8859-15`|
 
 
 
@@ -8875,12 +8857,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|initiale|String|no|`None`|
-|active|boolean|no|`true`|
-|libraries|List<String>|no|`None`|
-|roles|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|active|`boolean`|no|`true`|
+|libraries|`List<String>`|no|`None`|
+|roles|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleUserDTO&gt;&gt;
@@ -9111,9 +9093,9 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
+|search|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleViewsFormatConfigurationDTO&gt;&gt;
@@ -9232,7 +9214,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnit|String|no|`None`|
+|docUnit|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;BooleanValueDTO&gt;
@@ -9252,7 +9234,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|docUnitId|String|no|`None`|
+|docUnitId|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;?&gt;
@@ -9287,7 +9269,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|doc|String|no|`None`|
+|doc|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;StateIsDoneDTO&gt;
@@ -9492,11 +9474,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|initiale|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|search|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleWorkflowGroupDTO&gt;&gt;
@@ -9598,11 +9580,11 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|search|String|no|`None`|
-|initiale|String|no|`None`|
-|libraries|List<String>|no|`None`|
-|page|Integer|no|`0`|
-|size|Integer|no|`10`|
+|search|`String`|no|`None`|
+|initiale|`String`|no|`None`|
+|libraries|`List<String>`|no|`None`|
+|page|`Integer`|no|`0`|
+|size|`Integer`|no|`10`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;SimpleWorkflowModelDTO&gt;&gt;
@@ -9622,7 +9604,7 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|String|no|`None`|
+|library|`String`|no|`None`|
 
 
 **Response Body:** ResponseEntity&lt;Collection&lt;SimpleWorkflowModelDTO&gt;&gt;
@@ -9694,8 +9676,8 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|server|List<String>|no|`None`|
-|page|int|no|`0`|
+|server|`List<String>`|no|`None`|
+|page|`int`|no|`0`|
 
 
 **Response Body:** ResponseEntity&lt;Page&lt;Z3950RecordDTO&gt;&gt;
@@ -9715,12 +9697,12 @@
 **QueryParameters:**
 | name | type | required | default value |
 |-|-|-|-|
-|library|String|no|`None`|
-|project|String|no|`None`|
-|lot|String|no|`None`|
-|mapping|String|no|`None`|
-|validation|boolean|no|`false`|
-|dedup|boolean|no|`false`|
+|library|`String`|no|`None`|
+|project|`String`|no|`None`|
+|lot|`String`|no|`None`|
+|mapping|`String`|no|`None`|
+|validation|`boolean`|no|`false`|
+|dedup|`boolean`|no|`false`|
 
 
 **Response Body:** ResponseEntity&lt;ImportReport&gt;

@@ -159,6 +159,7 @@ handler_q = java_lang.query(r"""
     body: (_) @body
 ) @method
 """)
+print(handler_q.__dir__())
 
 """
      Query for fetching the possible status codes from the body of the function.

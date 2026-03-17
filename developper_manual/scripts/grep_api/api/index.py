@@ -132,7 +132,7 @@ class Route:
             qparam_table = f"{table_header}"
             for qpar in params:
                 req = "yes" if qpar['required'] == "True" else "no" 
-                qparam_table += f"|{qpar['name']}|{qpar['ty']}|{req}|`{qpar['dval']}`|\n"
+                qparam_table += f"|{qpar['name']}|`{qpar['ty']}`|{req}|`{qpar['dval']}`|\n"
         else:
             qparam_table =""
         return qparam_table

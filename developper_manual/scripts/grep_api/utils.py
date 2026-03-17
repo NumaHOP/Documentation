@@ -1,5 +1,5 @@
 from typing import TypedDict, TypeVar, Type, cast, Match, Pattern, Iterator, AnyStr, Optional, get_origin, get_args, Union, Callable
-from tree_sitter import Query, Node
+from tree_sitter import Query, Node, QueryCursor
 
 import os
 
@@ -84,7 +84,7 @@ def query_patterns(dictcls: Type[TD], query: Query, node: Node) -> list[TD]:
         return cast(TD, new_pmatch)
 
     assert query.pattern_count == 1
-    qmatches: QueryMatches = query.matches(node)
+    qmatches: QueryMatches = QueryCursor(query).matches(node)
     return list(map(get_pattern_match, qmatches))
 
 """

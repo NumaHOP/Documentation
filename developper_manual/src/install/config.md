@@ -83,7 +83,7 @@ Where pwd is you password.
         <li>src/main/java/fr/progilone/pgcn/service/user/ui/UIUserService.java</li>
         <li>src/main/java/fr/progilone/pgcn/web/rest_int/InternalAccountResource.java</li>
         <li>src/main/java/fr/progilone/pgcn/security/UserDetailsService.java</li>
-    <ul>
+    </ul>
 </details>
 
 #### Jhipster Remember Me key
@@ -100,7 +100,7 @@ head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 	<summary>Uses:</summary>
     <ul>
         <li>TODO</li>
-    <ul>
+    </ul>
 </details>
 
 #### Database and elasticsearch
