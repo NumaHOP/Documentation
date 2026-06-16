@@ -45,7 +45,7 @@ docker build -t numahop-run src/main/docker --target run
 mvn clean compile -Pdocker,webapp 
 ```
 
-Using the makefile:
+Using the justfile:
 ```bash
 docker build -t numahop-run src/main/docker --target run
 
@@ -65,15 +65,15 @@ To start up the docker composition:
 ```bash
 # Note: all docker compose commands with the -f argument should be started from the root of the NumaHOP source code repository
 docker compose -p numahop -f src/main/docker/docker-compose.all.yml up
-# Or using the make file
-just up
+# Or using just
+just docker up
 ```
 
 You now should be able to access your NumaHOP instance at [http://localhost:8080](http://localhost:8080).
 You also can consult numahop logs with:
 ```bash
 docker compose -p numahop -f src/main/docker/docker-compose.all.yml logs 
-# Or using the make file
+# Or using just
 just docker logs
 ```
 To stop all the services:
@@ -88,7 +88,6 @@ just docker clean # stop les services et supprime les conteneurs en detachant le
 If you want to execute a command inside a container:
 ```bash
 docker compose -p numahop exec -it [service-name] -- [command]
-# There is no makefile rule in this case as it is not possible to pass arguments to a makefile rule...
 # For example to connect to the db use
 docker compose -p numahop exec -it numahop-db mariadb -Dnumahop -unumahop -pnumahop
 # Open a file
@@ -108,9 +107,10 @@ These volumes can be detached/deleted from the composition:
 docker compose -p numahop -f src/main/docker/docker-compose.[image].yml rm -f -s -v
 docker volume rm numahop_numahop-[image]-volume
 
-# Or using the makefile
+# Or using the justfile 
 just docker clean
 just docker reset nh
 just docker reset es
 just docker reset db 
 ```
+
