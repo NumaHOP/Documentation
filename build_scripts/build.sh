@@ -1,6 +1,6 @@
 #!/usr/bin/env bash 
 
-MANUALS=("developper_manual" "user_manual")
+MANUALS=("developper_manual" "user_manual" "release_notes")
 
 # ==========================================
 # === Tasks before the mdbook executions ===
@@ -9,14 +9,24 @@ MANUALS=("developper_manual" "user_manual")
 # between src and the generated markdown files.
 
 for manual in "${MANUALS[@]}"; do
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r
+	# Clean up old build
+	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
+
+	echo "mkdir ./$manual/build-src";
+	[ ! -d "$manual/build-src" ] && mkdir "$manual/build-src";
+
 	# Build the initial source directory
-	cp "$manual/src" -r "$manual/build-src"
+	cp "$manual"/src/* -r "$manual/build-src";
+
 	# Patch in the generated inside the source.
 	if [ -d "$manual/include-cache" ]; then
-		[ -f "$manual/include-cache/summary_stub.md" ] && cat "$manual/include-cache/summary_stub.md" >> "$manual/build-src/SUMMARY.md"
-		include_cache="$manual/include-cache/md/*" 
-		cp $include_cache -r "$manual/build-src/."
+		echo "include for $manual";
+		if [ -f "$manual"/include-cache/summary_stub.md ]; then
+			cat "$manual"/include-cache/summary_stub.md \
+				>> "$manual"/build-src/SUMMARY.md;
+		fi
+
+		cp "$manual"/include-cache/md/* -r "$manual/build-src/."
 	fi
 done
 
@@ -33,10 +43,11 @@ done
 
 for manual in "${MANUALS[@]}"; do
 	# delete build directory.
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r
+	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
 
-	echo "Include generated HTML."
-	include_cache="$manual/include-cache/html/*"
-	[ -d "$manual/include-cache/html" ] && cp -r $include_cache "manuals/$manual"
+	echo "Include generated HTML.";
+
+	[ -d "$manual"/include-cache/html ] && cp -r "$manual"/include-cache/html manuals/"$manual"
+
 	echo "Building assets for: $manual";
 done

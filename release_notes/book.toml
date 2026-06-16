@@ -1,0 +1,21 @@
+[book]
+authors = ["Adrien Derobert-Mazure"]
+language = "en"
+src = "build-src"
+title = "NumaHOP Release Notes"
+
+[build]
+create-missing = false
+extra-watch-dirs = ["include", "../common/theme", "src", "build-src"]
+
+[output.html.fold]
+enable = false
+level = 0 
+
+[output.html]
+theme = "../common/theme"
+default-theme = "light"
+preferred-dark-theme = "dark"
+additional-css = ["../common/theme/nh-ext.css"]
+git-repository-url = "https://github.com/NumaHOP/Documentation" 
+git-repository-icon = "fas-code-fork"
