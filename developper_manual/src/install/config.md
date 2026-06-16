@@ -1,16 +1,20 @@
 # NumaHOP Configuration.
-NumaHOP is configured in yaml files called `application.yml` or `application-<profile>.yml`.
+
+NumaHOP is configured in yaml files called `application.yml` or
+`application-<profile>.yml`.
 
 When NumaHOP is started it search and load configs in this order:
 - Inside the packaged war/jar ressources.
 - In the folder `./config`(relative to its current directory).
 
 ## Profiles
-There can be multiple files sourced by NumaHOP with a profile system. 
-First the `application.yml` is sourced and then the profiles one.
-Each load overrides the keys redefined.
+
+There can be multiple files sourced by NumaHOP with a profile system. First the
+`application.yml` is sourced and then the profiles one. Each load overrides the
+keys redefined.
 
 To activate a profile the flag `--spring.profiles.active` can be passed to the war:
+
 ```bash
 # Launch numahop with the profiles dev and prod activated. The keys defined in a later profile overide the keys defined in a previous one.
 ./numahop.war --spring.profile.active=dev,prod
@@ -26,13 +30,18 @@ The resulting files will be sourced in this order:
     - `./config/application-prod.yml`
 
 ## application.yml
-Most of the properties in the yaml files are used either by spring-boot or other dependencies but some are custom.
-All uses of custom properties can be found in the codebase using this command: `grep -e "@Value\(\$\{.*\}\)"`.
+
+Most of the properties in the yaml files are used either by spring-boot or
+other dependencies but some are custom. All uses of custom properties can be
+found in the codebase using this command: `grep -e "@Value\(\$\{.*\}\)"`.
 
 ### Important/UseFull properties to define
 
 #### Instances
-Each establishments using numahop must be declared, choose an id for each libraries using Numahop and sotre it there.
+
+Each establishments using numahop must be declared, choose an id for each
+libraries using Numahop and sotre it there.
+
 ```yaml
 instance:
     libraries: lib1, lib2, lib3
@@ -87,11 +96,16 @@ Where pwd is you password.
 </details>
 
 #### Jhipster Remember Me key
-This is the key needed to make the rememberme service work. It needs to be unique to your installation.
+
+This is the key needed to make the rememberme service work. It needs to be
+unique to your installation.
+
 ```yaml
 jhipster.security.rememberme.key: # No defaults must be defined.
 ```
+
 Same as the password you can get a good randomized key like this:
+
 ```bash
 head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 ```
@@ -104,6 +118,7 @@ head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 </details>
 
 #### Database and elasticsearch
+
 The information needed by numahop to connect to the database and elasticsearch.
 
 ```yaml
@@ -119,7 +134,11 @@ spring:
 ```
 
 #### Filesystem
-These configuration options define where numahop can find the executables it needs, where to put the various files it generates and where to look for files to import.
+
+These configuration options define where numahop can find the executables it
+needs, where to put the various files it generates and where to look for files
+to import.
+
 ```yaml
 base-path: #default /opt/pgcn
 
@@ -216,7 +235,9 @@ services:
 </details>
 
 #### Server
+
 The port used by numahop on the server.
+
 ```yaml
 server:
     port: # default: 80
@@ -230,7 +251,10 @@ server:
 </details>
 
 #### Instance
-In the `instance` section we can configure the different libraries using this instance of numahop.
+
+In the `instance` section we can configure the different libraries using this
+instance of numahop.
+
 ```yaml
 instance:
     libraries: lib1, lib2, lib3
@@ -255,6 +279,7 @@ instance:
 </details>
 
 #### Image Sizes
+
 ```yaml
 images:
     format:
@@ -275,7 +300,9 @@ images:
 </details>
 
 #### Cron jobs.
-Some services are annotated with `@Scheduled`. These are cron jobs configured in the cron section:
+
+Some services are annotated with `@Scheduled`. These are cron jobs configured
+in the cron section:
 
 ```yaml
 cron:
@@ -296,6 +323,7 @@ cron:
 ```
 
 The value is a [cron expression][1] used to configure when to run the job.
+
 <details>
     <summary>Uses:</summary>
     <ul>
@@ -313,6 +341,7 @@ The value is a [cron expression][1] used to configure when to run the job.
 </details>
 
 #### Mail
+
 ```yaml
 spring:
     mail:
@@ -325,6 +354,7 @@ spring:
         auth: # default: false
         activated: # default: false
 ```
+
 <details>
     <summary>Uses:</summary>
     <ul>
