@@ -19,3 +19,6 @@ git-repository-icon = "fas-code-fork"
 [output.html.fold]
 enable = true
 level = 0
+
+[preprocessor.gettext]
+after = ["links"]

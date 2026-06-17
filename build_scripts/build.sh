@@ -33,21 +33,34 @@ done
 # =========================
 # === MdBook executions ===
 # =========================
+LANGUAGES=("fr")
 for manual in "${MANUALS[@]}"; do
-   mdbook build "$manual" -d "./manuals/$manual"
+	mdbook build "$manual" -d "./manuals/$manual"
+
+	# update templates
+	rm -r "./$manual/po/pot"
+	MDBOOK_OUTPUT='{"xgettext": {"depth": 3}}' \
+		mdbook build "$manual" -d "./$manual/po/pot"
+
+	
+	# i18n executions
+	for lang in "${LANGUAGES[@]}"; do
+		find "./$manual/po/$lang/." -name "*.po" | msgcat -f - -o "./$manual/po/$lang.po"
+		MDBOOK_BOOK__LANGUAGE="$lang" \
+			mdbook build "$manual" -d "./manuals/$lang/$manual"
+		rm "./$manual/po/$lang.po"
+	done
 done
 
 # ==========================
 # === Tasks after MdBook ===
 # ==========================
-
 for manual in "${MANUALS[@]}"; do
-	# delete build directory.
+	# delete build directories
 	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
 
 	echo "Include generated HTML.";
 
 	[ -d "$manual/include-cache/html" ] && cp -r "$manual"/include-cache/html/* "manuals/$manual"
-
-	echo "Building assets for: $manual";
+	cp ./landing.html ./manuals/.
 done
