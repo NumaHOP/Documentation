@@ -47,7 +47,7 @@ for manual in "${MANUALS[@]}"; do
 
 	echo "Include generated HTML.";
 
-	[ -d "$manual"/include-cache/html ] && cp -r "$manual"/include-cache/html manuals/"$manual"
+	[ -d "$manual/include-cache/html" ] && cp -r "$manual"/include-cache/html/* "manuals/$manual"
 
 	echo "Building assets for: $manual";
 done
