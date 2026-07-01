@@ -46,6 +46,7 @@ jobs:
       - name: Install mdbook
         run: |
           cargo binstall mdbook --version 0.5.2 --locked
+          cargo binstall mdbook-i18n-helpers --version 0.3.6 --locked
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Setup Pages
