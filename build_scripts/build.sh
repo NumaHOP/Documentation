@@ -1,9 +1,10 @@
 #!/usr/bin/env bash 
 
+
 source manuals.env
 
-[ -d manuals/ ] && rm -r manuals  
-mkdir manuals
+[ -d manuals ] && rm -r manuals/*;
+mkdir manuals;
 
 # ==========================================
 # === Tasks before the mdbook executions ===
@@ -13,13 +14,7 @@ mkdir manuals
 
 for manual in "${MANUALS[@]}"; do
 	# Clean up old build
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
-
-	echo "mkdir ./$manual/build-src";
-	[ ! -d "$manual/build-src" ] && mkdir "$manual/build-src";
-
-	# Build the initial source directory
-	cp "$manual"/src/* -r "$manual/build-src";
+	cp "$manual"/src -r "$manual/build-src";
 
 	# Patch in the generated inside the source.
 	if [ -d "$manual/include-cache" ]; then
@@ -37,24 +32,22 @@ done
 # === MdBook executions ===
 # =========================
 for manual in "${MANUALS[@]}"; do
-	mdbook build "$manual" -d "./manuals/$manual/en"
+	# generate english manual
+	mdbook build "$manual/." -d "manuals/$manual/en";
 
-	# update i18n templates
-	rm -r "./$manual/po/pot"
-	MDBOOK_OUTPUT='{"xgettext": {"depth": 3}}' \
-		mdbook build "$manual" -d "./$manual/po/pot"
-
-	
-	# mdbook i18n declinaisons
+	# generate available translations
 	for lang in "${LANGUAGES[@]}"; do
-		[ ! -d "./$manual/po/$lang" ] && continue;
-		find "./$manual/po/$lang/." -name "*.po" | msgcat -f - -o "./$manual/po/$lang.po"
+		[ ! -d "$manual/po/$lang" ] && continue;
+		find "$manual/po/$lang" -name "*.po" | msgcat -f - -o "$manual/po/$lang.po";
+
 		MDBOOK_BOOK__LANGUAGE="$lang" \
-			mdbook build "$manual" -d "./manuals/$manual/$lang"
-		rm "./$manual/po/$lang.po"
+			mdbook build "$manual" -d "manuals/$manual/$lang";
+
+		rm "$manual/po/$lang.po";
 	done
+
 	# delete build directories
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
+	rm "$manual/build-src" -r;
 done
 
 # ==========================
@@ -67,7 +60,7 @@ for manual in "${MANUALS[@]}"; do
 			cp "$manual"/include-cache/html/* -r manuals/"$manual"/"$lang"; 
 		fi
 	done
-	cp ./landing.html ./manuals/index.html
-	cp common/theme/favicon.png  manuals/.
-	cp common/theme/css/variables.css manuals/.
+	cp landing.html manuals/index.html;
+	cp common/theme/favicon.png  manuals/.;
+	cp common/theme/css/variables.css manuals/.;
 done
