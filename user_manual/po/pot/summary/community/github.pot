@@ -1,0 +1,143 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP User Manual\n"
+"POT-Creation-Date: 2026-07-01T11:48:08+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: build-src/community/github.md:1
+msgid "GitHub for the NumaHOP user."
+msgstr ""
+
+#: build-src/community/github.md:3
+msgid ""
+"The NumaHOP community principally works on GitHub. An organisation is "
+"available for people managing the NumaHOP releases and the documentation. "
+"Under the NumaHOP organisation there is 2 active repositories:"
+msgstr ""
+
+#: build-src/community/github.md:6
+msgid ""
+"[github.com/NumaHOP/NumaHOP](https://github.com/NumaHOP/NumaHOP) contains "
+"the source code for NumaHOP"
+msgstr ""
+
+#: build-src/community/github.md:8
+msgid ""
+"[github.com/NumaHOP/Documentation](https://github.com/NumaHOP/Documentation) "
+"contains the source of the developper manual and the user manual"
+msgstr ""
+
+#: build-src/community/github.md:11
+msgid "How To Report a Bug"
+msgstr ""
+
+#: build-src/community/github.md:13
+msgid ""
+"If you found a bug inside NumaHop and want to report it you can create an "
+"issue on the numahop code repository."
+msgstr ""
+
+#: build-src/community/github.md:16
+msgid ""
+"If you don't have a github account you will need to create one as it is "
+"needed to create issues."
+msgstr ""
+
+#: build-src/community/github.md:19
+msgid ""
+"Once logged into github navigate to the NumaHOP "
+"[repository](https://github.com/NumaHOP/NumaHOP). Then click on the issue "
+"tab to access the list of issues."
+msgstr ""
+
+#: build-src/community/github.md:22
+msgid "![Issue Tab](../assets/images/issue_tab.jpg)"
+msgstr ""
+
+#: build-src/community/github.md:24
+msgid ""
+"Before creating an issue please spend a bit of time to search existing ones "
+"if the bug was already reported."
+msgstr ""
+
+#: build-src/community/github.md:27
+msgid "Then click on the button labeled **New issue**."
+msgstr ""
+
+#: build-src/community/github.md:29
+msgid "![New Issue Button](../assets/images/new_issue_btn.jpg)"
+msgstr ""
+
+#: build-src/community/github.md:31
+msgid "There are 3 options proposed to you:"
+msgstr ""
+
+#: build-src/community/github.md:33
+msgid "![Issue Choices](../assets/images/issue_choices.jpg)"
+msgstr ""
+
+#: build-src/community/github.md:35
+msgid ""
+"If you are not familiar with the markdown syntax I would advise you to "
+"select the **Bug** option. As it propose you to simply fill a form with "
+"several questions asked. Otherwise if you know the markdown syntax and are "
+"familiar with the information needed inside a bug report you can use the "
+"**Blank Issue** option."
+msgstr ""
+
+#: build-src/community/github.md:41
+msgid "Then fill out the form sections:"
+msgstr ""
+
+#: build-src/community/github.md:42
+msgid ""
+"**Steps to reproduce** should describe the prerequisites and the steps to "
+"perform to reproduce the bug."
+msgstr ""
+
+#: build-src/community/github.md:44
+msgid ""
+"**Current Behavior** should describe what is currently happening when the "
+"bug is triggered."
+msgstr ""
+
+#: build-src/community/github.md:46
+msgid ""
+"**Expected Behavior** should describe what is you expected should happen "
+"instead."
+msgstr ""
+
+#: build-src/community/github.md:48
+msgid ""
+"**Browser** if the bug is occuring in the interface you must fill out the "
+"browser you used when you encountered the bug."
+msgstr ""
+
+#: build-src/community/github.md:50
+msgid ""
+"**Anything else ?** is a section to link additional informations that should "
+"be usefull to help resolve the bug."
+msgstr ""
+
+#: build-src/community/github.md:53
+msgid ""
+"Note: you can link files and images (screenshots) by dragging them in any of "
+"the textareas."
+msgstr ""
+
+#: build-src/community/github.md:57
+msgid "How To Make A Feature Request"
+msgstr ""
+
+#: build-src/community/github.md:59
+msgid "ToDo"
+msgstr ""
+

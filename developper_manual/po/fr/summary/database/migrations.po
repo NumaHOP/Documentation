@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-06-24T16:26:09+02:00\n"
+"PO-Revision-Date: 2026-06-24 16:27+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/database/migrations.md:1
+msgid "Database migrations"
+msgstr ""
+"Migration de base de données"
+
+#: build-src/database/migrations.md:3
+msgid ""
+"NumaHOP uses liquibase community for managing its database migrations. It "
+"also serves as an initializer for the empty database during the installation."
+msgstr ""
+"NumaHOP utilise liquibase community pour gerer ses migrations. Cela sert aussi"
+"a l'initialization de la base lors de l'installation."
+
+#: build-src/database/migrations.md:5
+msgid ""
+"The documentation for liquibase is available [here](https://"
+"docs.liquibase.com/community)."
+msgstr ""
+"La documentation de liquibase est disponible [ici](https://"
+"docs.liquibase.com/community)."
+
+#: build-src/database/migrations.md:7
+msgid "How liquibase works"
+msgstr "Comment liquibase fonctionne"
+
+#: build-src/database/migrations.md:9
+msgid ""
+"Liquibase creates two additional tables inside the database "
+"`DATABASECHANGELOG` and `DATABASECHANGELOGLOCK` it uses these to compare the "
+"changelog steps that were applied to the database and the ones it knows "
+"about and apply the missing ones."
+msgstr ""
+"Liquibase crée deux tables suplémentaires en base `DATABASECHANGELOG` "
+"et `DATABASECHANGELOGLOCK`. Il utilise celles-ci pour comparer les étapes "
+"du journal de changements appliquées avec celles dont il a connaissance et "
+"applique les étapes manquantes."
+
+#: build-src/database/migrations.md:11
+msgid "How liquibase is setup"
+msgstr "Comment liquibase est mis en place"
+
+#: build-src/database/migrations.md:13
+msgid ""
+"The liquibase changelog is split in multiple changelog xml files all "
+"referenced in a master changelog. These are located under `src/main/"
+"resources/config/liquibase`"
+msgstr ""
+"Le changelog est separee en plusieurs fichiers xml references dans un "
+"journal de changements maître. Ces fichiers sont dans le dossier `src/"
+"main/resources/config/liquibase`."
+
+#: build-src/database/migrations.md:16
+msgid "Adding a changelog"
+msgstr "Ajouter une étape"
+
+#: build-src/database/migrations.md:18
+msgid ""
+"Each developpement that modify the database should add a new individual "
+"changelog file and add it at the end of the `master.xml` changelog file."
+msgstr ""
+"Chaque developpement modifiant la schéma de la base doit ajouter une nouvelle "
+"étape et la référencer dans le fichier `master.xml`."
+
+#: build-src/database/migrations.md:20
+msgid ""
+"Please name the changelog file with a descriptive name so that it is "
+"representative of what the changelog does."
+msgstr ""
+"Les étapes doivent avoir un nom de fichier reflétant les changements du schéma."

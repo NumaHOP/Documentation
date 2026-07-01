@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-06-24T16:26:09+02:00\n"
+"PO-Revision-Date: 2026-06-24 17:26+0200\n"
+"Last-Translator: <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: build-src/code/index.md:1
+msgid "NumaHOP Architecture"
+msgstr "Architecture de NumaHOP"
+
+#: build-src/code/index.md:3
+msgid "![Numahop Data Input/Output](../assets/graphs/architecture.svg)"
+msgstr "![Schéma d’Entrées/Sorties](../assets/graphs/architecture.svg)"
+
+#: build-src/code/index.md:5
+msgid "NumaHOP Data Input/Output"
+msgstr "Schéma d’Entrées Sorties"
+
+#: build-src/code/index.md:7
+msgid "![Numahop Data Input/Output](../assets/graphs/io-flow.svg)"
+msgstr "![Schéma d’Entrées/Sorties](../assets/graphs/io-flow.svg)"
+
+#: build-src/code/index.md:9
+msgid "Usefull external documentation"
+msgstr "Documentations externes utiles"
+
+#: build-src/code/index.md:10
+msgid "[angularjs](https://code.angularjs.org/1.5.8/docs/api/)"
+msgstr "[angularjs](https://code.angularjs.org/1.5.8/docs/api/)"
+
+#: build-src/code/index.md:11
+msgid "[springboot]()"
+msgstr "[springboot]()"

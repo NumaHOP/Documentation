@@ -1,0 +1,192 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T11:48:08+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: build-src/install/docker_usage.md:1
+msgid "Dockerisation of NumaHOP"
+msgstr ""
+
+#: build-src/install/docker_usage.md:3
+msgid ""
+"Most of the commands that refer to files on this page sould be run inside a "
+"local checkout of the git repository:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:8
+msgid "It is recommended to use at least docker v28.4.0."
+msgstr ""
+
+#: build-src/install/docker_usage.md:10
+msgid "Docker and composition."
+msgstr ""
+
+#: build-src/install/docker_usage.md:12
+msgid ""
+"All the docker configuration and files live in the `src/main/docker` "
+"directory."
+msgstr ""
+
+#: build-src/install/docker_usage.md:14
+msgid ""
+"The Docker image of NumaHOP is built in 2 stages first a `base` is "
+"established. In this base we install the runtime dependencies of NumaHOP and "
+"setup the system user that numahop will use."
+msgstr ""
+
+#: build-src/install/docker_usage.md:18
+msgid ""
+"Then a `run` stage is built. We setup the working directory for numahop and "
+"the yaz library. This step is only needed to be run once as the rebuild "
+"after changes in the source code of NumaHOP will reuse the latest `run` "
+"image as a base."
+msgstr ""
+
+#: build-src/install/docker_usage.md:23
+msgid ""
+"This run stage will then be used by the jib maven plugin to install the "
+"numahop build artifact inside the image. The new image is named `numahop` "
+"and will have the tag `latest`."
+msgstr ""
+
+#: build-src/install/docker_usage.md:27
+msgid ""
+"The composition is declared with a compose file per service with toplevel "
+"compose files that serve as aliases."
+msgstr ""
+
+#: build-src/install/docker_usage.md:30
+msgid "Here is the list of services:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:31
+msgid "`numahop-db`: the mariadb container."
+msgstr ""
+
+#: build-src/install/docker_usage.md:32
+msgid "`numahop-es`: the elasticsearch container."
+msgstr ""
+
+#: build-src/install/docker_usage.md:33
+msgid "`numahop-mail`: the mail container."
+msgstr ""
+
+#: build-src/install/docker_usage.md:34
+msgid "`numahop-nh`: the numahop application container."
+msgstr ""
+
+#: build-src/install/docker_usage.md:36
+msgid ""
+"The two file aliases are `all` and `env`. `env` regroups the db, es, and "
+"mail containers `all` adds to these the application container."
+msgstr ""
+
+#: build-src/install/docker_usage.md:39
+msgid "Build the docker image."
+msgstr ""
+
+#: build-src/install/docker_usage.md:41
+msgid "Using the raw commands:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:47
+msgid "Using the justfile:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:52
+msgid ""
+"After this you should have two image present in your local docker repository:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:57
+msgid "Managing the docker composition."
+msgstr ""
+
+#: build-src/install/docker_usage.md:59
+msgid ""
+"Before using the composition ensure you have built the docker image as "
+"described precedently."
+msgstr ""
+
+#: build-src/install/docker_usage.md:61
+msgid "To start up the docker composition:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:63
+msgid ""
+"# Note: all docker compose commands with the -f argument should be started "
+"from the root of the NumaHOP source code repository\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:64 build-src/install/docker_usage.md:72
+msgid "# Or using just\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:69
+msgid ""
+"You now should be able to access your NumaHOP instance at "
+"[http://localhost:8080](http://localhost:8080). You also can consult numahop "
+"logs with:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:76
+msgid "To stop all the services:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:80
+msgid "# stop les services\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:81
+msgid "# stop les services et supprime les conteneurs\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:82
+msgid "# stop les services et supprime les conteneurs en detachant les volumes\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:85
+msgid "If you want to execute a command inside a container:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:87
+msgid "# For example to connect to the db use\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:89
+msgid "# Open a file\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:94
+msgid ""
+"For developpements it is usefull to be able to reset the data of your "
+"composition. The persisted data in docker is stored inside volumes:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:99
+msgid ""
+"All the volumes used by the composition are in the form "
+"`numahop_numahop-[image]-volume`."
+msgstr ""
+
+#: build-src/install/docker_usage.md:101
+msgid "These volumes can be detached/deleted from the composition:"
+msgstr ""
+
+#: build-src/install/docker_usage.md:103
+msgid "# Pour toute les images\n"
+msgstr ""
+
+#: build-src/install/docker_usage.md:106
+msgid "# Or using the justfile \n"
+msgstr ""
+

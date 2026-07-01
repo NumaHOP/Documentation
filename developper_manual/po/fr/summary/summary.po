@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-06-24T16:26:09+02:00\n"
+"PO-Revision-Date: 2026-06-24 17:07+0200\n"
+"Last-Translator: <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: build-src/SUMMARY.md:1
+msgid "Introduction"
+msgstr "Introduction"
+
+#: build-src/SUMMARY.md:3
+msgid "Installation"
+msgstr "Installation"
+
+#: build-src/SUMMARY.md:4
+msgid "Static Configuration"
+msgstr "Configuration"
+
+#: build-src/SUMMARY.md:5
+msgid "Post Installation"
+msgstr "Post-Installation"
+
+#: build-src/SUMMARY.md:6
+msgid "Docker Usage"
+msgstr "Utilisation de Docker"
+
+#: build-src/SUMMARY.md:7
+msgid "Code & Architecture"
+msgstr "Code et Architecture"
+
+#: build-src/SUMMARY.md:8
+msgid "Structure"
+msgstr "Structure"
+
+#: build-src/SUMMARY.md:9
+msgid "DocUnit"
+msgstr "DocUnit"
+
+#: build-src/SUMMARY.md:10
+msgid "Workflow"
+msgstr "Workflow"
+
+#: build-src/SUMMARY.md:11
+msgid "REST API"
+msgstr "API REST"
+
+#: build-src/SUMMARY.md:12
+msgid "FileSystem"
+msgstr "Système de fichier"
+
+#: build-src/SUMMARY.md:13
+msgid "Database"
+msgstr "Base de données"
+
+#: build-src/SUMMARY.md:14
+msgid "Migrations"
+msgstr "Migrations"
+
+#: build-src/SUMMARY.md:15
+msgid "DB Schema"
+msgstr "Schéma de la base de données"
+
+#: build-src/SUMMARY.md:16
+msgid "Contributing"
+msgstr "Contribuer"
+
+#: build-src/SUMMARY.md:17
+msgid "Appendix"
+msgstr "Annexe"
+
+#: build-src/SUMMARY.md:18
+msgid "Glossary"
+msgstr "Glossaire"
+
+#: build-src/SUMMARY.md:19
+msgid "Contributors"
+msgstr "Contributeurs"
+
+#: build-src/SUMMARY.md:20
+msgid "Design Chart"
+msgstr "Design Chart"
+
+#: build-src/SUMMARY.md:21
+msgid "User Manuals"
+msgstr "Manuels Utilisateurs"
+
+#: build-src/SUMMARY.md:22
+msgid "Unidexed Pages"
+msgstr "Pages non indexées"
+
+#: build-src/SUMMARY.md:23
+msgid "open-api"
+msgstr "open-api"
+
+#: build-src/SUMMARY.md:24
+msgid "api"
+msgstr "api"

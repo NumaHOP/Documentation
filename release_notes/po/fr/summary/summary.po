@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Release Notes\n"
+"POT-Creation-Date: 2026-06-23T16:32:59+02:00\n"
+"PO-Revision-Date: 2026-06-24 11:19+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/SUMMARY.md:1
+msgid "Introduction"
+msgstr ""
+
+#: build-src/SUMMARY.md:3
+msgid "26.03"
+msgstr ""
+
+#: build-src/SUMMARY.md:4
+msgid "Unindexed Pages"
+msgstr ""

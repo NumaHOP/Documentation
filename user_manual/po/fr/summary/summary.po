@@ -1,0 +1,29 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP User Manual\n"
+"POT-Creation-Date: 2026-06-23T16:32:59+02:00\n"
+"PO-Revision-Date: 2026-06-24 15:27+0200\n"
+"Last-Translator: adrien.derobert-mazure@biblibre.com\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: build-src/SUMMARY.md:1
+msgid "Introduction"
+msgstr "Introduction"
+
+#: build-src/SUMMARY.md:2
+msgid "Community"
+msgstr "Communauté"
+
+#: build-src/SUMMARY.md:3
+msgid "GitHub"
+msgstr "GitHub"
+
+#: build-src/SUMMARY.md:5
+msgid "In progress"
+msgstr "En cours"

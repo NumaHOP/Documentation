@@ -1,0 +1,26 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Release Notes\n"
+"POT-Creation-Date: 2026-07-01T11:48:09+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: build-src/SUMMARY.md:1
+msgid "Introduction"
+msgstr ""
+
+#: build-src/SUMMARY.md:3
+msgid "26.03"
+msgstr ""
+
+#: build-src/SUMMARY.md:4
+msgid "Unindexed Pages"
+msgstr ""
+

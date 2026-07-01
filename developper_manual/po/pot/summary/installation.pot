@@ -1,0 +1,267 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T11:48:08+02:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: build-src/install/index.md:1
+msgid "Installation."
+msgstr ""
+
+#: build-src/install/index.md:3
+msgid "Obtaining NumaHOP"
+msgstr ""
+
+#: build-src/install/index.md:5
+msgid "Numahop can be obtained using the following 3 mehtods:"
+msgstr ""
+
+#: build-src/install/index.md:6
+msgid "From the release pages. (advised)"
+msgstr ""
+
+#: build-src/install/index.md:7
+msgid "Compiling from source."
+msgstr ""
+
+#: build-src/install/index.md:8
+msgid "Dockerised solution. See the [Docker Usage](./docker_usage.md) chapter."
+msgstr ""
+
+#: build-src/install/index.md:10
+msgid "Compiling from source"
+msgstr ""
+
+#: build-src/install/index.md:12
+msgid "Progams needed:"
+msgstr ""
+
+#: build-src/install/index.md:13
+msgid "git"
+msgstr ""
+
+#: build-src/install/index.md:14
+msgid "a distribution of the jdk 17"
+msgstr ""
+
+#: build-src/install/index.md:15
+msgid "just (optional)"
+msgstr ""
+
+#: build-src/install/index.md:16
+msgid "maven > 3.6.0 (optional if using `mvnw`)"
+msgstr ""
+
+#: build-src/install/index.md:18
+msgid "Before the installation process, clone the git repository and cd into it:"
+msgstr ""
+
+#: build-src/install/index.md:23
+msgid "If you don't have maven installed you can run this command:"
+msgstr ""
+
+#: build-src/install/index.md:27
+msgid "And use `./mvnw` instead of `mvn`."
+msgstr ""
+
+#: build-src/install/index.md:29
+msgid "Then you can run the compilation command for numahop:"
+msgstr ""
+
+#: build-src/install/index.md:32
+msgid "# Or using the just file\n"
+msgstr ""
+
+#: build-src/install/index.md:37
+msgid ""
+"If you have errors during compilation run `mvn -Dfast=true package`. It "
+"disables all exections non needed to build numahop such as tests, code "
+"analysis and formating. Once the compilation succeds a file "
+"`./target/numahop-yy.mm.jar` should be present in the directory. Move this "
+"file at this path: `/opt/pgcn/numahop.jar`. The name of the war is not "
+"important but its location is. Once that is done we can run NumaHOP. It "
+"should launch and crash rather quickly."
+msgstr ""
+
+#: build-src/install/index.md:43
+msgid "Runtime Dependencies"
+msgstr ""
+
+#: build-src/install/index.md:45
+msgid ""
+"Now use your package manager to install the necessary runtime dependencies "
+"for numahop:"
+msgstr ""
+
+#: build-src/install/index.md:46
+msgid "mariadb > 10.\\*"
+msgstr ""
+
+#: build-src/install/index.md:47
+msgid "elasticsearch > 8.\\*"
+msgstr ""
+
+#: build-src/install/index.md:48
+msgid "open-jdk-17"
+msgstr ""
+
+#: build-src/install/index.md:49
+msgid "tesseract-ocr-all"
+msgstr ""
+
+#: build-src/install/index.md:50
+msgid "libimage-exiftool-perl"
+msgstr ""
+
+#: build-src/install/index.md:51
+msgid "imagemagick"
+msgstr ""
+
+#: build-src/install/index.md:52
+msgid "libyaz4j (optional)"
+msgstr ""
+
+#: build-src/install/index.md:54
+msgid ""
+"The `libyaz4j` dependency is only used by the Z39.50 search queries. If you "
+"don't need the Z39.50 queries you can skip this dependency."
+msgstr ""
+
+#: build-src/install/index.md:57
+msgid "Database"
+msgstr ""
+
+#: build-src/install/index.md:59
+msgid ""
+"Now we will create an empty database and a user for numahop. NumaHOP creates "
+"its tables automatically no need to create them yourself. See the [liquibase "
+"chapter](../database/index.md) for more information."
+msgstr ""
+
+#: build-src/install/index.md:64
+msgid ""
+"Run this suite of commands remplacing the placeholders (`<db-name>`, "
+"`<db-user-name>` and `<db-user-pwd>`) for your setup note these as you will "
+"need to fill them in the config step. You should be greeted by this command "
+"prompt:"
+msgstr ""
+
+#: build-src/install/index.md:70
+msgid "Let's create the database:"
+msgstr ""
+
+#: build-src/install/index.md:76
+msgid "Then the user NumaHOP will use to connect to the database:"
+msgstr ""
+
+#: build-src/install/index.md:79 build-src/install/index.md:80
+msgid "'<db-user-name>'"
+msgstr ""
+
+#: build-src/install/index.md:80
+msgid "'<db-name>'"
+msgstr ""
+
+#: build-src/install/index.md:83
+msgid ""
+"Note these are the minimal rights the user NumaHOP will use needs to edit "
+"the database."
+msgstr ""
+
+#: build-src/install/index.md:85
+msgid ""
+"You can verify that all the information is well defined by running `SHOW "
+"DATABASES;` and `SHOW GRANTS FOR '<db-user-name>'@localhost`. NumaHOP uses "
+"an orm with a migration tool and will automatically create all the tables it "
+"needs for you."
+msgstr ""
+
+#: build-src/install/index.md:88
+msgid "Elastic Search"
+msgstr ""
+
+#: build-src/install/index.md:89
+msgid ""
+"Just install elastic search and folow this "
+"[documentation](https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html "
+"\"Elastic Documentation\"). And make sure it is accessible from where you "
+"want to install numahop either by localhost or an url."
+msgstr ""
+
+#: build-src/install/index.md:91
+msgid ""
+"TODO: Maybe recomand some default configuration for using it with NumaHOP."
+msgstr ""
+
+#: build-src/install/index.md:93
+msgid "Mail Server (Optional)"
+msgstr ""
+
+#: build-src/install/index.md:94
+msgid ""
+"NumaHOP needs a smtp mail server for sending emails. It expects it on the "
+"port 25 on localhost without auth and security by default. If you want to "
+"use a distant server or change the default settings [see](./config.md#mail) "
+"in the config chapter."
+msgstr ""
+
+#: build-src/install/index.md:96
+msgid "Numahop Config"
+msgstr ""
+
+#: build-src/install/index.md:97
+msgid ""
+"Now we need to configure numahop. See the configuration guide "
+"[here](./config.md). After this configuration step you should have an "
+"instance that launches successfully."
+msgstr ""
+
+#: build-src/install/index.md:100
+msgid "If you want to manage Numahop using `systemd`"
+msgstr ""
+
+#: build-src/install/index.md:101
+msgid "Create the file `/etc/systemd/system/numahop.service`:"
+msgstr ""
+
+#: build-src/install/index.md:118
+msgid "Then use (These may be needed to be run as root):"
+msgstr ""
+
+#: build-src/install/index.md:121 build-src/install/index.md:144
+msgid "# After adding/modifying the file\n"
+msgstr ""
+
+#: build-src/install/index.md:122 build-src/install/index.md:145
+msgid "# For starting numahop\n"
+msgstr ""
+
+#: build-src/install/index.md:123 build-src/install/index.md:146
+msgid "# For stoping numahop\n"
+msgstr ""
+
+#: build-src/install/index.md:126
+msgid ""
+"If you don't have root privileges you can instead create the file "
+"`~/.config/systemd/user/numahop.service` with the content:"
+msgstr ""
+
+#: build-src/install/index.md:141
+msgid "And instead use:"
+msgstr ""
+
+#: build-src/install/index.md:149
+msgid ""
+"If everything worked correctly you can access the numahop graphical "
+"interface by connecting to your server. You can now go to the "
+"[Post-Installation](./post_install.md) chapter."
+msgstr ""
+
