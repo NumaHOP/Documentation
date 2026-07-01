@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Release Notes\n"
+"POT-Creation-Date: 2026-06-23T16:32:59+02:00\n"
+"PO-Revision-Date: 2026-06-24 11:19+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/Introduction.md:2
+msgid ""
+"This site archives the history of all the release notes since the version "
+"`26.03` of NumaHOP."
+msgstr ""
+"Ce site archive l'historique des notes de nouvelles version depuis la version "
+"`26.03` de NumaHOP."
+
+#: build-src/Introduction.md:4
+msgid "Each release note contains 3 sections :"
+msgstr ""
+"Chaque notes de version contiens 3 sections:  "
+
+#: build-src/Introduction.md:5
+msgid ""
+"User : Changes that affect users of NumaHOP, new features accesible in the "
+"user interface or bug fixes that affect the users."
+msgstr ""
+"Utilisateur: Changements affectant principalement les utilisateur de NumaHOP, "
+"nouvelles fonctionalitées visible dans l'interface et correctifs de bug affectant "
+"les utilisateurs."
+
+#: build-src/Introduction.md:6
+msgid ""
+"Developers : Contains all the changes that change for the developpers of "
+"NumaHOP. For example: build configuration changes."
+msgstr ""
+"Developers : Contiens les changements affectant les developpeurs de NumaHOP."
+"Par example des changements dans la configuration de build."
+
+#: build-src/Introduction.md:7
+msgid ""
+"Administrators : Contains changes that affect the administration of NumaHOP "
+"instances. For example: change in system side configuration (in yaml), "
+"changes in what numahop does on the server."
+msgstr ""
+"Administrateurs : Contiens les changements affectant les administrateurs d'instance "
+"NumaHOP. Par example des changements dans la configuration systeme ou du comportement "
+"sur le serveur."

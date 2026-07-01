@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # This script updates the parts in the include-cache directory.
-MANUALS=("developper_manual" "user_manual")
+source manuals.env
 
-# Common updates
+# Common updates.
+# Replace by an mdbook plugin that does the rendering at book evaluation.
 echo "Updating generated assets...";
 for manual in "${MANUALS[@]}"; do
 	echo "Building assets for: $manual";

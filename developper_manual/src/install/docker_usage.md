@@ -39,17 +39,14 @@ containers `all` adds to these the application container.
 ## Build the docker image.
 
 Using the raw commands:
+<!-- i18n:ignore -->
 ```bash
 docker build -t numahop-run src/main/docker --target run 
-
 mvn clean compile -Pdocker,webapp 
 ```
-
 Using the justfile:
 ```bash
-docker build -t numahop-run src/main/docker --target run
-
-just build docker
+just setup && just build docker
 ```
 
 After this you should have two image present in your local docker repository:

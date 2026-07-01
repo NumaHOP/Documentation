@@ -1,6 +1,10 @@
 #!/usr/bin/env bash 
 
-MANUALS=("developper_manual" "user_manual" "release_notes")
+
+source manuals.env
+
+[ -d manuals ] && rm -r manuals/*;
+mkdir manuals;
 
 # ==========================================
 # === Tasks before the mdbook executions ===
@@ -10,13 +14,7 @@ MANUALS=("developper_manual" "user_manual" "release_notes")
 
 for manual in "${MANUALS[@]}"; do
 	# Clean up old build
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
-
-	echo "mkdir ./$manual/build-src";
-	[ ! -d "$manual/build-src" ] && mkdir "$manual/build-src";
-
-	# Build the initial source directory
-	cp "$manual"/src/* -r "$manual/build-src";
+	cp "$manual"/src -r "$manual/build-src";
 
 	# Patch in the generated inside the source.
 	if [ -d "$manual/include-cache" ]; then
@@ -34,20 +32,35 @@ done
 # === MdBook executions ===
 # =========================
 for manual in "${MANUALS[@]}"; do
-   mdbook build "$manual" -d "./manuals/$manual"
+	# generate english manual
+	mdbook build "$manual/." -d "manuals/$manual/en";
+
+	# generate available translations
+	for lang in "${LANGUAGES[@]}"; do
+		[ ! -d "$manual/po/$lang" ] && continue;
+		find "$manual/po/$lang" -name "*.po" | msgcat -f - -o "$manual/po/$lang.po";
+
+		MDBOOK_BOOK__LANGUAGE="$lang" \
+			mdbook build "$manual" -d "manuals/$manual/$lang";
+
+		rm "$manual/po/$lang.po";
+	done
+
+	# delete build directories
+	rm "$manual/build-src" -r;
 done
 
 # ==========================
 # === Tasks after MdBook ===
 # ==========================
-
 for manual in "${MANUALS[@]}"; do
-	# delete build directory.
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
-
-	echo "Include generated HTML.";
-
-	[ -d "$manual/include-cache/html" ] && cp -r "$manual"/include-cache/html/* "manuals/$manual"
-
-	echo "Building assets for: $manual";
+	echo "Include generated HTML and assets.";
+	for lang in "${LANGUAGES[@]}"; do
+		if [ -d "$manual"/include-cache/html ] && [ -d "$manual/po/$lang" ]; then 
+			cp "$manual"/include-cache/html/* -r manuals/"$manual"/"$lang"; 
+		fi
+	done
+	cp landing.html manuals/index.html;
+	cp common/theme/favicon.png  manuals/.;
+	cp common/theme/css/variables.css manuals/.;
 done

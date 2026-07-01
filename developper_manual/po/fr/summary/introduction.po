@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T12:04:45+02:00\n"
+"PO-Revision-Date: 2026-06-24 16:27+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/introduction.md:1
+msgid ""
+"This documentation is in its early stages. It is not very complete or "
+"definitive and can be inexact."
+msgstr ""
+"Cette documentation est récente et en cours d’édition. Elle n'est donc pas "
+"complète et/ou peut être inexacte."
+
+#: build-src/introduction.md:7
+msgid "What is NumaHOP ?"
+msgstr "Qu'est ce que NumaHOP ?"
+
+#: build-src/introduction.md:8
+msgid ""
+"[NumaHOP](https://www.numahop.fr/) is a software solution to manage the "
+"digitalization process of documents from the import of meta-datas and "
+"condition report to the diffusion of the documents. It serves as an "
+"intermediary between the digitalization provider, the establishments and the "
+"export targets. This is mostly an automated process with occasional manual "
+"operations and verifications."
+msgstr ""
+"[NumaHOP](https://www.numahop.fr/) est une solution logicielle pour la "
+"gestion de la chaine de numérisation. Cela comprends l'import de méta "
+"données, le constat d’état des documents, jusqu’à la diffusion en masse. "
+"Elle sert intermédiaire entre les prestataires de numérisation, les "
+"établissement et les plateformes d'exports. Ce processus est semi-automatisé "
+"avec des contrôles manuels."
+
+#: build-src/introduction.md:12
+msgid "What NumaHOP can do"
+msgstr "Ce que NumaHOP peut faire"
+
+#: build-src/introduction.md:14
+msgid "NumaHOP is composed of modules that can:"
+msgstr "NumaHOP est composé de module pouvant:"
+
+#: build-src/introduction.md:16
+msgid "import and convert bibliographic records into DublinCore."
+msgstr "importer des notices bibliographiques et les convertir en DublinCore."
+
+#: build-src/introduction.md:17
+msgid ""
+"inspect and validate images and bibliographic records of digitalized "
+"documents."
+msgstr ""
+"visionner et valider les images et les notices des documents numérisés."
+
+#: build-src/introduction.md:18
+msgid "make condition reports for bundles sent to the digitalization provider."
+msgstr ""
+"rédiger des constats d’états pour les documents envoyés a un prestataire de "
+"numérisation."
+
+#: build-src/introduction.md:19
+msgid "use workflow for managing digitalization projects."
+msgstr "utiliser des workflow pour gérer le processus de numérisation."
+
+#: build-src/introduction.md:20
+msgid "export documents to archiving services or digital libraries."
+msgstr ""
+"exporter les documents vers les services d'archivages et les bibliothèques "
+"numériques."
+
+#: build-src/introduction.md:21
+msgid "produce derived documents like OCR, METS, scaled down images."
+msgstr ""
+"produire des fichier dérivés comme de l'OCR, des fichier METS, des images de "
+"différentes résolutions."
+
+#: build-src/introduction.md:23
+msgid ""
+"NumaHOP is able to automatically diffuse documents in bulk. The platform "
+"supported are:"
+msgstr ""
+"NumaHOP peut diffuser les documents en masse vers les plateformes suivantes:"
+
+#: build-src/introduction.md:25
+msgid "An SFTP server."
+msgstr "un serveur SFTP."
+
+#: build-src/introduction.md:26
+msgid "OMEKA/OMEKAS."
+msgstr "une instance OMEKA/OMEKA-S."
+
+#: build-src/introduction.md:27
+msgid "the CINES."
+msgstr "le CINES."
+
+#: build-src/introduction.md:28
+msgid "Internet Archive."
+msgstr "Internet Archive."
+
+#: build-src/introduction.md:30
+msgid ""
+"NumaHOP is also able to be shared between establishments and allows to make "
+"conjoint projects."
+msgstr ""
+"NumaHOP peut aussi être partagé par plusieurs établissement pour réaliser "
+"des projets de numérisation conjoints."

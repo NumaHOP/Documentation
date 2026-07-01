@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T12:04:45+02:00\n"
+"PO-Revision-Date: 2026-06-24 16:27+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/appendix/design.md:2
+msgid "Color palette"
+msgstr ""

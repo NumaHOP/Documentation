@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T12:04:45+02:00\n"
+"PO-Revision-Date: 2026-06-24 16:27+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/appendix/old_manuals.md:1
+msgid "Old documentation."
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:3
+msgid ""
+"Here you can find the old documentation of NumaHOP writen by Tech'Advange "
+"also previously known as Progilone. These pdf manuals are more intended for "
+"a user than a developper but are still usefull."
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:6
+msgid "These manuals are written in french."
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:8
+msgid ""
+"[MAN002 Administrator Manual](./old_manuals/MAN002_NumaHOP_-"
+"_Manuel_Administrateur.pdf)"
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:9
+msgid ""
+"[MAN003 User Manual](./old_manuals/MAN003_NumaHOP_-_Manuel_Utilisateur.pdf)"
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:10
+msgid ""
+"[MAN004 Provider Manual](./old_manuals/MAN004_NumaHOP_-"
+"_Manuel_Prestataire.pdf)"
+msgstr ""
+
+#: build-src/appendix/old_manuals.md:11
+msgid ""
+"[MAN005 Complete Processus](./old_manuals/MAN005_NumaHop_-"
+"_Processus_complet_-_V1.2.pdf)"
+msgstr ""

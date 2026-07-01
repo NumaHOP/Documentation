@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Developper Manual\n"
+"POT-Creation-Date: 2026-07-01T12:04:45+02:00\n"
+"PO-Revision-Date: 2026-06-24 16:27+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/install/config.md:1
+msgid "NumaHOP Configuration."
+msgstr ""
+
+#: build-src/install/config.md:3
+msgid ""
+"NumaHOP is configured in yaml files called `application.yml` or `application-"
+"<profile>.yml`."
+msgstr ""
+"La configuration de NumaHOP se fait dans des fichiers yaml nomes "
+"`application.yml`ou `application-<profile>.yml`."
+
+#: build-src/install/config.md:6
+msgid "When NumaHOP is started it search and load configs in this order:"
+msgstr ""
+"Quand NumaHOP demare il cherce and charge les fichiers de configuration dans "
+"cet ordre:"
+
+#: build-src/install/config.md:7
+msgid "Inside the packaged war/jar ressources."
+msgstr "Dans les ressources a l'interieur du packet jar."
+
+#: build-src/install/config.md:8
+msgid "In the folder `./config`(relative to its current directory)."
+msgstr "Dans le dossier `./config` (relatif a son repertoir d'execution)."
+
+#: build-src/install/config.md:10
+msgid "Profiles"
+msgstr "Profiles"
+
+#: build-src/install/config.md:12
+msgid ""
+"There can be multiple files sourced by NumaHOP with a profile system. First "
+"the `application.yml` is sourced and then the profiles one. Each load "
+"overrides the keys redefined."
+msgstr ""
+"NumaHOP peut charger plusieurs fichier de configuration a l'aide d'un system "
+"de profile.En premier il charge le fichier `application.yml` et ensuite les "
+"fichiers des profils actifs.Chaque chargement écrase les clès de "
+"configuration déjà définies."
+
+#: build-src/install/config.md:16
+#, fuzzy
+msgid ""
+"To activate a profile the flag `--spring.profiles.active` can be passed to "
+"the war:"
+msgstr ""
+"Pour activer un profile l'argument `--spring.profiles.active` peut être "
+"passéau jar:"
+
+#: build-src/install/config.md:22
+msgid "The resulting files will be sourced in this order:"
+msgstr ""
+
+#: build-src/install/config.md:23
+msgid "Inside the jar:"
+msgstr "À l'interieur du jar:"
+
+#: build-src/install/config.md:24
+msgid "`application.yml`"
+msgstr "`application.yml`"
+
+#: build-src/install/config.md:25
+msgid "`application-dev.yml`"
+msgstr "`application-dev.yml`"
+
+#: build-src/install/config.md:26
+msgid "`application-prod.yml`"
+msgstr "`application-prod.yml`"
+
+#: build-src/install/config.md:27
+msgid "In the working directory:"
+msgstr "À l'interieur du répertoir de travail:"
+
+#: build-src/install/config.md:28
+msgid "`./config/application.yml`"
+msgstr "`./config/application.yml`"
+
+#: build-src/install/config.md:29
+msgid "`./config/application-dev.yml`"
+msgstr "`./config/application-dev.yml`"
+
+#: build-src/install/config.md:30
+msgid "`./config/application-prod.yml`"
+msgstr "`./config/application-prod.yml`"
+
+#: build-src/install/config.md:32
+msgid "application.yml"
+msgstr "application.yml"
+
+#: build-src/install/config.md:34
+msgid ""
+"Most of the properties in the yaml files are used either by spring-boot or "
+"other dependencies but some are custom. All uses of custom properties can be "
+"found in the codebase using this command: `grep -e \"@Value\\(\\$\\{.*\\}\\)"
+"\"`."
+msgstr ""
+"La plupart des propriétées disponible dans les fichier de configuration "
+"sontdéfinies par SpringBoot certaines le sont par NumaHOP. Toute les "
+"utilisation despropriétées de NumaHOP peuvent être trouvées en utilisant la "
+"commande: `grep -e \"@Value\\(\\$\\{.*\\}\\)\"`"
+
+#: build-src/install/config.md:38
+msgid "Important/UseFull properties to define"
+msgstr "Propriétées importantes et utiles"
+
+#: build-src/install/config.md:40
+msgid "Instances (Must be set)"
+msgstr "Instances (Doit être définie)"
+
+#: build-src/install/config.md:42
+msgid ""
+"Each establishments using numahop must be declared, choose an id for each "
+"libraries using Numahop and sotre it there."
+msgstr ""
+"Chaque etablissements dans numahop doit etre declare ici. L'id doit "
+"correspondreavec l'id de l'etablissement dans la table `library` en base de "
+"donnees."
+
+#: build-src/install/config.md:69
+msgid "Admin (Must be set)"
+msgstr "Admin (Doit être définie)"
+
+#: build-src/install/config.md:70
+msgid ""
+"The admin is the only account present after the installation. It is very "
+"important to define:"
+msgstr "Le compte admin est le seul compte present apres installation. "
+
+#: build-src/install/config.md:78
+msgid ""
+"The password is encrypted using the bcrypt method you can get a good "
+"password to encrypt like this:"
+msgstr ""
+"Le mot de pass est encrypte en utilisant bcrypt. Vous pouvez obtenir un "
+"bonmot de passe avec cette commande:"
+
+#: build-src/install/config.md:84
+msgid ""
+"Then encrypt it with a bcrypt implementation. But pay attention not all "
+"bcrypt algorithms are secure. The easiest way to encrypt the password is as "
+"such it requires a `python3` installation with the `python3-bcrypt` library:"
+msgstr ""
+"Ensuit encrypez le avec une implementation de bcrypt. Point d'attention "
+"toutes lesimplémentations de bcrypt ne sont pas sécurisées. Une option est "
+"d'encrypter le mot depasse en utilisant `python3` avec le packet `python3-"
+"bcrypt`:"
+
+#: build-src/install/config.md:94
+msgid "Where pwd is you password."
+msgstr "Ou `pwd` est votre mot de passe."
+
+#: build-src/install/config.md:105
+msgid "Jhipster Remember Me key (Must be set)"
+msgstr "Jhipster Remember Me key (Doit être définie)"
+
+#: build-src/install/config.md:107
+msgid ""
+"This is the key needed to make the rememberme service work. It needs to be "
+"unique to your installation."
+msgstr ""
+"C'est la cle qui permet au service rememberme de fonctionner. Elle doit être "
+"uniquepour votre installation."
+
+#: build-src/install/config.md:115
+msgid "Same as the password you can get a good randomized key like this:"
+msgstr ""
+"De la meme maniere que pour le mot de passe vous pouvez obtenirune bonne clé "
+"comme ceci:"
+
+#: build-src/install/config.md:129
+msgid "Database and elasticsearch (Must be set)"
+msgstr "Base de données et elasticsearch (Doit être définie)"
+
+#: build-src/install/config.md:131
+msgid ""
+"The information needed by numahop to connect to the database and "
+"elasticsearch."
+msgstr ""
+"Les informations dont NumaHOP a besoin pour se connecter à la base de "
+"données et elasticsearch."
+
+#: build-src/install/config.md:146
+msgid "Filesystem"
+msgstr "Sytème de fichier"
+
+#: build-src/install/config.md:148
+msgid ""
+"These configuration options define where numahop can find the executables it "
+"needs, where to put the various files it generates and where to look for "
+"files to import."
+msgstr ""
+"Ces options de configuration définissent où NumaHOP peut trouver les "
+"executables dont il a besoin, ainsi que l'endroit où il doit placer les "
+"différent fichiers qu'il génère."
+
+#: build-src/install/config.md:248
+msgid "Server"
+msgstr "Serveur"
+
+#: build-src/install/config.md:250
+msgid "The port used by numahop on the server."
+msgstr "Le port utilisé par NumaHOP."
+
+#: build-src/install/config.md:266
+msgid "Image Sizes"
+msgstr "Tailles d'images"
+
+#: build-src/install/config.md:288
+msgid "Cron jobs."
+msgstr "Cron jobs"
+
+#: build-src/install/config.md:290
+msgid ""
+"Some services are annotated with `@Scheduled`. These are cron jobs "
+"configured in the cron section:"
+msgstr ""
+"Plusieurs services de NumaHOP sont annotés avec `@Scheduled`. Ce sontdes con "
+"jobs configurable."
+
+#: build-src/install/config.md:312
+msgid ""
+"The value is a [cron expression](https://docs.spring.io/spring-framework/"
+"reference/integration/scheduling.html#scheduling-cron-expression \"Cron "
+"Expression\") used to configure when to run the job."
+msgstr ""
+"La valeur de chaque clé est une [expression cron](https://docs.spring.io/"
+"spring-framework/reference/integration/scheduling.html#scheduling-cron-"
+"expression \"Cron Expression\") utilisée pour configurer quand la tache doit "
+"être executée."
+
+#: build-src/install/config.md:330
+msgid "Mail"
+msgstr "Mail"

@@ -1,3 +1,4 @@
+<!-- i18n:skip -->
 > This documentation page is temporary. When the api will be compliant the the oas v3.1 specification this page will be removed.
 # Api End Points
 * [/audit/delivery](#auditdelivery)

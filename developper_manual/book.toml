@@ -19,3 +19,6 @@ preferred-dark-theme = "dark"
 additional-css = ["../common/theme/nh-ext.css"]
 git-repository-url = "https://github.com/NumaHOP/Documentation" 
 git-repository-icon = "fas-code-fork"
+
+[preprocessor.gettext]
+after = ["links"]

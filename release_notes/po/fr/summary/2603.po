@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: NumaHOP Release Notes\n"
+"POT-Creation-Date: 2026-06-23T16:32:59+02:00\n"
+"PO-Revision-Date: 2026-06-24 11:19+0200\n"
+"Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
+"Language-Team: French <traduc@traduc.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: build-src/releases/26.03.md:1
+msgid "26.03"
+msgstr "26.03"
+
+#: build-src/releases/26.03.md:3
+msgid ""
+"As of this release the versioning of NumaHOP changes. It was previously "
+"using semantic versioning and now uses Calendar Versioning. We plan to do "
+"two releases per year in March and September which makes the version numbers "
+"for this year `26.03` and `26.09`."
+msgstr ""
+"La numérotation des versions de NumaHOP changent. Le système précédant utilisait "
+"les versions sémantiques et nous passons au système calendaire. Nous prevoyons de faire "
+"deux version par ans, une en Mars et une en Septembre. Cela donne les version `26.03` et "
+"`26.09` pour cette année."
+
+#: build-src/releases/26.03.md:5
+msgid ""
+"This release is mostly plumbing changes with a few bug fixes and a small "
+"improvement in the user interface."
+msgstr ""
+"Cette version contiens majoritairement des changements de plomberie et quelque "
+"corrections de bug ainsi qu'une petite amelioration d'interface utilisateur." 
+
+#: build-src/releases/26.03.md:7
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: build-src/releases/26.03.md:9
+msgid ""
+"The button on the preview page for Document Units can now open the details "
+"page in a new tab by using `Ctrl+Click`."
+msgstr ""
+"Le bouton sur la page de pre-visualisation pour les Unités Documentaires peut maintenant "
+"ouvrir la page des details dans un nouvel ongle en utilisant le `Ctrl+Click`."
+
+#: build-src/releases/26.03.md:11
+msgid "A few bugs are now fixed:"
+msgstr "Queques corrections de bugs:"
+
+#: build-src/releases/26.03.md:13
+msgid ""
+"Fix a bug in the Cines export were a distant XML dependency was inaccessible."
+msgstr ""
+"Correction d'un bug où une dépendance xml distante etais inaccessible."
+
+#: build-src/releases/26.03.md:14
+msgid ""
+"Fix a bug were the Internet Archive URL was wrong and added a system "
+"configuration for it."
+msgstr ""
+"Correction d'un bug où l'URL de Internet Archive n'étais plus valide et "
+"ajout d'une option de config yaml."
+
+#: build-src/releases/26.03.md:16
+msgid "Developers"
+msgstr "Developpeurs"
+
+#: build-src/releases/26.03.md:18
+msgid ""
+"The java code formatter was changed to `spring-javaformat` as there was "
+"multiple java formatters present in the codebase. This one is not "
+"configurable in any way, and it's an advantage as we don't have to argue "
+"about the configuration of the code formatter."
+msgstr ""
+"Le formatteur de code a ete change pour `spring-javaformat`. Il y avait "
+"plusieurs formatteurs presents. Celui ci n'est pas configurable. "
+"C'est un avantage car cela rend les disputes sur la configuration du formatteur "
+"inexistantes."
+
+#: build-src/releases/26.03.md:20
+msgid ""
+"The queries in the JPQL were reformatted using multi-line strings because "
+"the concatenation was broken by the new formatter."
+msgstr ""
+"Les requete en JPQL on etee reformatee en utilisant des chaines de charactere "
+"mulit-lignes car la concatenation les rendait illisible. Consequence du changement "
+"du formatteur."
+
+#: build-src/releases/26.03.md:22
+msgid ""
+"The `Makefile` was replaced by a `justfile`. Just is a true command runner "
+"as opposed to make which is intended to be a simple build system based on "
+"file timestamps. The `justfile` is more suited for executing commands and "
+"accepting arguments in rules. You can find the installation instructions for "
+"just here [github.com/casey/just](https://github.com/casey/just?tab=readme-"
+"ov-file#installation)."
+msgstr ""
+"Le `Makefile` a ete remplace par un `justfile`. Just est un vrai lanceur de "
+"commandes contrairement a gnumake qui est plutot fait pour etre un system de build "
+"simple. Le `justfile` est mieu adapte pour lancer des commandes arbitraires et "
+"accepte des arguments dans ses regles. Vous pouvez trouver les instruction pour "
+"l'installer ici [gihtub.com/casey/just](https://github.com/casey/just?tab=readme"
+"-ov-file#installation)"
+
+#: build-src/releases/26.03.md:24
+msgid ""
+"Improved the maven build option to give more control when building during "
+"development. This is achieved with profiles, which were used in the "
+"Makefile. A `checks` profile was added. It contains formatting validation. "
+"You can add the argument `-Dfast` or `-P!checks` to skip them for faster "
+"compile times. A `docker` profile was added for compiling the docker image. "
+"It is disabled by default. If you want to build the docker image for NumaHOP "
+"run `mvn compile -Pdocker`. A `webapp`profile was added. It is enabled by "
+"default. You can disable it with `-Dskip-front-end`. This will skip the "
+"bundling of the front-end code in the NumaHOP jar. Useful if you are working "
+"on the back-end to have faster compilation times. It pairs well with the "
+"front-end served by grunt locally."
+msgstr ""
+"Le build maven a ete amélioré pour donner plus de controlle pendant le développent."
+"Un profil `checks` a été ajouté. Il contiens la validation du formattage. Vous pouvez "
+"passer `-Dfast` ou `-P!checks` a maven pour le desactiver. Un profil `docker` a été ajouté "
+"Celui-ci est desactive par défaut. Si vous vouler construire l'image Docker de NumaHOP lancez "
+"`mvn compile -Pdocker`. Un profil `webapp` a été ajouté. Il est actifs par defaut et permet "
+"d'inclure le front-end de NumaHOP dans le jar. Il est interessant de le desactiver lors du "
+"développement lorsque grunt sers lui meme le front-end."
+
+#: build-src/releases/26.03.md:26
+msgid ""
+"A little bit of code documentation was present in the source but the tools "
+"to generate documentation sites were not configured. They are now (see: "
+"`just doc`)."
+msgstr ""
+"Un petit peu de documentation du code était présente mais les outils de génération "
+"n'etais pas configurés. Il le sont (voir: `just doc`)."
+
+#: build-src/releases/26.03.md:28
+msgid "Administrators"
+msgstr "Administrateurs"
+
+#: build-src/releases/26.03.md:30
+msgid ""
+"NumaHOP is now able to output structured logs in the ECS format. See the "
+"configuration options for more details. The feature that allowed the special "
+"user `admin` to download log files was removed as we consider anyone that "
+"can log in as this user should have access to the server hosting numahop and "
+"as such the log files present."
+msgstr ""
+"NumaHOP est maintenant capable de generer des log au format ECS. Voir les "
+"options de configuration statique pour plus de details. La fonctionnalitee qui "
+"permet a l'utilisateur `admin` de télécharger les fichier de logs a ete enlevée."
+
+#: build-src/releases/26.03.md:32
+msgid ""
+"A new option for configuring the Elasticsearch separator between the prefix "
+"and the name of the indexes used by numahop was added: "
+"`elasticsearch.index.separator`."
+msgstr ""
+"Une nouvelle option de configuration pour configurer le séparateur entre le préfixe "
+"et le nom des indexs elasticsearch de NumaHOP a été ajoutée:"
+"`elasticsearch.index.separator`."
+
+#: build-src/releases/26.03.md:34
+msgid ""
+"The `jsch` dependency was updated making NumaHOP able to use newer ssh key "
+"algorithms (e.g. ed25519)."
+msgstr ""
+"La dépendance `jsch` a ete mise a jour. NumaHOP est maintenant capable d'utiliser "
+"des algorithmes plus récents pour ses clés ssh."
+
+#: build-src/releases/26.03.md:36
+msgid "Here are the new config options with the deprecated ones:"
+msgstr ""
+"Voici les nouvelles options de configuration et celles dépréciés:"
+
+#: build-src/releases/26.03.md:38
+msgid "old"
+msgstr "Ancienes"
+
+#: build-src/releases/26.03.md:38
+msgid "new"
+msgstr "Nouvelles"
+
+#: build-src/releases/26.03.md:38
+msgid "description"
+msgstr "Describtion"
+
+#: build-src/releases/26.03.md:40
+msgid "`logging.console.mode`"
+msgstr ""
+
+#: build-src/releases/26.03.md:40
+msgid "Whether the console should output in \\``` text` or `json` ``."
+msgstr "Format de sortie des logs console (`text` ou `json`)"
+
+#: build-src/releases/26.03.md:41
+msgid "`logging.file.name`"
+msgstr ""
+
+#: build-src/releases/26.03.md:41
+msgid "`logging.file.text.name`"
+msgstr ""
+
+#: build-src/releases/26.03.md:41
+msgid "Name of the file to be used to store logs in text format."
+msgstr "Nom du fichier pour les logs aux format text"
+
+#: build-src/releases/26.03.md:42
+msgid "`logging.file.text.enable`"
+msgstr ""
+
+#: build-src/releases/26.03.md:42
+msgid "Whether text logs should be stored in a file."
+msgstr "Active les logs en texte dans un fichier."
+
+#: build-src/releases/26.03.md:43
+msgid "`logging.file.text.pattern`"
+msgstr ""
+
+#: build-src/releases/26.03.md:43
+msgid "Pattern used by the java logger to print the logs."
+msgstr "Pattern utilisé par le logger java pour les logs en text."
+
+#: build-src/releases/26.03.md:44
+msgid "`logging.file.text.rolling.enable`"
+msgstr ""
+
+#: build-src/releases/26.03.md:44 build-src/releases/26.03.md:48
+msgid "If file rolling should be enabled."
+msgstr "Active la rotation des fichier"
+
+#: build-src/releases/26.03.md:45
+msgid "`logging.file.text.rolling.pattern`"
+msgstr ""
+
+#: build-src/releases/26.03.md:45 build-src/releases/26.03.md:49
+msgid "Date pattern that should be appended to the file name."
+msgstr "Pattern de date pour le nom du fichier"
+
+#: build-src/releases/26.03.md:46
+msgid "`logging.file.text.rolling.delete-older-than`"
+msgstr ""
+
+#: build-src/releases/26.03.md:46 build-src/releases/26.03.md:50
+msgid "Number of days that NumaHOP should keep logs for."
+msgstr "Nombre de jours pour lequels NumaHOP doit conserver les fichiers."
+
+#: build-src/releases/26.03.md:47
+msgid "`logging.file.json.enable`"
+msgstr ""
+
+#: build-src/releases/26.03.md:47
+msgid "Whether structured logs should be stored in a file."
+msgstr "Active les logs en json dans un fichier."
+
+#: build-src/releases/26.03.md:48
+msgid "`logging.file.json.rolling.enable`"
+msgstr ""
+
+#: build-src/releases/26.03.md:49
+msgid "`logging.file.json.rolling.pattern`"
+msgstr ""
+
+#: build-src/releases/26.03.md:50
+msgid "`logging.file.json.rolling.delete-older-than`"
+msgstr ""
+
+#: build-src/releases/26.03.md:51
+msgid "`elasticsearch.index.separator`"
+msgstr ""
+
+#: build-src/releases/26.03.md:51
+msgid ""
+"The separator between the `elasticsearch.index.name` prefix and the NumaHOP "
+"index names."
+msgstr ""
+"Le separateur entre le prefix `elasticsearch.index.name` et le nom des index NumaHOP."
+
+#: build-src/releases/26.03.md:52
+msgid "`services.archive.s3-url`"
+msgstr ""
+
+#: build-src/releases/26.03.md:52
+msgid "The URL used for connecting to the Internet Archive uploads."
+msgstr "L'URL utilisé pour se connecter a Internet Archive pour les exports."
