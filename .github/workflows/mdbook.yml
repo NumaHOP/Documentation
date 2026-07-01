@@ -43,10 +43,11 @@ jobs:
       - name: Ensure cargo-binstall is installed.
         uses: cargo-bins/cargo-binstall@main
       
-      - name: Install mdbook
+      - name: Install mdbook and getext
         run: |
+          sudo apt-get install -y gettext
           cargo binstall mdbook --version 0.5.2 --locked
-          cargo binstall mdbook-i18n-helpers --version 0.3.6 --locked
+          cargo binstall mdbook-i18n-helpers --version 0.4.0 --locked
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Setup Pages
