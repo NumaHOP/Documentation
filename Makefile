@@ -1,7 +1,6 @@
 # Build the two books.
 build:
 	# Developper manual
-	./build_scripts/setup.sh
 	./build_scripts/build.sh
 
 update-gen:

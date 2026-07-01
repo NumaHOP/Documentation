@@ -15,12 +15,12 @@ keys redefined.
 
 To activate a profile the flag `--spring.profiles.active` can be passed to the war:
 
+<!-- i18n:skip -->
 ```bash
-# Launch numahop with the profiles dev and prod activated. The keys defined in a later profile overide the keys defined in a previous one.
-./numahop.war --spring.profile.active=dev,prod
+./numahop.jar --spring.profile.active=dev,prod
 ```
 The resulting files will be sourced in this order:
-- Inside the war:
+- Inside the jar:
     - `application.yml`
     - `application-dev.yml`
     - `application-prod.yml`
@@ -37,11 +37,12 @@ found in the codebase using this command: `grep -e "@Value\(\$\{.*\}\)"`.
 
 ### Important/UseFull properties to define
 
-#### Instances
+#### Instances (Must be set)
 
 Each establishments using numahop must be declared, choose an id for each
 libraries using Numahop and sotre it there.
 
+<!-- i18n:skip -->
 ```yaml
 instance:
     libraries: lib1, lib2, lib3
@@ -65,19 +66,25 @@ instance:
     </ul>
 </details>
 
-#### Admin
+#### Admin (Must be set)
 The admin is the only account present after the installation. It is very important to define:
+
+<!-- i18n:skip -->
 ```yaml
 admin:
     login: # default: admin
     password: # Important to override. default: hash of "password"
 ```
 The password is encrypted using the bcrypt method you can get a good password to encrypt like this:
+
+<!-- i18n:skip -->
 ```bash
 head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 ```
 Then encrypt it with a bcrypt implementation. But pay attention not all bcrypt algorithms are secure.
 The easiest way to encrypt the password is as such it requires a `python3` installation with the `python3-bcrypt` library:
+
+<!-- i18n:skip -->
 ```bash
 echo "$pwd" | python3 -c <<PYTHON
 import bcrypt, getpass;
@@ -95,17 +102,19 @@ Where pwd is you password.
     </ul>
 </details>
 
-#### Jhipster Remember Me key
+#### Jhipster Remember Me key (Must be set)
 
 This is the key needed to make the rememberme service work. It needs to be
 unique to your installation.
 
+<!-- i18n:skip -->
 ```yaml
 jhipster.security.rememberme.key: # No defaults must be defined.
 ```
 
 Same as the password you can get a good randomized key like this:
 
+<!-- i18n:skip -->
 ```bash
 head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
 ```
@@ -117,10 +126,11 @@ head /dev/urandom | tr -dc "a-zA-Z0-9"| fold -w 20 | head -n 1
     </ul>
 </details>
 
-#### Database and elasticsearch
+#### Database and elasticsearch (Must be set)
 
 The information needed by numahop to connect to the database and elasticsearch.
 
+<!-- i18n:skip -->
 ```yaml
 spring:
     datasource:
@@ -139,6 +149,7 @@ These configuration options define where numahop can find the executables it
 needs, where to put the various files it generates and where to look for files
 to import.
 
+<!-- i18n:skip -->
 ```yaml
 base-path: #default /opt/pgcn
 
@@ -238,6 +249,7 @@ services:
 
 The port used by numahop on the server.
 
+<!-- i18n:skip -->
 ```yaml
 server:
     port: # default: 80
@@ -250,36 +262,10 @@ server:
     </ul>
 </details>
 
-#### Instance
-
-In the `instance` section we can configure the different libraries using this
-instance of numahop.
-
-```yaml
-instance:
-    libraries: lib1, lib2, lib3
-```
-
-<details>
-	<summary>Uses:</summary>
-    <ul>
-        <li>src/main/java/fr/progilone/pgcn/config/BinaryStorageConfiguration.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/delivery/DeliveryReportingService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/check/MetaDatasCheckService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/document/ui/UIDocUnitService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/CinesRequestHandlerService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportCinesService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/cines/ExportSipService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/omeka/OmekaService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/exchange/digitallibrary/DigitalLibraryDiffusionRequestHandlerService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/FileCleaningManager.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/AltoService.java</li>
-        <li>src/main/java/fr/progilone/pgcn/service/storage/FileStorageManager.java</li>
-    </ul>
-</details>
 
 #### Image Sizes
 
+<!-- i18n:skip -->
 ```yaml
 images:
     format:
@@ -304,6 +290,7 @@ images:
 Some services are annotated with `@Scheduled`. These are cron jobs configured
 in the cron section:
 
+<!-- i18n:skip -->
 ```yaml
 cron:
     removeOldTokens: # default: 0 0 0 * * ?
@@ -342,6 +329,7 @@ The value is a [cron expression][1] used to configure when to run the job.
 
 #### Mail
 
+<!-- i18n:skip -->
 ```yaml
 spring:
     mail:

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash 
 
-MANUALS=("developper_manual" "user_manual" "release_notes")
+source manuals.env
+
+[ -d manuals/ ] && rm -r manuals  
+mkdir manuals
 
 # ==========================================
 # === Tasks before the mdbook executions ===
@@ -33,34 +36,38 @@ done
 # =========================
 # === MdBook executions ===
 # =========================
-LANGUAGES=("fr")
 for manual in "${MANUALS[@]}"; do
-	mdbook build "$manual" -d "./manuals/$manual"
+	mdbook build "$manual" -d "./manuals/$manual/en"
 
-	# update templates
+	# update i18n templates
 	rm -r "./$manual/po/pot"
 	MDBOOK_OUTPUT='{"xgettext": {"depth": 3}}' \
 		mdbook build "$manual" -d "./$manual/po/pot"
 
 	
-	# i18n executions
+	# mdbook i18n declinaisons
 	for lang in "${LANGUAGES[@]}"; do
+		[ ! -d "./$manual/po/$lang" ] && continue;
 		find "./$manual/po/$lang/." -name "*.po" | msgcat -f - -o "./$manual/po/$lang.po"
 		MDBOOK_BOOK__LANGUAGE="$lang" \
-			mdbook build "$manual" -d "./manuals/$lang/$manual"
+			mdbook build "$manual" -d "./manuals/$manual/$lang"
 		rm "./$manual/po/$lang.po"
 	done
+	# delete build directories
+	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
 done
 
 # ==========================
 # === Tasks after MdBook ===
 # ==========================
 for manual in "${MANUALS[@]}"; do
-	# delete build directories
-	[ -d "$manual/build-src" ] && rm "$manual/build-src" -r;
-
-	echo "Include generated HTML.";
-
-	[ -d "$manual/include-cache/html" ] && cp -r "$manual"/include-cache/html/* "manuals/$manual"
-	cp ./landing.html ./manuals/.
+	echo "Include generated HTML and assets.";
+	for lang in "${LANGUAGES[@]}"; do
+		if [ -d "$manual"/include-cache/html ] && [ -d "$manual/po/$lang" ]; then 
+			cp "$manual"/include-cache/html/* -r manuals/"$manual"/"$lang"; 
+		fi
+	done
+	cp ./landing.html ./manuals/index.html
+	cp common/theme/favicon.png  manuals/.
+	cp common/theme/css/variables.css manuals/.
 done

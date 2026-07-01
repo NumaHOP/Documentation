@@ -257,6 +257,7 @@ class Api:
 
     def render_to_md(self: Self, render_file: str):
         with open(render_file, "w") as f:
+            print("<!-- i18n:skip -->", file=f)
             print("> This documentation page is temporary. When the api will be compliant the the oas v3.1 specification this page will be removed.", file=f)
             print("# Api End Points", file=f)
             self.api_index.for_groups(

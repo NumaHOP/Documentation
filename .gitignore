@@ -1,4 +1,6 @@
 **/book
+**/*.mo
+**/*.po~
 vendor
 manuals
 node_modules
