@@ -13,12 +13,12 @@ msgstr ""
 
 #: build-src/SUMMARY.md:1
 msgid "Introduction"
-msgstr ""
+msgstr "Introduction"
 
 #: build-src/SUMMARY.md:3
 msgid "26.03"
-msgstr ""
+msgstr "26.03"
 
 #: build-src/SUMMARY.md:4
 msgid "Unindexed Pages"
-msgstr ""
+msgstr "Unindexed Pages"
