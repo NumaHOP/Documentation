@@ -16,22 +16,30 @@ msgid ""
 "This site archives the history of all the release notes since the version "
 "`26.03` of NumaHOP."
 msgstr ""
+"Ce site archive l'historique des notes de nouvelles version depuis la version "
+"`26.03` de NumaHOP."
 
 #: build-src/Introduction.md:4
 msgid "Each release note contains 3 sections :"
 msgstr ""
+"Chaque notes de version contiens 3 sections:  "
 
 #: build-src/Introduction.md:5
 msgid ""
 "User : Changes that affect users of NumaHOP, new features accesible in the "
 "user interface or bug fixes that affect the users."
 msgstr ""
+"Utilisateur: Changements affectant principalement les utilisateur de NumaHOP, "
+"nouvelles fonctionalitées visible dans l'interface et correctifs de bug affectant "
+"les utilisateurs."
 
 #: build-src/Introduction.md:6
 msgid ""
 "Developers : Contains all the changes that change for the developpers of "
 "NumaHOP. For example: build configuration changes."
 msgstr ""
+"Developers : Contiens les changements affectant les developpeurs de NumaHOP."
+"Par example des changements dans la configuration de build."
 
 #: build-src/Introduction.md:7
 msgid ""
@@ -39,3 +47,6 @@ msgid ""
 "instances. For example: change in system side configuration (in yaml), "
 "changes in what numahop does on the server."
 msgstr ""
+"Administrateurs : Contiens les changements affectant les administrateurs d'instance "
+"NumaHOP. Par example des changements dans la configuration systeme ou du comportement "
+"sur le serveur."
