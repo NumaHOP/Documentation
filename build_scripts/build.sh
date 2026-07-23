@@ -1,5 +1,6 @@
 #!/usr/bin/env bash 
 
+set -x
 
 source manuals.env
 
@@ -55,6 +56,7 @@ done
 # ==========================
 for manual in "${MANUALS[@]}"; do
 	echo "Include generated HTML and assets.";
+	cp "$manual"/include-cache/html/* -r manuals/"$manual"/en; 
 	for lang in "${LANGUAGES[@]}"; do
 		if [ -d "$manual"/include-cache/html ] && [ -d "$manual/po/$lang" ]; then 
 			cp "$manual"/include-cache/html/* -r manuals/"$manual"/"$lang"; 
