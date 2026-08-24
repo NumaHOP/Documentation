@@ -1,7 +1,5 @@
 #!/usr/bin/env bash 
 
-set -x
-
 source manuals.env
 
 [ -d manuals ] && rm -r manuals/*;

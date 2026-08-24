@@ -6,7 +6,10 @@ alias ut := update-translation
 update-translation manual lang:
 	./build_scripts/update-translation.sh lang manual
 
-alias it := update-translation
+alias ui := update-include 
+update-include:
+	./build_scripts/update-include.sh
+
 init-translation manual lang:
 	./build_scripts/init.sh lang manual
 
@@ -17,11 +20,14 @@ open: build
 watch-build:
 	watchexec -d 1sec -c -e md,po -i '*/build-src/*' -i '*/po/*.po' -- ./build_scripts/build.sh
 
+watch-include:
+	watchexec -d 1sec --watch 'developper_manual/assets' --watch 'user_manual/assets' -- ./build_scripts/update-include.sh
+
 serve-html:
-	livereload --host localhost -p 8080 -t developper_manual/src/ -d manuals/ -w 0.5
+	livereload --host localhost -p 9000 -t manuals/ -d manuals/ -w 1.0 
 
 [parallel]
-serve: watch-build serve-html
+serve: watch-build serve-html watch-include
 
 vendor:
 	if [ ! -d vendor ]; then mkdir vendor; fi

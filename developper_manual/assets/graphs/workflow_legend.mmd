@@ -1,0 +1,16 @@
+flowchart LR
+    classDef autoMand fill:#FDE3D8,stroke:#C0341B,stroke-width:2.5px,color:#6E1C0C
+    classDef autoOpt  fill:#FEF4EE,stroke:#E08A6C,stroke-width:1.5px,stroke-dasharray:6 3,color:#9C4A2E
+    classDef manMand  fill:#B3B9F0,stroke:#33506B,stroke-width:2.5px,color:#17293A
+    classDef manOpt   fill:#B4B7BA,stroke:#8CA2B8,stroke-width:1.5px,stroke-dasharray:6 3,color:#000000
+    classDef gate     fill:#FFF7E6,stroke:#D98B00,stroke-width:2px,color:#6B4400
+    classDef terminal fill:#2F2A28,stroke:#2F2A28,stroke-width:1px,color:#FFFFFF
+
+    subgraph LG[" Légende "]
+        direction TB
+        L1[[Auto. obligatoire]]:::autoMand
+        L2[[Auto. optionnel]]:::autoOpt
+        L3[\Manuel obligatoire/]:::manMand
+        L4[\Manuel optionnel/]:::manOpt
+    end
+    style LG fill:none,stroke:#D5D9DE,stroke-dasharray:4 4,color:#6B7280

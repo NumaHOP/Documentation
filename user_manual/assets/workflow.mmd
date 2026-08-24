@@ -1,0 +1,67 @@
+flowchart TB
+    classDef autoMand fill:#FDE3D8,stroke:#C0341B,stroke-width:2.5px,color:#6E1C0C
+    classDef autoOpt  fill:#FEF4EE,stroke:#E08A6C,stroke-width:1.5px,stroke-dasharray:6 3,color:#9C4A2E
+    classDef manMand  fill:#B3B9F0,stroke:#33506B,stroke-width:2.5px,color:#17293A
+    classDef manOpt   fill:#B4B7BA,stroke:#8CA2B8,stroke-width:1.5px,stroke-dasharray:6 3,color:#000000
+    classDef gate     fill:#FFF7E6,stroke:#D98B00,stroke-width:2px,color:#6B4400
+    classDef terminal fill:#2F2A28,stroke:#2F2A28,stroke-width:1px,color:#FFFFFF
+
+    subgraph HWF["Hors Workflow"]
+        import[\" Import et creation des UD"/]:::manOpt
+	    create_condreport[\"Realisation Constat d'etat"/]:::manOpt
+        auto_save[[" Sauvegarde automatique"]]:::autoMand
+    end
+    subgraph PN[" Pré Numerisation "]
+        start["Début "]:::terminal
+        gen[\"Génération du bordereau"/]:::manOpt
+        validate_condreport[" Validation du constat d'état par la bibliothèque"]::::manOpt
+        presta_validate_condreport[\"Validation bordereau et constat d'état par le prestataire"/]:::manOpt
+        prenum_condreport[\"Réalisation d'un constat d'état avant numérisation par le prestataire"/]:::manOpt
+    end
+    subgraph NUM[" Numérisation "]
+        waiting_num[["En attente de numérisation"]]:::autoMand
+        postnum_condreport[\"Réalisation d'un constat d'état après numérisation par le prestataire"/]:::manOpt
+        delivery[\"Livraison des documents numérisés"/]:::manMand
+        automatic_controls@{ shape: processes, label: "Contrôles automatiques", class: "autoMand" }
+        quality_assurance[\"Contrôles qualité"/]:::manMand
+        prerejection["Pré-rejet du document"]
+        prevalidation["Pré-validation du document"]
+        validation[\"Validation du document"/]:::manMand
+        prestacheck_reports[\"Rapport de contrôles pour le prestataire"/]:::manOpt
+    end
+    validate_bibrecord[\"Validation de la notice du document"/]:::manMand
+    diff_gate@{ shape: fork, label: "Fork or Join", class: "gate"}
+    subgraph DIFF["Diffusion"]
+        archival[["Archivage du document"]]:::autoOpt
+        IAdiffusion[["Archivage du document"]]:::autoOpt
+        omeka_diffusion[["Diffusion Omeka du document"]]:::autoOpt
+        local_diffusion[["Diffusion locale du document"]]:::autoOpt
+    end
+    _end[" fin du workflow "]:::terminal
+
+    style PN fill:none,stroke:#D5D9DE,stroke-dasharray:4 4,color:#6B7280
+    style NUM fill:none,stroke:#D5D9DE,stroke-dasharray:4 4,color:#6B7280
+    style DIFF fill:none,stroke:#D5D9DE,stroke-dasharray:4 4,color:#6B7280
+    style HWF fill:none,stroke:#D5D9DE,stroke-dasharray:4 4,color:#6B7280
+
+    import --> start
+
+    start --> gen
+    gen --> validate_condreport
+    create_condreport --> validate_condreport
+    validate_condreport --> presta_validate_condreport
+    presta_validate_condreport --> prenum_condreport
+    prenum_condreport --> waiting_num
+    waiting_num --> postnum_condreport 
+    postnum_condreport --> delivery
+    delivery --> automatic_controls
+    automatic_controls --> prerejection & prevalidation 
+    prerejection --> waiting_num
+    prevalidation --> quality_assurance
+    quality_assurance --> validation
+    validation --> prestacheck_reports
+    prestacheck_reports & validate_bibrecord --> diff_gate
+    diff_gate --> archival & IAdiffusion & omeka_diffusion & local_diffusion
+    archival & IAdiffusion & omeka_diffusion & local_diffusion --> _end
+
+    _end --> auto_save

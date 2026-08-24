@@ -18,6 +18,11 @@ also be defined on the document unit itself. If a workflow model is not present
 it will inherit the model of the parent document unit grouping. (project -> lot
 -> train -> document unit)
 
+## Graph of the workflow
+
+![Numahop Workflow Legend](../../assets/graphs/workflow_legend.svg)
+![Numahop Workflow](../../assets/graphs/workflow.svg)
+
 ## Order of states
 
 - DOCUMENT_INITIALISATION

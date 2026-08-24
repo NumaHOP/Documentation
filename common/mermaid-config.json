@@ -13,14 +13,5 @@
         "tertiaryBorderColor": "#c8c9db",
         "tertiaryTextColor": "#fff",
         "nodeTextColor": "#ffffff"
-    },
-    "flowchart": { 
-        "defaultRenderer": "elk",
-        "curve": "linear", 
-        "inheritDir": true
-    },
-    "elk": {
-        "mergeEdges": true,
-        "nodePlacementStrategy": "LINEAR_SEGMENTS"
     }
 }
