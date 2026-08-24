@@ -48,6 +48,7 @@ jobs:
           sudo apt-get install -y gettext
           cargo binstall mdbook --version 0.5.2 --locked
           cargo binstall mdbook-i18n-helpers --version 0.4.0 --locked
+          cargo binstall mdbook-arborium --version 0.1.0 --locked
           echo "$HOME/.cargo/bin" >> $GITHUB_PATH
 
       - name: Setup Pages

@@ -1,0 +1,208 @@
+html[code-theme = "ayu_dark"] pre>code.arborium {
+  background: #0d1017;
+  --bg: #0d1017;
+  --surface: #20232a;
+  color: #bfbdb6;
+  --fg: #bfbdb6;
+  --accent: #ffb454;
+  --muted: #626a73;
+  a-co { color: #d2a6ff; }
+  a-cb { color: #d2a6ff; }
+  a-fb { color: #ffb454; }
+  a-f { color: #ffb454; }
+  a-fm { color: #ffb454; }
+  a-k { color: #ff8f40; }
+  a-kc { color: #ff8f40; }
+  a-ko { color: #ff8f40; }
+  a-kd { color: #ff8f40; }
+  a-ke { color: #ff8f40; }
+  a-kf { color: #ff8f40; }
+  a-ki { color: #ff8f40; }
+  a-kp { color: #ff8f40; }
+  a-kr { color: #ff8f40; }
+  a-kt { color: #ff8f40; }
+  a-ky { color: #ff8f40; }
+  a-o { color: #f29668; }
+  a-pr { color: #59c2ff; }
+  a-ps { color: #e6b673; }
+  a-s { color: #aad94c; }
+  a-ss { color: #95e6cb; }
+  a-tg { color: #39bae6; }
+  a-td { color: #39bae6; }
+  a-te { color: #39bae6; }
+  a-t { color: #59c2ff; }
+  a-tb { color: #59c2ff; }
+  a-tq { color: #59c2ff; }
+  a-v { color: #bfbdb6; }
+  a-vb { color: #ff8f40; }
+  a-vp { color: #bfbdb6; }
+  a-c { color: #626a73; font-style: italic; }
+  a-cd { color: #626a73; font-style: italic; }
+  a-m { color: #ffb454; }
+  a-l { color: #39bae6; }
+  a-n { color: #d2a6ff; }
+  a-tl { color: #bfbdb6; }
+  a-em { font-style: italic; }
+  a-st { font-weight: bold; }
+  a-tu { color: #39bae6; text-decoration: underline; }
+  a-tr { color: #59c2ff; }
+  a-se { color: #95e6cb; }
+  a-tt { color: #59c2ff; font-weight: bold; }
+  a-tx { text-decoration: line-through; }
+  a-sp { color: #bfbdb6; }
+  a-in { color: #ff8f40; }
+  a-sc { color: #ff8f40; }
+  a-rp { color: #ff8f40; }
+  a-cn { color: #ff8f40; }
+  a-ex { color: #ff8f40; }
+  a-pp { color: #ff8f40; }
+  a-ch { color: #aad94c; }
+  a-cs { color: #aad94c; }
+  a-vm { color: #bfbdb6; }
+  a-fd { color: #ffb454; }
+  a-tf { color: #59c2ff; }
+  a-fc { color: #ffb454; }
+  a-km { color: #ff8f40; }
+  a-dr { color: #ff8f40; }
+  a-rx { color: #aad94c; }
+}
+html[code-theme = "ayu_light"] pre>code.arborium {
+  background: #fafafa;
+  --bg: #fafafa;
+  --surface: #eeeeee;
+  color: #5c6166;
+  --fg: #5c6166;
+  --accent: #f2ae49;
+  --muted: #8a9199;
+  a-co { color: #a37acc; }
+  a-cb { color: #a37acc; }
+  a-fb { color: #f2ae49; }
+  a-f { color: #f2ae49; }
+  a-fm { color: #f2ae49; }
+  a-k { color: #fa8d3e; }
+  a-kc { color: #fa8d3e; }
+  a-ko { color: #fa8d3e; }
+  a-kd { color: #fa8d3e; }
+  a-ke { color: #fa8d3e; }
+  a-kf { color: #fa8d3e; }
+  a-ki { color: #fa8d3e; }
+  a-kp { color: #fa8d3e; }
+  a-kr { color: #fa8d3e; }
+  a-kt { color: #fa8d3e; }
+  a-ky { color: #fa8d3e; }
+  a-o { color: #ed9366; }
+  a-pr { color: #399ee6; }
+  a-ps { color: #e6ba7e; }
+  a-s { color: #86b300; }
+  a-ss { color: #4cbf99; }
+  a-tg { color: #55b4d4; }
+  a-td { color: #55b4d4; }
+  a-te { color: #55b4d4; }
+  a-t { color: #399ee6; }
+  a-tb { color: #399ee6; }
+  a-tq { color: #399ee6; }
+  a-v { color: #5c6166; }
+  a-vb { color: #fa8d3e; }
+  a-vp { color: #5c6166; }
+  a-c { color: #8a9199; font-style: italic; }
+  a-cd { color: #8a9199; font-style: italic; }
+  a-m { color: #f2ae49; }
+  a-l { color: #55b4d4; }
+  a-n { color: #a37acc; }
+  a-tl { color: #5c6166; }
+  a-em { font-style: italic; }
+  a-st { font-weight: bold; }
+  a-tu { color: #55b4d4; text-decoration: underline; }
+  a-tr { color: #399ee6; }
+  a-se { color: #4cbf99; }
+  a-tt { color: #399ee6; font-weight: bold; }
+  a-tx { text-decoration: line-through; }
+  a-sp { color: #5c6166; }
+  a-in { color: #fa8d3e; }
+  a-sc { color: #fa8d3e; }
+  a-rp { color: #fa8d3e; }
+  a-cn { color: #fa8d3e; }
+  a-ex { color: #fa8d3e; }
+  a-pp { color: #fa8d3e; }
+  a-ch { color: #86b300; }
+  a-cs { color: #86b300; }
+  a-vm { color: #5c6166; }
+  a-fd { color: #f2ae49; }
+  a-tf { color: #399ee6; }
+  a-fc { color: #f2ae49; }
+  a-km { color: #fa8d3e; }
+  a-dr { color: #fa8d3e; }
+  a-rx { color: #86b300; }
+}
+html[code-theme = "monokai"] pre>code.arborium {
+  background: #2d2a2e;
+  --bg: #2d2a2e;
+  --surface: #3e3b3f;
+  color: #fcfcfa;
+  --fg: #fcfcfa;
+  --accent: #a9dc76;
+  --muted: #727072;
+  a-at { color: #a9dc76; }
+  a-co { color: #ab9df2; }
+  a-cb { color: #ab9df2; }
+  a-fb { color: #78dce8; }
+  a-f { color: #a9dc76; }
+  a-fm { color: #a9dc76; }
+  a-k { color: #ff6188; }
+  a-kc { color: #ff6188; }
+  a-ko { color: #ff6188; }
+  a-kd { color: #ff6188; }
+  a-ke { color: #ff6188; }
+  a-kf { color: #ff6188; }
+  a-ki { color: #ff6188; }
+  a-kp { color: #ff6188; }
+  a-kr { color: #ff6188; }
+  a-kt { color: #ff6188; }
+  a-ky { color: #ff6188; }
+  a-o { color: #ff6188; }
+  a-pr { color: #78dce8; }
+  a-p { color: #fcfcfa; }
+  a-pb { color: #fcfcfa; }
+  a-pd { color: #fcfcfa; }
+  a-ps { color: #ff6188; }
+  a-s { color: #ffd866; }
+  a-ss { color: #ab9df2; }
+  a-tg { color: #ff6188; }
+  a-td { color: #ff6188; }
+  a-te { color: #ff6188; }
+  a-t { color: #78dce8; }
+  a-tb { color: #78dce8; }
+  a-tq { color: #78dce8; }
+  a-v { color: #fcfcfa; }
+  a-vb { color: #ab9df2; }
+  a-vp { color: #fc9867; }
+  a-c { color: #727072; }
+  a-cd { color: #727072; }
+  a-m { color: #78dce8; }
+  a-l { color: #ff6188; }
+  a-n { color: #ab9df2; }
+  a-tl { color: #fcfcfa; }
+  a-em { font-style: italic; }
+  a-st { font-weight: bold; }
+  a-tu { color: #78dce8; text-decoration: underline; }
+  a-tr { color: #78dce8; }
+  a-se { color: #ab9df2; }
+  a-tt { color: #ffd866; font-weight: bold; }
+  a-tx { text-decoration: line-through; }
+  a-sp { color: #fcfcfa; }
+  a-in { color: #ff6188; }
+  a-sc { color: #ff6188; }
+  a-rp { color: #ff6188; }
+  a-cn { color: #ff6188; }
+  a-ex { color: #ff6188; }
+  a-pp { color: #ff6188; }
+  a-ch { color: #ffd866; }
+  a-cs { color: #ffd866; }
+  a-vm { color: #fcfcfa; }
+  a-fd { color: #a9dc76; }
+  a-tf { color: #78dce8; }
+  a-fc { color: #a9dc76; }
+  a-km { color: #ff6188; }
+  a-dr { color: #ff6188; }
+  a-rx { color: #ffd866; }
+}

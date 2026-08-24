@@ -16,9 +16,13 @@ level = 0
 theme = "../common/theme"
 default-theme = "light"
 preferred-dark-theme = "dark"
-additional-css = ["../common/theme/nh-ext.css"]
+additional-js = [ "./mdbook-code-theme/code-theme-selector.js" ]
+additional-css = [ "./mdbook-code-theme/code-themes.css", "../common/theme/nh-ext.css" ]
 git-repository-url = "https://github.com/NumaHOP/Documentation" 
 git-repository-icon = "fas-code-fork"
 
 [preprocessor.gettext]
 after = ["links"]
+
+[preprocessor.arborium]
+
