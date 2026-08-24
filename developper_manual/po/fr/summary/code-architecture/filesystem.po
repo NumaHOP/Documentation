@@ -13,7 +13,7 @@ msgstr ""
 
 #: build-src/code/file_storage.md:1
 msgid "File storage in NumaHOP."
-msgstr ""
+msgstr "Stockage de fichier dans NumaHOP."
 
 #: build-src/code/file_storage.md:3
 msgid "NumaHOP stores a good amount of its files on the filesystem."

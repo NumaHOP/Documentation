@@ -10,6 +10,7 @@ alias ui := update-include
 update-include:
 	./build_scripts/update-include.sh
 
+alias it := init-translation 
 init-translation manual lang:
 	./build_scripts/init.sh lang manual
 
