@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: NumaHOP Release Notes\n"
-"POT-Creation-Date: 2026-10-06T14:43:15+02:00\n"
+"POT-Creation-Date: 2026-10-06T15:42:19+02:00\n"
 "PO-Revision-Date: 2026-10-06 14:09+0200\n"
 "Last-Translator:  <adrien.derobert-mazure@biblibre.com>\n"
 "Language-Team: French <traduc@traduc.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: build-src/releases/26.09.md:1
-msgid "26.03"
+msgid "26.09"
 msgstr ""
 
 #: build-src/releases/26.09.md:3
@@ -36,7 +36,7 @@ msgid ""
 "configuration file for NumaHOP."
 msgstr ""
 "Une nouvelle habilitaion `ADMIN_TOOLS` a été ajoutée. Elle permet à un "
-"utilisateur, dont le profils contiens celle-ci, d'utiliser les outils "
+"utilisateur, dont le profil contient celle-ci, d'utiliser les outils "
 "d'administration. Ces outils étaient précédemment uniquement accessibles "
 "depuis le compte `admin` renseigné dans le fichier de configuration de "
 "NumaHOP."
@@ -62,8 +62,8 @@ msgid ""
 "down corectly."
 msgstr ""
 "Quelques oublis dans le `justfile` de la migration depuis le `Makefile`. Le "
-"setup de l'image docker et le passage de la variable d'environement pour "
-"maven n'etait pas correctement renseignés."
+"`setup` de l'image docker et le passage de la variable d'environement pour "
+"maven n'étaient pas correctement renseignés."
 
 #: build-src/releases/26.09.md:22
 #, fuzzy
@@ -72,7 +72,7 @@ msgid ""
 "a command inside an image directly like: `just d exec nh ls`"
 msgstr ""
 "Une nouvelle sous-règle `exec` a été ajoutée à la règle `docker`. Elle "
-"permet d'executer une commande a l'interieure d'une image: `just d exec nh "
+"permet d'exécuter une commande a l'intérieure d'une image: `just d exec nh "
 "ls`"
 
 #: build-src/releases/26.09.md:25
@@ -82,17 +82,30 @@ msgstr "Administrateurs"
 #: build-src/releases/26.09.md:27
 #, fuzzy
 msgid ""
+"The `libyaz4j` dependency is now fully bundled inside the NumaHOP jar. The "
+"consequence is that the only dependency for numahop is the `libyaz5` package "
+"(available in the universe repository in ubuntu)."
+msgstr ""
+"La dépendance `libyaz4j` et maintenant complètement embarqué avec le jar de "
+"NumaHOP. Ceci a pour consequence que l'unique dépendance pour le Z39.50 soit "
+"la librairie systeme `libyaz5` disponible dansle set de paquets `universe` "
+"d'ubuntu."
+
+#: build-src/releases/26.09.md:31
+#, fuzzy
+msgid ""
 "NumaHOP SpringBoot version was updated from `3.0.2` to `3.5.12`. This is the "
 "latest `3.x` version available to date. The upgrade to version `4.x` is much "
 "more involved. This needed minor code changes and the upgrade is not a "
 "breaking change."
 msgstr ""
 "La dépendance SpringBoot a été mise à jour de la version `3.0.2` vers "
-"`3.5.12`. C'est la dernière version 3.x disponible aujourd'hui. La mise a jour vers la version `4.x` demandes des changements un peu plus profonds. Cela "
-"demandait des changements mineurs de code et la mise a jours n'est pas un "
-"changement cassant."
+"`3.5.12`. C'est la dernière version 3.x disponible aujourd'hui. La mise a "
+"jour vers la version `4.x` demande des changements un peu plus profonds. "
+"Cela demandait des changements mineurs de code et la mise a jour n'est pas "
+"un changement cassant."
 
-#: build-src/releases/26.09.md:32
+#: build-src/releases/26.09.md:36
 #, fuzzy
 msgid ""
 "NumaHOP was vulnerable to an exploit with its default configuration due to "
@@ -102,8 +115,8 @@ msgid ""
 "actuator/heapdump` if you are able to download the file please upgrade or "
 "add the following to your `application.yml`:"
 msgstr ""
-"NumaHOP étais vulnerable à un exploit du a la configuration par défaut des "
+"NumaHOP était vulnérable à un exploit dû à la configuration par défaut des "
 "routes des actuateurs SpringBoot. Ceux-ci sont maintenant désactivés par "
-"défaut.Il reste uniquement `health` et `info`. Pour vérifier si votre "
+"défaut. Il reste uniquement `health` et `info`. Pour vérifier si votre "
 "instance est vulnérable vous pouvez lancer la commande `curl <instance-url>/"
 "actuator/heapdump`."
