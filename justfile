@@ -4,7 +4,7 @@ build:
 
 alias ut := update-translation
 update-translation manual lang:
-	./build_scripts/update-translation.sh lang manual
+	./build_scripts/update-translation.sh {{manual}} {{lang}}
 
 alias ui := update-include 
 update-include:
@@ -12,7 +12,7 @@ update-include:
 
 alias it := init-translation 
 init-translation manual lang:
-	./build_scripts/init.sh lang manual
+	./build_scripts/init.sh {{manual}} {{lang}}
 
 alias o := open
 open: build
