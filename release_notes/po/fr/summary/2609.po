@@ -66,7 +66,6 @@ msgstr ""
 "maven n'étaient pas correctement renseignés."
 
 #: build-src/releases/26.09.md:22
-#, fuzzy
 msgid ""
 "A new sub rule named `exec` was added to the `docker` rule. It allows to run "
 "a command inside an image directly like: `just d exec nh ls`"
@@ -80,7 +79,6 @@ msgid "Administrators"
 msgstr "Administrateurs"
 
 #: build-src/releases/26.09.md:27
-#, fuzzy
 msgid ""
 "The `libyaz4j` dependency is now fully bundled inside the NumaHOP jar. The "
 "consequence is that the only dependency for numahop is the `libyaz5` package "
@@ -92,7 +90,6 @@ msgstr ""
 "d'ubuntu."
 
 #: build-src/releases/26.09.md:31
-#, fuzzy
 msgid ""
 "NumaHOP SpringBoot version was updated from `3.0.2` to `3.5.12`. This is the "
 "latest `3.x` version available to date. The upgrade to version `4.x` is much "
@@ -106,7 +103,6 @@ msgstr ""
 "un changement cassant."
 
 #: build-src/releases/26.09.md:36
-#, fuzzy
 msgid ""
 "NumaHOP was vulnerable to an exploit with its default configuration due to "
 "all the SpringBoot acutators endpoints being enabled by default. These are "
